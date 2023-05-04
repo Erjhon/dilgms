@@ -1,0 +1,10 @@
+CRITICAL - 2023-05-04 01:27:21 --> Call to undefined method CodeIgniter\View\View::secction()
+in APPPATH\Views\dashboard\home.php on line 3.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/home', [], true)
+ 4 APPPATH\Controllers\UserController.php(9): view('dashboard/home')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
