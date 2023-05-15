@@ -300,7 +300,7 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="user/home/">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
@@ -313,9 +313,9 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/navigation">For the Month of May</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">For the Month of June</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">TypFor the Month of July</a></li>
               </ul>
             </div>
           </li>
@@ -331,76 +331,9 @@
               </ul>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
-              <i class="icon-bar-graph menu-icon"></i>
-              <span class="menu-title">Charts</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="charts">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">ChartJs</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
-              <i class="icon-grid-2 menu-icon"></i>
-              <span class="menu-title">Tables</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="tables">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/tables/basic-table.html">Basic table</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-              <i class="icon-contract menu-icon"></i>
-              <span class="menu-title">Icons</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="icons">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/icons/mdi.html">Mdi icons</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="icon-head menu-icon"></i>
-              <span class="menu-title">User Pages</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="auth">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#error" aria-expanded="false" aria-controls="error">
-              <i class="icon-ban menu-icon"></i>
-              <span class="menu-title">Error pages</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="error">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/documentation/documentation.html">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title">Documentation</span>
-            </a>
-          </li>
         </ul>
       </nav>
+
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
@@ -440,7 +373,7 @@
                         <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
                       </div>
                       <div class="ml-2">
-                        <h4 class="location font-weight-normal">Memorandum</h4>
+                        <h4 class="location font-weight-normal"><b>Memorandum</b></h4>
                         <h6 class="font-weight-normal">Notice!</h6>
                       </div>
                     </div>
@@ -448,33 +381,53 @@
                 </div>
               </div>
             </div>
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card tale-bg">
+                <div class="card-people mt-auto">
+                  <img src="images/dashboard/people.svg" alt="people">
+                  <div class="weather-info">
+                    <div class="d-flex">
+                      <div>
+                        <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
+                      </div>
+                      <div class="ml-2">
+                        <h4 class="location font-weight-normal"><b>Anouncement</b></h4>
+                        <h6 class="font-weight-normal">Notice!</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="col-md-6 grid-margin transparent">
               <div class="row">
                 <div class="col-md-6 mb-4 stretch-card transparent">
-                  <div class="card card-tale">
+                  <div class="card card-light-danger">
                     <div class="card-body">
-                      <p class="mb-4">May Task</p>
+                      <h4 class="mb-4">May Task</h4>
                       <!-- <p class="fs-30 mb-2">4006</p> -->
-                      <p class="text-info">Completed</p>
+                      <p class="text-success">Completed</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 mb-4 stretch-card transparent">
-                  <div class="card card-dark-blue">
+                  <div class="card card-light-danger">
                     <div class="card-body">
-                      <p class="mb-4">June Task</p>
+                      <h4 class="mb-4">June Task</h4>
                       <!-- <p class="fs-30 mb-2">61344</p> -->
                       <p class="text-danger">Not Completed</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="row">
+              
+              <!-- <div class="row">
                 <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
-                  <div class="card card-light-blue">
+                  <div class="card card-light-danger">
                     <div class="card-body">
                       <p class="mb-4">July Task</p>
-                      <!-- <p class="fs-30 mb-2">34040</p> -->
+                      <p class="fs-30 mb-2">34040</p>
                       <p class="text-danger">Not Completed</p>
                     </div>
                   </div>
@@ -483,15 +436,36 @@
                   <div class="card card-light-danger">
                     <div class="card-body">
                       <p class="mb-4">August Task</p>
-                      <!-- <p class="fs-30 mb-2">47033</p> -->
+                      <p class="fs-30 mb-2">47033</p>
                       <p class="text-danger">Not Completed</p>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
+            <div class="col-md-6 grid-margin transparent">
+              <div class="row">
+                  <div class="col-md-6 mb-4 stretch-card transparent">
+                    <div class="card card-light-danger">
+                      <div class="card-body">
+                        <h4 class="mb-4">May Task</h4>
+                        <!-- <p class="fs-30 mb-2">4006</p> -->
+                        <p class="text-info">Completed</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 stretch-card transparent">
+                    <div class="card card-light-danger">
+                      <div class="card-body">
+                        <h4 class="mb-4">June Task</h4>
+                        <!-- <p class="fs-30 mb-2">61344</p> -->
+                        <p class="text-danger">Not Completed</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
           </div>
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
@@ -532,8 +506,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
+          </div> -->
+          <!-- <div class="row">
             <div class="col-md-12 grid-margin stretch-card">
               <div class="card position-relative">
                 <div class="card-body">
@@ -1047,15 +1021,15 @@
                 </div>
               </div>
             </div>
-        </div>
+        </div> -->
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
-        <footer class="footer">
+        <!-- <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  Premium <a href="<?= base_url();?>" target="_blank">DILG Provincial</span>
-            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2023.<a href="<?= base_url();?>" target="_blank">DILG Provincial</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">DILG<i class="ti-heart text-danger ml-1"></i></span>
           </div>
-        </footer>
+        </footer> -->
         <!-- partial -->
       </div>
       <!-- main-panel ends -->

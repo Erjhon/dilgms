@@ -1,0 +1,68 @@
+CRITICAL - 2023-05-05 01:42:15 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\Codeigniter\app\Controllers\UserController.php on line 9
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\UserController.php(9): view('dashboard/home', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 01:42:17 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\Codeigniter\app\Controllers\UserController.php on line 9
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\UserController.php(9): view('dashboard/home', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:04:31 --> Call to a member function get() on null
+in APPPATH\Config\Routes.php on line 38.
+ 1 SYSTEMPATH\Router\RouteCollection.php(676): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Config\Routes.php(39): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:04:33 --> Call to a member function get() on null
+in APPPATH\Config\Routes.php on line 38.
+ 1 SYSTEMPATH\Router\RouteCollection.php(676): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Config\Routes.php(39): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:05:10 --> Call to a member function get() on null
+in APPPATH\Config\Routes.php on line 38.
+ 1 SYSTEMPATH\Router\RouteCollection.php(676): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Config\Routes.php(39): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:05:11 --> Call to a member function get() on null
+in APPPATH\Config\Routes.php on line 38.
+ 1 SYSTEMPATH\Router\RouteCollection.php(676): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Config\Routes.php(39): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:05:15 --> Call to a member function get() on null
+in APPPATH\Config\Routes.php on line 38.
+ 1 SYSTEMPATH\Router\RouteCollection.php(676): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Config\Routes.php(39): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:05:32 --> Call to a member function get() on null
+in APPPATH\Config\Routes.php on line 38.
+ 1 SYSTEMPATH\Router\RouteCollection.php(676): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Config\Routes.php(39): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\Codeigniter\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()

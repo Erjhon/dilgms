@@ -34,7 +34,8 @@ $route['404_override'] = 'errors/error404';
 $routes->get('/', 'Home::index');
 
 $routes->group("user", function($routes){
-    $routes->get('home','UserController::index',['as'=>'user.home']);
+    $routes->get('home','UserController::index',['as'=>'user.home']); 
+    $routes->get('navigation','UserController::navigation',['as' => 'user.navigation']);
 });
 
 /*
