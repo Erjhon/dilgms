@@ -17,9 +17,10 @@ class UserController extends BaseController
         return view('dashboard/navigation', $data);
     }
 
-    public function register()
+    public function registration()
     {
-        $data['pageTitle'] = 'Register';
-        return view('dashboard/register',$data);
+        $data['pageTitle'] = 'Registration';
+        return view('dashboard/registration', $data);
     }
+
 }

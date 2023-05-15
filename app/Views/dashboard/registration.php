@@ -1,7 +1,7 @@
-
-<?= $this->extend('layout/register'); ?>
+<?= $this->extend('layout/registration'); ?>
 
 <?= $this->section('content');?>
 
-Registyer
+Content here
+
 <?= $this->endSection();?>

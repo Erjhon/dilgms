@@ -36,6 +36,7 @@ $routes->get('/', 'Home::index');
 $routes->group("user", function($routes){
     $routes->get('home','UserController::index',['as'=>'user.home']); 
     $routes->get('navigation','UserController::navigation',['as' => 'user.navigation']);
+    $routes->get('registration','UserController::registration',['as' => 'user.registration']);
 });
 
 /*
