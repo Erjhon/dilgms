@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG System'; ?></title>
+  <!-- <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG System'; ?></title> -->
    <!-- Base url -->
    <base href="<?=base_url()?>public/">
   <!-- plugins:css -->
@@ -35,17 +35,17 @@
               <h4>Hello! let's get started</h4>
               <h6 class="font-weight-light">Sign in to continue.</h6>
 
-                <?php if(session()->getFlashdata('msg')):?>
+              <?php if(session()->getFlashdata('msg')):?>
                     <div class="alert alert-warning">
                        <?= session()->getFlashdata('msg') ?>
                     </div>
                 <?php endif;?>
                 <form action="<?php echo base_url(); ?>/SigninController/loginAuth" method="post">
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="email" value="<?= set_value('email') ?>" placeholder="email">
+                  <input type="email" name="email" class="form-control form-control-lg" id="email" value="<?= set_value('email') ?>" placeholder="email">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="password" placeholder="Password">
+                  <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
                 </div>
                 <div class="mt-3">
                 <button type="submit" class="btn btn-block btn-success btn-lg font-weight-medium auth-form-btn">Signin</button>
@@ -86,5 +86,4 @@
   <script src="js/todolist.js"></script>
   <!-- endinject -->
 </body>
-
 </html>

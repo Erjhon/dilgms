@@ -31,7 +31,7 @@ $route['404_override'] = 'errors/error404';
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+// $routes->get('/', 'Home::index');
 
 $routes->group("user", function($routes){
     $routes->get('home','UserController::index',['as'=>'user.home']); 
