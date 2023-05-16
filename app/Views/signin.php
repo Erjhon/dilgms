@@ -1,5 +1,4 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,8 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG System'; ?></title>
-  <!-- Base url -->
-  <base href="<?=base_url()?>public/">
+   <!-- Base url -->
+   <base href="<?=base_url()?>public/">
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/feather/feather.css">
   <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
@@ -30,33 +29,39 @@
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo">
-                <img src="images/logo.svg" alt="logo">
+                <h3>DILG System</h3>
+                <!-- <img src="images/logo.svg" alt="logo"> -->
               </div>
-              <h4>New here?</h4>
-              <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
-              <form class="pt-3">
+              <h4>Hello! let's get started</h4>
+              <h6 class="font-weight-light">Sign in to continue.</h6>
+
+                <?php if(session()->getFlashdata('msg')):?>
+                    <div class="alert alert-warning">
+                       <?= session()->getFlashdata('msg') ?>
+                    </div>
+                <?php endif;?>
+                <form action="<?php echo base_url(); ?>/SigninController/loginAuth" method="post">
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-lg" id="username" placeholder="Username" name="username">
+                  <input type="email" class="form-control form-control-lg" id="email" value="<?= set_value('email') ?>" placeholder="email">
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="email" placeholder="Email" name="email">
+                  <input type="password" class="form-control form-control-lg" id="password" placeholder="Password">
                 </div>
-                <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="password" placeholder="Password" name="password">
+                <div class="mt-3">
+                <button type="submit" class="btn btn-block btn-success btn-lg font-weight-medium auth-form-btn">Signin</button>
+                  <!-- <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="">SIGN IN</a> -->
                 </div>
-                <div class="mb-4">
+                <div class="my-2 d-flex justify-content-between align-items-center">
                   <div class="form-check">
                     <label class="form-check-label text-muted">
                       <input type="checkbox" class="form-check-input">
-                      I agree to all Terms & Conditions
+                      Keep me signed in
                     </label>
                   </div>
-                </div>
-                <div class="mt-3">
-                  <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="../../index.html">SIGN UP</a>
+                  <a href="#" class="auth-link text-black">Forgot password?</a>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
-                  Already have an account? <a href="" class="text-primary">Login</a>
+                  Don't have an account? <a href="signup" class="text-primary">Create</a>
                 </div>
               </form>
             </div>
@@ -69,16 +74,16 @@
   </div>
   <!-- container-scroller -->
   <!-- plugins:js -->
-  <script src="../../vendors/js/vendor.bundle.base.js"></script>
+  <script src="vendors/js/vendor.bundle.base.js"></script>
   <!-- endinject -->
   <!-- Plugin js for this page -->
   <!-- End plugin js for this page -->
   <!-- inject:js -->
-  <script src="../../js/off-canvas.js"></script>
-  <script src="../../js/hoverable-collapse.js"></script>
-  <script src="../../js/template.js"></script>
-  <script src="../../js/settings.js"></script>
-  <script src="../../js/todolist.js"></script>
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/todolist.js"></script>
   <!-- endinject -->
 </body>
 
