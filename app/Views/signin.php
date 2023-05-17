@@ -18,7 +18,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="css/vertical-layout-light/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="images/favicon.png" />
+  < <link rel="shortcut icon" href="images/dilg.png" />
 </head>
 
 <body>
@@ -28,9 +28,9 @@
         <div class="row w-100 mx-0">
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
-              <div class="brand-logo">
-                <h3>DILG System</h3>
-                <!-- <img src="images/logo.svg" alt="logo"> -->
+              <div class="brand-logo text-center">
+                <!-- <h3>DILG System</h3> -->
+                <img src="images/dilg.png" class="px-5" alt="logo"> 
               </div>
               <h4>Hello! let's get started</h4>
               <h6 class="font-weight-light">Sign in to continue.</h6>
@@ -42,25 +42,25 @@
                 <?php endif;?>
                 <form action="<?php echo base_url(); ?>/SigninController/loginAuth" method="post">
                 <div class="form-group">
-                  <input type="email" name="email" class="form-control form-control-lg" id="email" value="<?= set_value('email') ?>" placeholder="email">
+                  <input type="email" name="email" class="form-control form-control-lg" id="email" value="<?= set_value('email') ?>" placeholder="Email">
                 </div>
                 <div class="form-group">
                   <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
                 </div>
                 <div class="mt-3">
-                <button type="submit" class="btn btn-block btn-success btn-lg font-weight-medium auth-form-btn">Signin</button>
+                <button type="submit" class="btn btn-block btn-warning btn-lg font-weight-bold auth-form-btn">Signin</button>
                   <!-- <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="">SIGN IN</a> -->
                 </div>
                 <div class="my-2 d-flex justify-content-between align-items-center">
-                  <div class="form-check">
-                    <label class="form-check-label text-muted">
+                  <div class="form-check form-check-warning">
+                    <label class="form-check-label text-muted ">
                       <input type="checkbox" class="form-check-input">
                       Keep me signed in
                     </label>
                   </div>
                   <a href="#" class="auth-link text-black">Forgot password?</a>
                 </div>
-                <div class="text-center mt-4 font-weight-light">
+                <div class="text-center mt-4 font-weight-bold">
                   Don't have an account? <a href="signup" class="text-primary">Create</a>
                 </div>
               </form>

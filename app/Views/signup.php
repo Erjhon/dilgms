@@ -18,7 +18,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="css/vertical-layout-light/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="images/favicon.png" />
+  <link rel="shortcut icon" href="images/dilg.png" />
 </head>
 
 <body>
@@ -28,9 +28,9 @@
         <div class="row w-100 mx-0">
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
-              <div class="brand-logo">
-                <h3>DILG System</h3>
-                <!-- <img src="images/logo.svg" alt="logo"> -->
+            <div class="brand-logo text-center">
+                <!-- <h3>DILG System</h3> -->
+                <img src="images/dilg.png" class="px-5" alt="logo"> 
               </div>
               <h4>New here?</h4>
               <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
@@ -53,7 +53,7 @@
                   <input type="password" class="form-control form-control-lg" id="confirmpassword" placeholder=" Confirm Password" name="confirmpassword">
                 </div>
                 <div class="mb-4">
-                  <div class="form-check">
+                  <div class="form-check form-check-warning">
                     <label class="form-check-label text-muted">
                       <input type="checkbox" class="form-check-input">
                       I agree to all Terms & Conditions
@@ -61,10 +61,10 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                <button type="submit" class="btn btn-block btn-info btn-lg font-weight-medium auth-form-btn">Signup</button>
+                <button type="submit" class="btn btn-block btn-warning btn-lg font-weight-bold auth-form-btn">Signup</button>
                   <!-- <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="../../index.html">SIGN UP</a> -->
                 </div>
-                <div class="text-center mt-4 font-weight-light">
+                <div class="text-center mt-4 font-weight-bold">
                   Already have an account? <a href="signin" class="text-primary">Login</a>
                 </div>
               </form>

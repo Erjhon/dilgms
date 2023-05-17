@@ -6,7 +6,6 @@ class ProfileController extends Controller
 {
     public function index()
     {
-        $session = session();
-        echo "Hello : ".$session->get('name');
+        return view('layout/dashboard');
     }
 }

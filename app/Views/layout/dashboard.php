@@ -21,16 +21,15 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="css/vertical-layout-light/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="images/favicon.png" />
+  <link rel="shortcut icon" href="images/dilg.png" />
 </head>
 <body>
   <div class="container-scroller">
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <!-- <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="images/logo.svg" class="mr-2" alt="logo"/></a>
-        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo"/></a> -->
-        <h1><b>DILG</h1>
+        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="images/dilg.png" class="mr-2" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/dilg.png" alt="logo"/></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -99,21 +98,23 @@
           </li>
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-              <img src="images/faces/face28.jpg" alt="profile"/>
+              <!-- <img src="images/faces/face28.jpg" alt="profile"/> -->
+              <!-- Fetch name -->
+              <?php $session = session(); echo $session->get('name');?>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
               <a class="dropdown-item">
                 <i class="ti-settings text-primary"></i>
                 Settings
               </a>
-              <a class="dropdown-item">
+              <a class="dropdown-item" href="logout">
                 <i class="ti-power-off text-primary"></i>
                 Logout
               </a>
             </div>
           </li>
           <li class="nav-item nav-settings d-none d-lg-flex">
-            <a class="nav-link" href="#">
+            <a class="nav-link">
               <i class="icon-ellipsis"></i>
             </a>
           </li>
@@ -314,8 +315,8 @@
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="user/navigation">For the Month of May</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">For the Month of June</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">TypFor the Month of July</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">For the Month of June</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">TypFor the Month of July</a></li>
               </ul>
             </div>
           </li>
@@ -327,7 +328,7 @@
             </a>
             <div class="collapse" id="form-elements">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Basic Elements</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Basic Elements</a></li>
               </ul>
             </div>
           </li>
@@ -341,7 +342,7 @@
             <div class="col-md-12 grid-margin">
               <div class="row">
                 <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                  <h3 class="font-weight-bold">Welcome C/MLGOO!</h3>
+                  <h3 class="font-weight-bold">Welcome C/MLGOO <?php $session = session(); echo $session->get('name');?></h3>
                   <h6 class="font-weight-normal mb-0">Here is the updated Memorandum! You have <span class="text-primary">3 unread alerts!</span></h6>
                 </div>
                 <div class="col-12 col-xl-4">
@@ -403,20 +404,20 @@
             <div class="col-md-6 grid-margin transparent">
               <div class="row">
                 <div class="col-md-6 mb-4 stretch-card transparent">
-                  <div class="card card-light-danger">
+                  <div class="card bg-warning">
                     <div class="card-body">
                       <h4 class="mb-4">May Task</h4>
                       <!-- <p class="fs-30 mb-2">4006</p> -->
-                      <p class="text-success">Completed</p>
+                      <p class="text-success font-weight-bold">Completed</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 mb-4 stretch-card transparent">
-                  <div class="card card-light-danger">
+                  <div class="card bg-warning">
                     <div class="card-body">
                       <h4 class="mb-4">June Task</h4>
                       <!-- <p class="fs-30 mb-2">61344</p> -->
-                      <p class="text-danger">Not Completed</p>
+                      <p class="text-danger font-weight-bold">Not Completed</p>
                     </div>
                   </div>
                 </div>
@@ -446,20 +447,20 @@
             <div class="col-md-6 grid-margin transparent">
               <div class="row">
                   <div class="col-md-6 mb-4 stretch-card transparent">
-                    <div class="card card-light-danger">
+                    <div class="card bg-warning">
                       <div class="card-body">
                         <h4 class="mb-4">May Task</h4>
                         <!-- <p class="fs-30 mb-2">4006</p> -->
-                        <p class="text-info">Completed</p>
+                        <p class="text-info font-weight-bold">Completed</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6 mb-4 stretch-card transparent">
-                    <div class="card card-light-danger">
+                    <div class="card bg-warning">
                       <div class="card-body">
                         <h4 class="mb-4">June Task</h4>
                         <!-- <p class="fs-30 mb-2">61344</p> -->
-                        <p class="text-danger">Not Completed</p>
+                        <p class="text-danger font-weight-bold">Not Completed</p>
                       </div>
                     </div>
                   </div>

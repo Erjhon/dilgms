@@ -13,6 +13,14 @@ class SigninController extends Controller
         echo view('signin');
     }
 
+    public function logout()
+    {
+        $session = session();
+        $session->destroy();
+        $session->setFlashdata('msg', 'Youre Logged out');
+        return redirect()->to('/signin');
+    }
+
     public function loginAuth()
     {
         $session = session();
@@ -33,7 +41,7 @@ class SigninController extends Controller
                     'isLoggedIn' => true
                 ];
                 $session->set($ses_data);
-                return redirect()->to('user/home');
+                return redirect()->to('/profile');
             } else {
                 $session->setFlashdata('msg', 'Password is incorrect.');
                 return redirect()->to('/signin');
