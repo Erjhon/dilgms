@@ -49,6 +49,6 @@ class FileController extends BaseController
         $fileModel = new FileModel();
         $data['files'] = $fileModel->findAll();
 
-        return view('file_list', $data);
+        return view('layout/file_list', $data);
     }
 }

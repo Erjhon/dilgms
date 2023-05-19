@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -307,6 +308,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="user/navigation/">
+              <i class="icon-paper menu-icon"></i>
+              <span class="menu-title">Memorandum</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">Task Accomplishments</span>
@@ -363,6 +370,7 @@
               </div>
             </div>
           </div>
+          
           <div class="row">
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card tale-bg">
@@ -390,7 +398,7 @@ function endsWith($haystack, $needle)
     return (substr($haystack, -$length) === $needle);
 }
 ?>
-
+                  <!-- <img src="images/dashboard/people.svg" alt="people"> -->
                   <div class="weather-info">
                     <div class="d-flex">
                       <div>
@@ -1086,4 +1094,6 @@ function endsWith($haystack, $needle)
 </body>
 
 </html>
+
+
 

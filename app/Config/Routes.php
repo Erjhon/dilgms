@@ -34,7 +34,7 @@ $route['404_override'] = 'errors/error404';
 // $routes->get('/', 'Home::index');
 
 $routes->group("user", function($routes){
-    $routes->get('home','UserController::index',['as'=>'user.home']); 
+    // $routes->get('home','UserController::index',['as'=>'user.home']); 
     $routes->get('navigation','UserController::navigation',['as' => 'user.navigation']);
     $routes->get('registration','UserController::registration',['as' => 'user.registration']);
 });
@@ -54,7 +54,7 @@ $routes->get('/logout', 'SigninController::logout');
 $routes->post('/file/upload', 'Main::upload');
 $routes->get('file-submission', 'FileController::index');
 $routes->post('submit-file', 'FileController::submitFile');
-$routes->get('files', 'FileController::showFiles');
+$routes->get('user/home', 'FileController::showFiles');
 $routes->get('files/(:segment)', 'FileController::getFile/$1');
 
 
