@@ -3,6 +3,6 @@
 
 <?= $this->section('content');?>
 
-NAvigation
+<h1>Navigation</h1>
 
 <?= $this->endSection();?>

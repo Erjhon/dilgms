@@ -52,6 +52,12 @@ $routes->get('/signin', 'SigninController::index');
 $routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
 $routes->get('/logout', 'SigninController::logout');
 $routes->post('/file/upload', 'Main::upload');
+$routes->get('file-submission', 'FileController::index');
+$routes->post('submit-file', 'FileController::submitFile');
+$routes->get('files', 'FileController::showFiles');
+$routes->get('files/(:segment)', 'FileController::getFile/$1');
+
+
 
 /*
  * --------------------------------------------------------------------

@@ -2,6 +2,6 @@
 
 <?= $this->section('content');?>
 
-Content here
+<h1>Content here</h1>
 
 <?= $this->endSection();?>
