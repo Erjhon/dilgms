@@ -316,28 +316,21 @@
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
-              <span class="menu-title">Task Accomplishments</span>
+              <span class="menu-title">Reports for Submission</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/navigation">For the Month of May</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">For the Month of June</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">TypFor the Month of July</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDD Local Government Capability Development Division</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMED Local Government Monitoring and Evaluation Division</a></li>          
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+            <a class="nav-link" href="user/status">
               <i class="icon-columns menu-icon"></i>
-              <span class="menu-title">Date of Submission</span>
-              <i class="menu-arrow"></i>
+              <span class="menu-title">Status of Compliance</span>
             </a>
-            <div class="collapse" id="form-elements">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="#">Basic Elements</a></li>
-              </ul>
-            </div>
           </li>
         </ul>
       </nav>

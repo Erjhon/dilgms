@@ -23,4 +23,21 @@ class UserController extends BaseController
         return view('dashboard/registration', $data);
     }
 
+    public function status()
+    {
+        $data['pageTitle'] = 'Status';
+        return view('dashboard/status', $data);
+    }
+
+    public function lgmed()
+    {
+        $data['pageTitle'] = 'LGMED';
+        return view('dashboard/lgmed', $data);
+    }
+    public function lgcdd()
+    {
+        $data['pageTitle'] = 'LGCDD';
+        return view('dashboard/lgcdd', $data);
+    }
+
 }
