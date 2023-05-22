@@ -308,7 +308,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="user/navigation/">
+            <a class="nav-link" href="user/memorandum/">
               <i class="icon-paper menu-icon"></i>
               <span class="menu-title">Memorandum</span>
             </a>
@@ -321,7 +321,7 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/navigation">For the Month of May</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">For the Month of May</a></li>
                 <li class="nav-item"> <a class="nav-link" href="">For the Month of June</a></li>
                 <li class="nav-item"> <a class="nav-link" href="">TypFor the Month of July</a></li>
               </ul>

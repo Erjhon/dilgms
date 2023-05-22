@@ -18,7 +18,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="css/vertical-layout-light/style.css">
   <!-- endinject -->
-  < <link rel="shortcut icon" href="images/dilg.png" />
+  <link rel="shortcut icon" href="images/dilg.png" />
 </head>
 
 <body>

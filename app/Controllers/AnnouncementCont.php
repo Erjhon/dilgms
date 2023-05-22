@@ -2,10 +2,9 @@
 
 namespace App\Controllers;
 
-use App\Models\FileModel;
 use App\Models\AnnounceModel;
 
-class FileController extends BaseController
+class AnnouncementCont extends BaseController
 {
     public function index()
     {
@@ -32,7 +31,7 @@ class FileController extends BaseController
             $file->move(ROOTPATH . 'public/uploads', $newName);
 
             // Save file details to the database
-            $fileModel = new FileModel();
+            $fileModel = new AnnounceModel();
             $fileModel->insert([
                 'filename' => $file->getName(),
                 'filepath' => 'public/uploads/' . $newName
@@ -45,14 +44,16 @@ class FileController extends BaseController
     
     }
 
-    public function showFiles()
+    public function fileShow()
     {
-        $fileModel = new FileModel();
+        $fileModel = new AnnounceModel();
         $data['files'] = $fileModel->findAll();
-
+    
         $announceModel = new AnnounceModel();
         $data['announcements'] = $announceModel->findAll();
     
         return view('layout/file_list', $data);
     }
+    
+
 }

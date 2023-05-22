@@ -11,10 +11,15 @@ class UserController extends BaseController
 
     }
 
-    public function navigation()
+    public function memorandum()
     {
-        $data['pageTitle'] = 'Navigation';
-        return view('dashboard/navigation', $data);
+        $data['pageTitle'] = 'Memorandum';
+        return view('dashboard/memorandum', $data);
+    }
+    public function announcement()
+    {
+        $data['pageTitle'] = 'Announcement';
+        return view('dashboard/announcement', $data);
     }
 
     public function registration()

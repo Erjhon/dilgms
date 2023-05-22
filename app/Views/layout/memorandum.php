@@ -303,14 +303,14 @@
         <ul class="nav">
           <li class="nav-item">
             <a class="nav-link" href="user/home/">
-              <i class="icon-grid menu-icon"></i>
-              <span class="menu-title">Dashboard</span>
+              <i class="icon-grid menu-icon text-dark"></i>
+              <span class="menu-title text-dark">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="user/memorandum/">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title">Memorandum</span>
+              <i class="icon-paper menu-icon text-dark"></i>
+              <span class="menu-title text-dark">Memorandum</span>
             </a>
           </li>
           <li class="nav-item">
@@ -321,214 +321,65 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <i class="icon-layout menu-icon"></i>
-              <span class="menu-title">Reports for Submission</span>
+              <i class="icon-layout menu-icon text-dark"></i>
+              <span class="menu-title text-dark">Reports for Submission</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/navigation">Local Government Capability Development Division</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Local Government Monitoring and Evaluation Division</a></li>          
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link text-dark" href="user/lgcdd">Local Government Capability Development Division</a></li>
+                <li class="nav-item"> <a class="nav-link text-dark" href="user/lgmed">Local Government Monitoring and Evaluation Division</a></li>          
               </ul>
             </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="user/status">
-              <i class="icon-columns menu-icon"></i>
-              <span class="menu-title">Status of Compliance</span>
+              <i class="icon-columns menu-icon text-dark"></i>
+              <span class="menu-title text-dark">Status of Compliance</span>
             </a>
           </li>
         </ul>
       </nav>
 
    
-        <!-- <div class="content-wrapper">
-          <div class="row"> -->
-          <div class="main-panel">
         <div class="content-wrapper">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Monitoring Sheets</h4>
-              <div class="row">
-                <div class="col-12">
-                  <div class="table-responsive">
-                    <table id="order-listing" class="table">
-                      <thead>
-                        <tr>
-                            <th>LGU</th>
-                            <th>No of Barangays</th>
-                            <th>Income Class</th>
-                            <th>LGOO VI (FO)</th>
-                            <th>Base Price</th>
-                            <th>Purchased Price</th>
-                            <th>Status</th>
-                            <th>Actions</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                            <td>LEGAZPI CITY </td>
-                            <td>70</td>
-                            <td>2</td>
-                            <td>Johanna L. Nuyda</td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <button class="btn btn-outline-primary">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>TABACO CITY</td>
-                            <td>47</td>
-                            <td>4</td>
-                            <td>Ruth Fay B. Belarmino</td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-danger">No submission yet</label>
-                            </td>
-                            <td>
-                              <button class="btn btn-outline-primary">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>BACACAY</td>
-                            <td>56</td>
-                            <td>2</td>
-                            <td>Nedita B. Balucio</td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <button class="btn btn-outline-primary">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>MALILIPOT</td>
-                            <td>18</td>
-                            <td>4</td>
-                            <td>Ma. Cecilia Del Puerto</td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <button class="btn btn-outline-primary">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>BACACAY</td>
-                            <td>29</td>
-                            <td>3</td>
-                            <td>Rey B. Balaguer</td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <button class="btn btn-outline-primary">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>MALILIPOT</td>
-                            <td>18</td>
-                            <td>4</td>
-                            <td>Ma. Cecilia Del Puerto</td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-danger">No submission yet</label>
-                            </td>
-                            <td>
-                              <button class="btn btn-outline-primary">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>MALINAO</td>
-                            <td>29</td>
-                            <td>3</td>
-                            <td>Rey B. Balaguer</td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <button class="btn btn-outline-primary">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>MANITO</td>
-                            <td>15</td>
-                            <td>4</td>
-                            <td>Gerardo Glenn D. Berces</td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-danger">No submission yet</label>
-                            </td>
-                            <td>
-                              <button class="btn btn-outline-primary">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>RAPU-RAPU</td>
-                            <td>34</td>
-                            <td>3</td>
-                            <td>Sharo B. Banzuela </td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <button class="btn btn-outline-primary">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>STO. DOMINGO</td>
-                            <td>23</td>
-                            <td>4</td>
-                            <td>Susan Emce B. Santiago</td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-danger">No submission yet</label>
-                            </td>
-                            <td>
-                              <button class="btn btn-outline-primary">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>TIWI</td>
-                            <td>25</td>
-                            <td>1</td>
-                            <td>Regino M. Serrano III</td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-danger">No submission yet</label>
-                            </td>
-                            <td>
-                              <button class="btn btn-outline-primary">View</button>
-                            </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+          <div class="row">
+        
+           
+            </div>
+            <?php if (session()->has('success')): ?>
+    <div class="alert alert-success">
+        <?php echo session('success'); ?>
+    </div>
+<?php endif; ?>
+
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Memorandum</h4>
+                  <p class="card-description">
+                    
+                  </p>
+                  <form action="<?= site_url('submit-file') ?>" method="post" enctype="multipart/form-data" class="forms-sample">
+                    <div class="form-group">
+                      <label>File upload</label>
+                      <input type="file" name="img[]" class="file-upload-default">
+                      <div class="input-group col-xs-12">
+                        <input type="file" name="userfile" class="form-control file-upload-info" placeholder="Upload File">
+                        <span class="input-group-append">
+                          <button class="file-upload-browse btn btn-primary" type="reset">Clear</button>
+                        </span>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    <button class="btn btn-light">Cancel</button>
+                  </form>
                 </div>
               </div>
             </div>
+            </div>
           </div>
         </div>
-           
         <!-- content-wrapper ends -->
 
       

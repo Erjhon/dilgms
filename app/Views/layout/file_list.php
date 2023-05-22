@@ -308,9 +308,15 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="user/navigation/">
+            <a class="nav-link" href="user/memorandum/">
               <i class="icon-paper menu-icon"></i>
               <span class="menu-title">Memorandum</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="user/announcement/">
+              <i class="icon-paper menu-icon text-dark"></i>
+              <span class="menu-title text-dark">Announcement</span>
             </a>
           </li>
           <li class="nav-item">
@@ -368,29 +374,28 @@
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card tale-bg">
                 <div class="card-people mt-auto">
-                <?php foreach ($files as $file) : ?>
+                <?php 
+$counter = 0;
+foreach ($files as $file) : 
+    if ($counter >= 1) {
+        break;
+    }
+?>
     <div>
-        <h4><?= $file['filename'] ?></h4>
         <?php if (endsWith($file['filename'], '.pdf')) : ?>
-            <embed src="<?= base_url($file['filepath']) ?>" type="application/pdf" width="100%" height="600px">
+            <embed src="<?= base_url($file['filepath']) ?>" type="application/pdf" width="100%" height="300px">
         <?php elseif (endsWith($file['filename'], '.doc') || endsWith($file['filename'], '.docx')) : ?>
             <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=<?= base_url($file['filepath']) ?>" width="100%" height="600px" frameborder="0">This browser does not support embedded PDFs. Please download the PDF to view it: <a href="<?= base_url($file['filepath']) ?>">Download PDF</a></iframe>
         <?php else : ?>
             <img src="<?= base_url($file['filepath']) ?>" alt="<?= $file['filename'] ?>" width="200">
         <?php endif; ?>
     </div>
-<?php endforeach; ?>
-
-<?php
-function endsWith($haystack, $needle)
-{
-    $length = strlen($needle);
-    if ($length == 0) {
-        return true;
-    }
-    return (substr($haystack, -$length) === $needle);
-}
+<?php 
+    $counter++;
+endforeach; 
 ?>
+
+
                   <!-- <img src="images/dashboard/people.svg" alt="people"> -->
                   <div class="weather-info">
                     <div class="d-flex">
@@ -409,7 +414,39 @@ function endsWith($haystack, $needle)
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card tale-bg">
                 <div class="card-people mt-auto">
-                  <img src="images/dashboard/people.svg" alt="people">
+
+                <?php 
+$counter = 0;
+foreach ($announcements as $announcement) : 
+    if ($counter >= 1) {
+        break;
+    }
+?>
+    <div>
+        <?php if (endsWith($announcement['filename'], '.pdf')) : ?>
+            <embed src="<?= base_url($announcement['filepath']) ?>" type="application/pdf" width="100%" height="300px">
+        <?php elseif (endsWith($announcement['filename'], '.doc') || endsWith($announcement['filename'], '.docx')) : ?>
+            <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=<?= base_url($announcement['filepath']) ?>" width="100%" height="600px" frameborder="0">This browser does not support embedded PDFs. Please download the PDF to view it: <a href="<?= base_url($file['filepath']) ?>">Download PDF</a></iframe>
+        <?php else : ?>
+            <img src="<?= base_url($announcement['filepath']) ?>" alt="<?= $announcement['filename'] ?>" width="200">
+        <?php endif; ?>
+    </div>
+<?php 
+    $counter++;
+endforeach; 
+?>
+
+<?php
+function endsWith($haystack, $needle)
+{
+    $length = strlen($needle);
+    if ($length == 0) {
+        return true;
+    }
+    return (substr($haystack, -$length) === $needle);
+}
+?>
+                  <!-- <img src="images/dashboard/people.svg" alt="people"> -->
                   <div class="weather-info">
                     <div class="d-flex">
                       <div>
