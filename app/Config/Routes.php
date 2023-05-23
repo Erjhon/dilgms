@@ -35,11 +35,14 @@ $route['404_override'] = 'errors/error404';
 
 $routes->group("user", function($routes){
     // $routes->get('home','UserController::index',['as'=>'user.home']); 
-    $routes->get('navigation','UserController::navigation',['as' => 'user.navigation']);
+    $routes->get('memorandum','UserController::memorandum',['as' => 'user.memorandum']);
+    $routes->get('announcement','UserController::announcement',['as' => 'user.announcement']);
     $routes->get('registration','UserController::registration',['as' => 'user.registration']);
     $routes->get('status','UserController::status',['as' => 'user.status']);
     $routes->get('lgmed','UserController::lgmed',['as' => 'user.lgmed']);
     $routes->get('lgcdd','UserController::lgcdd',['as' => 'user.lgcdd']);
+
+    $routes->get('monitor','UserController::monitor',['as' => 'user.monitor']);
 });
 
 /*
@@ -59,6 +62,11 @@ $routes->get('file-submission', 'FileController::index');
 $routes->post('submit-file', 'FileController::submitFile');
 $routes->get('user/home', 'FileController::showFiles');
 $routes->get('files/(:segment)', 'FileController::getFile/$1');
+
+$routes->get('file-submission', 'AnnouncementCont::index');
+$routes->post('file-submit', 'AnnouncementCont::submitFile');
+$routes->get('user/home', 'AnnouncementCont::fileShow');
+$routes->get('files/(:segment)', 'AnnouncementCont::getFile/$1');
 
 
 

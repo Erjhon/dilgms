@@ -369,6 +369,7 @@
               <div class="">
                 <div class="card-people mt-auto">
                   <img src="images/dilg.png" alt="people">
+                  <img src="images/lgrrc.png" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
                    <h1> LGMED Central Reporting System</h1>

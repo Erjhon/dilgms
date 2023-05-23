@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\FileModel;
+use App\Models\AnnounceModel;
 
 class FileController extends BaseController
 {
@@ -37,7 +38,7 @@ class FileController extends BaseController
                 'filepath' => 'public/uploads/' . $newName
             ]);
             
-            return redirect()->to('files')->with('success', 'File uploaded successfully');
+            return redirect()->to('user/home')->with('success', 'File uploaded successfully');
         } else {
             return redirect()->back()->withInput()->with('error', $file->getErrorString());
         }
@@ -49,6 +50,9 @@ class FileController extends BaseController
         $fileModel = new FileModel();
         $data['files'] = $fileModel->findAll();
 
+        $announceModel = new AnnounceModel();
+        $data['announcements'] = $announceModel->findAll();
+    
         return view('layout/file_list', $data);
     }
 }
