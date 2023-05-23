@@ -364,6 +364,7 @@
             </div>
           </div>
           
+          <div class="card1">
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
@@ -372,7 +373,6 @@
                   <img src="images/lgrrc.png" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
-                   <h1> LGMED Central Reporting System</h1>
                       <div>
                         <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
                       </div>
@@ -384,8 +384,10 @@
                   </div>
                 </div>
               </div>
+              <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
             </div>
-                 
+              <h1 align="center" style="font-family:arial black;">LGMES Cluster 1 List of Reports and Links</h1>
+            </div> 
           </div>
           <div class="row">
             <div class="col-md-4 grid-margin">
