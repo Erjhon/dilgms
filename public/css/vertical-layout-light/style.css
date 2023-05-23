@@ -13786,18 +13786,6 @@ input[type="button"].btn-block {
   border-radius: 20px;
 }
 
-.card1 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-image: url(../../images/monitor-bg.jpg);
-  background-clip: border-box;
-  border: 1px solid #e3e3e3;
-  border-radius: 20px;
-}
-
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -20210,10 +20198,7 @@ code {
 
 .card-people img {
   border-radius: 20px;
-/*  width: 100%;*/
-  width: 50px;
-  height: 50px;
-  margin-top: -10px;
+  width: 100%;
 }
 
 .card-people .weather-info {
@@ -21996,7 +21981,6 @@ code {
   -moz-transition: background 0.25s ease;
   -ms-transition: background 0.25s ease;
   border: none;
-  margin-bottom: 15px;
 }
 
 .card.tale-bg {
