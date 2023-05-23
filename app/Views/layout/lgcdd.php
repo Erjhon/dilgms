@@ -336,6 +336,8 @@
         </ul>
       </nav>
 
+      <!--Panel Sadi ko nappundo-->
+            <div class="col-md-12">      
       <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
@@ -363,8 +365,6 @@
               </div>
             </div>
           </div>
-
-
          <!--DILG LOGO--> 
           <div class="row">
             <div class="col-md-1">
@@ -409,6 +409,8 @@
             <h1 align="center" style="font-family:arial black;">LGCDD Central Reporting System</h1>
             <h3 align="center" style="font-family:verdana;">MONITORING AND REPORTING GUIDE FOR PFPs AND C/MLGOOs </h3>
           </div>
+</div>
+</div>
 
           <div class="row">
             <div class="col-md-3 grid-margin">
@@ -445,6 +447,19 @@
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
                     <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/poarcs" class="link-class">Disaster Resiliency and Environmental Protection Section (DREPS)  </a>
+											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/poarcs" class="link-class">Local Planning and Project Development Assistance Section (LPPDAS)   </a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
