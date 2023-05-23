@@ -315,7 +315,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="user/announcement/">
-              <i class="icon-paper menu-icon text-dark"></i>
+              <i class="icon-paper menu-icon"></i>
               <span class="menu-title text-dark">Announcement</span>
             </a>
           </li>
@@ -332,11 +332,34 @@
               </ul>
             </div>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="user/status">
               <i class="icon-columns menu-icon"></i>
               <span class="menu-title">Status of Compliance</span>
             </a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#reports" aria-expanded="false" aria-controls="ui-basic">
+              <i class="icon-columns menu-icon"></i>
+              <span class="menu-title">Status of Compliance</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="reports">
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" target=”_blank” href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=189689531">January</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Febuary</a></li> 
+                <li class="nav-item"> <a class="nav-link" target="_blank" href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=910401658">March</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">April</a></li>  
+                <li class="nav-item"> <a class="nav-link" href="">May</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">June</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">July</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">August</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">September</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">October</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">November</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">December</a></li>         
+              </ul>
+            </div>
           </li>
         </ul>
       </nav>
@@ -346,6 +369,7 @@
           <div class="row"> -->
           <div class="main-panel">
         <div class="content-wrapper">
+          
           <div class="card">
             <div class="card-body">
               <h4 class="card-title">Monitoring Sheets</h4>
@@ -359,9 +383,10 @@
                             <th>No of Barangays</th>
                             <th>Income Class</th>
                             <th>LGOO VI (FO)</th>
-                            <th>Base Price</th>
-                            <th>Purchased Price</th>
-                            <th>Status</th>
+                            <th>Month of</th>
+                            <th>LGMES</th>
+                            <th>LGCDS</th>
+                            <th>FAS</th>
                             <th>Actions</th>
                         </tr>
                       </thead>
@@ -371,13 +396,32 @@
                             <td>70</td>
                             <td>2</td>
                             <td>Johanna L. Nuyda</td>
-                            <td></td>
-                            <td></td>
+                            <td><div class="col-md-3 dropdown-menu">
+                      <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          Dropdown
+                        </button>
+                        <div class="dropdown-menu show" aria-labelledby="dropdownMenuButton2">
+                          <h6 class="dropdown-header">Settings</h6>
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                      </div>
+                    </div></td>
                             <td>
                               <label class="badge badge-success">Complete</label>
                             </td>
                             <td>
-                              <button class="btn btn-outline-primary">View</button>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                             </td>
                         </tr>
                         <tr>
@@ -386,12 +430,17 @@
                             <td>4</td>
                             <td>Ruth Fay B. Belarmino</td>
                             <td></td>
-                            <td></td>
                             <td>
-                              <label class="badge badge-danger">No submission yet</label>
+                              <label class="badge badge-success">Complete</label>
                             </td>
                             <td>
-                              <button class="btn btn-outline-primary">View</button>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                             </td>
                         </tr>
                         <tr>
@@ -400,12 +449,17 @@
                             <td>2</td>
                             <td>Nedita B. Balucio</td>
                             <td></td>
-                            <td></td>
                             <td>
                               <label class="badge badge-success">Complete</label>
                             </td>
                             <td>
-                              <button class="btn btn-outline-primary">View</button>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                             </td>
                         </tr>
                         <tr>
@@ -414,12 +468,17 @@
                             <td>4</td>
                             <td>Ma. Cecilia Del Puerto</td>
                             <td></td>
-                            <td></td>
                             <td>
                               <label class="badge badge-success">Complete</label>
                             </td>
                             <td>
-                              <button class="btn btn-outline-primary">View</button>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                             </td>
                         </tr>
                         <tr>
@@ -428,12 +487,17 @@
                             <td>3</td>
                             <td>Rey B. Balaguer</td>
                             <td></td>
-                            <td></td>
                             <td>
                               <label class="badge badge-success">Complete</label>
                             </td>
                             <td>
-                              <button class="btn btn-outline-primary">View</button>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                             </td>
                         </tr>
                         <tr>
@@ -442,12 +506,17 @@
                             <td>4</td>
                             <td>Ma. Cecilia Del Puerto</td>
                             <td></td>
-                            <td></td>
                             <td>
-                              <label class="badge badge-danger">No submission yet</label>
+                              <label class="badge badge-success">Complete</label>
                             </td>
                             <td>
-                              <button class="btn btn-outline-primary">View</button>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                             </td>
                         </tr>
                         <tr>
@@ -456,12 +525,17 @@
                             <td>3</td>
                             <td>Rey B. Balaguer</td>
                             <td></td>
-                            <td></td>
                             <td>
                               <label class="badge badge-success">Complete</label>
                             </td>
                             <td>
-                              <button class="btn btn-outline-primary">View</button>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                             </td>
                         </tr>
                         <tr>
@@ -470,12 +544,17 @@
                             <td>4</td>
                             <td>Gerardo Glenn D. Berces</td>
                             <td></td>
-                            <td></td>
                             <td>
-                              <label class="badge badge-danger">No submission yet</label>
+                              <label class="badge badge-success">Complete</label>
                             </td>
                             <td>
-                              <button class="btn btn-outline-primary">View</button>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                             </td>
                         </tr>
                         <tr>
@@ -484,12 +563,17 @@
                             <td>3</td>
                             <td>Sharo B. Banzuela </td>
                             <td></td>
-                            <td></td>
                             <td>
                               <label class="badge badge-success">Complete</label>
                             </td>
                             <td>
-                              <button class="btn btn-outline-primary">View</button>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                             </td>
                         </tr>
                         <tr>
@@ -498,13 +582,17 @@
                             <td>4</td>
                             <td>Susan Emce B. Santiago</td>
                             <td></td>
-                            <td></td>
                             <td>
-                              <label class="badge badge-danger">No submission yet</label>
+                              <label class="badge badge-success">Complete</label>
                             </td>
                             <td>
-                              <button class="btn btn-outline-primary">View</button>
+                              <label class="badge badge-success">Complete</label>
                             </td>
+                            <td>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                            <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                         </tr>
                         <tr>
                             <td>TIWI</td>
@@ -512,12 +600,17 @@
                             <td>1</td>
                             <td>Regino M. Serrano III</td>
                             <td></td>
-                            <td></td>
                             <td>
-                              <label class="badge badge-danger">No submission yet</label>
+                              <label class="badge badge-success">Complete</label>
                             </td>
                             <td>
-                              <button class="btn btn-outline-primary">View</button>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                              <label class="badge badge-success">Complete</label>
+                            </td>
+                            <td>
+                            <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                             </td>
                         </tr>
                       </tbody>
@@ -528,6 +621,24 @@
             </div>
           </div>
         </div>
+
+        <script>
+  function editStatus(button) {
+    var row = button.parentNode.parentNode;
+    var statusLabel = row.querySelector(".badge");
+    var currentStatus = statusLabel.textContent;
+    
+    if (currentStatus === "Complete") {
+      statusLabel.textContent = "No submission yet";
+      statusLabel.classList.remove("badge-success");
+      statusLabel.classList.add("badge-danger");
+    } else {
+      statusLabel.textContent = "Complete";
+      statusLabel.classList.remove("badge-danger");
+      statusLabel.classList.add("badge-success");
+    }
+  }
+</script>
            
         <!-- content-wrapper ends -->
 

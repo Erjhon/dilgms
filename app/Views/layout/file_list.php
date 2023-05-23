@@ -315,8 +315,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="user/announcement/">
-              <i class="icon-paper menu-icon text-dark"></i>
-              <span class="menu-title text-dark">Announcement</span>
+              <i class="icon-paper menu-icon"></i>
+              <span class="menu-title">Announcement</span>
             </a>
           </li>
           <li class="nav-item">
@@ -327,8 +327,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDD Local Government Capability Development Division</a></li>
-                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMED Local Government Monitoring and Evaluation Division</a></li>          
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDD</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMED</a></li>          
               </ul>
             </div>
           </li>
@@ -374,6 +374,10 @@
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card tale-bg">
                 <div class="card-people mt-auto">
+                <div class="ml-2">
+                        <h4 class="location font-weight-normal"><b>Memorandum</b></h4>
+                        <h6 class="font-weight-normal">Notice!</h6>
+                      </div>
                 <?php 
 $counter = 0;
 foreach ($files as $file) : 
@@ -394,18 +398,13 @@ foreach ($files as $file) :
     $counter++;
 endforeach; 
 ?>
-
-
                   <!-- <img src="images/dashboard/people.svg" alt="people"> -->
                   <div class="weather-info">
                     <div class="d-flex">
                       <div>
                         <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
                       </div>
-                      <div class="ml-2">
-                        <h4 class="location font-weight-normal"><b>Memorandum</b></h4>
-                        <h6 class="font-weight-normal">Notice!</h6>
-                      </div>
+                     
                     </div>
                   </div>
                 </div>

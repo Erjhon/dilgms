@@ -41,6 +41,8 @@ $routes->group("user", function($routes){
     $routes->get('status','UserController::status',['as' => 'user.status']);
     $routes->get('lgmed','UserController::lgmed',['as' => 'user.lgmed']);
     $routes->get('lgcdd','UserController::lgcdd',['as' => 'user.lgcdd']);
+
+    $routes->get('monitor','UserController::monitor',['as' => 'user.monitor']);
 });
 
 /*

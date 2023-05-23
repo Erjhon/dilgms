@@ -4,6 +4,20 @@ namespace App\Controllers;
 
 class UserController extends BaseController
 {
+
+    public function __construct()
+    {
+        // parent::__construct();
+
+        // Load the session library
+        $this->session = \Config\Services::session();
+
+        // Check if the session has expired
+        if (!$this->session->has('logged_in')) {
+            return redirect()->to(base_url());
+        }
+    }
+    // Rest of your controller methods...
     public function index()
     {
         $data['pageTitle'] = 'Dashboard';
@@ -44,5 +58,28 @@ class UserController extends BaseController
         $data['pageTitle'] = 'LGCDD';
         return view('dashboard/lgcdd', $data);
     }
+    public function monitor()
+    {
+        $data['pageTitle'] = 'Monitor';
+        return view('monitoring/january.html', $data);
+    }
+    
+    // public function __construct()
+    // {
+    //     // parent::__construct();
+
+    //     // Load the session library
+    //     $this->session = \Config\Services::session();
+
+    //     // Check if the session has expired
+    //     if (!$this->session->has('logged_in')) {
+    //         return redirect()->to(base_url());
+    //     }
+    // }
+    
 
 }
+
+
+
+
