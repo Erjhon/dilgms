@@ -371,7 +371,7 @@
                   <img src="images/dilg.png" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
-                    <span class="" style="font-family: Spectral, Arial; font-weight: 700; vertical-align: baseline;"> LGCDD Central Reporting System </span>
+                   <h1> LGMED Central Reporting System</h1>
                       <div>
                         <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
                       </div>
