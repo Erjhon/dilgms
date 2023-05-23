@@ -308,15 +308,9 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="user/memorandum/">
+            <a class="nav-link" href="user/navigation/">
               <i class="icon-paper menu-icon"></i>
               <span class="menu-title">Memorandum</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="user/announcement/">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title text-dark">Announcement</span>
             </a>
           </li>
           <li class="nav-item">
@@ -326,40 +320,17 @@
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/navigation">Local Government Capability Development Division</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Local Government Monitoring and Evaluation Division</a></li>          
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">Local Government Capability Development Division</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">Local Government Monitoring and Evaluation Division</a></li>          
               </ul>
             </div>
           </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="user/status">
               <i class="icon-columns menu-icon"></i>
               <span class="menu-title">Status of Compliance</span>
             </a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#reports" aria-expanded="false" aria-controls="ui-basic">
-              <i class="icon-columns menu-icon"></i>
-              <span class="menu-title">Status of Compliance</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="reports">
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" target=”_blank” href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=189689531">January</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Febuary</a></li> 
-                <li class="nav-item"> <a class="nav-link" target="_blank" href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=910401658">March</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">April</a></li>  
-                <li class="nav-item"> <a class="nav-link" href="">May</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">June</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">July</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">August</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">September</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">October</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">November</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">December</a></li>         
-              </ul>
-            </div>
           </li>
         </ul>
       </nav>
@@ -393,6 +364,7 @@
             </div>
           </div>
           
+          <div class="card1">
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
@@ -401,7 +373,6 @@
                   <img src="images/lgrrc.png" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
-                   <h1> LGMED Central Reporting System</h1>
                       <div>
                         <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
                       </div>
@@ -413,8 +384,10 @@
                   </div>
                 </div>
               </div>
+              <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
             </div>
-                 
+              <h1 align="center" style="font-family:arial black;">LGMES Cluster 1 List of Reports and Links</h1>
+            </div> 
           </div>
           <div class="row">
             <div class="col-md-4 grid-margin">
