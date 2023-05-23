@@ -398,8 +398,10 @@
               <div class="">
                 <div class="card-people mt-auto">
                   <img src="images/dilg.png" alt="people">
+                  <img src="images/lgrrc.png" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
+                   <h1> LGMED Central Reporting System</h1>
                       <div>
                         <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
                       </div>
@@ -421,7 +423,8 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
 										<div class="ms-3">
-											<a class="">Awards and Recognition Section </a>
+                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/ars" class="link-class">Awards and Recognition Section</a>
+											<!--<a class="">Awards and Recognition Section </a>-->
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
@@ -434,7 +437,7 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
 										<div class="ms-3">
-											<a class="">Local Government Policy and Barangay Affairs Section (LGPBAS)</a>
+                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/lgpbas" class="link-class">Local Government Policy and Barangay Affairs Section (LGPBAS)</a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
@@ -447,7 +450,7 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
-											<a class="">Peace and Order and Related Concerns Section (POARCS)</a>
+                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/poarcs" class="link-class">Peace and Order and Related Concerns Section (POARCS)</a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
