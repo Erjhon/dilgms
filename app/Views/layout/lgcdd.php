@@ -364,11 +364,7 @@
             </div>
           </div>
 
-<!--<div class="main-panel" img src="images/monitor1.png">
-    <div class="content-wrapper">
-    <div class="row">
-     <div class="col-md-12 grid-margin">
-        <div class="row">-->
+
          <!--DILG LOGO--> 
           <div class="row">
             <div class="col-md-1">
