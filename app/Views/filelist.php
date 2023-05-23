@@ -314,28 +314,50 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="user/announcement/">
+              <i class="icon-paper menu-icon"></i>
+              <span class="menu-title text-dark">Announcement</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
-              <span class="menu-title">Task Accomplishments</span>
+              <span class="menu-title">Reports for Submission</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="">For the Month of May</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">For the Month of June</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">TypFor the Month of July</a></li>
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="user/navigation">Local Government Capability Development Division</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Local Government Monitoring and Evaluation Division</a></li>          
               </ul>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="user/status">
               <i class="icon-columns menu-icon"></i>
-              <span class="menu-title">Date of Submission</span>
+              <span class="menu-title">Status of Compliance</span>
+            </a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#reports" aria-expanded="false" aria-controls="ui-basic">
+              <i class="icon-columns menu-icon"></i>
+              <span class="menu-title">Status of Compliance</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="form-elements">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="#">Basic Elements</a></li>
+            <div class="collapse" id="reports">
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" target=”_blank” href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=189689531">January</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Febuary</a></li> 
+                <li class="nav-item"> <a class="nav-link" target="_blank" href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=910401658">March</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">April</a></li>  
+                <li class="nav-item"> <a class="nav-link" href="">May</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">June</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">July</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">August</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">September</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">October</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">November</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">December</a></li>         
               </ul>
             </div>
           </li>

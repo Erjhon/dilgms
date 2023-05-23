@@ -327,8 +327,8 @@
             </a>
             <div class="collapse" id="ui-basic">
             <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/navigation">Local Government Capability Development Division</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Local Government Monitoring and Evaluation Division</a></li>          
+                <li class="nav-item"> <a class="nav-link" href="user/lgcd">Local Government Capability Development Division</a></li>
+                <li class="nav-item"> <a class="nav-link" href="lgmed">Local Government Monitoring and Evaluation Division</a></li>          
               </ul>
             </div>
           </li>
@@ -378,6 +378,7 @@
                   <div class="table-responsive">
                     <table id="order-listing" class="table">
                       <thead>
+                      <?php if ($dilg): ?>
                         <tr>
                             <th>LGU</th>
                             <th>No of Barangays</th>
@@ -391,229 +392,159 @@
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
-                            <td>LEGAZPI CITY </td>
-                            <td>70</td>
-                            <td>2</td>
-                            <td>Johanna L. Nuyda</td>
-                            <td><div class="col-md-3 dropdown-menu">
-                      <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                          Dropdown
-                        </button>
-                        <div class="dropdown-menu show" aria-labelledby="dropdownMenuButton2">
-                          <h6 class="dropdown-header">Settings</h6>
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Separated link</a>
+                <?php foreach ($dilg as $row): ?>
+                    <tr>
+                    <td><?= $row['lgu_place'] ?></td>
+                        <td><?= $row['brgy_num'] ?></td>
+                        <td><?= $row['income'] ?></td>
+                        <td><?= $row['lgoo_name'] ?></td>
+                        <td><select  class="dropdown btn badge badge-light" name="month" id="month" form="month">
+                        <option value=""><?= date('M', strtotime($row['month'])); ?></option>
+  <!-- <option value="January">January</option>
+  <option value="Febuary">Febuary</option>
+  <option value="March">March</option>
+  <option value="April">April</option>
+  <option value="May">May</option>
+  <option value="June">June</option>
+  <option value="July">July</option>
+  <option value="August">August</option>
+  <option value="September">September</option>
+  <option value="October">October</option>
+  <option value="November">November</option>
+  <option value="December">December</option> -->
+</select></td>                        
+<td>
+    <?php if ($row['lgmes'] == 'completed'): ?>
+        <a href="#" class="badge badge-success" data-toggle="modal" data-target="#completedModal">Completed</a>
+    <?php elseif ($row['lgmes'] == 'not submitted'): ?>
+        <a href="#" class="badge badge-danger" data-toggle="modal" data-target="#notSubmittedModal">Not submitted</a>
+    <?php elseif ($row['lgmes'] == 'late'): ?>
+        <a href="#" class="badge badge-info" data-toggle="modal" data-target="#lateModal">Late</a>
+    <?php endif; ?>
+</td>
+
+<!-- Completed Modal -->
+<div class="modal fade" id="completedModal" tabindex="-1" role="dialog" aria-labelledby="completedModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="completedModalLabel">Completed Form</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- form here -->
+              
+                <div class="card-body">
+                  <h4 class="card-title">Checkbox Controls</h4>
+                  <p class="card-description">Checkbox and radio controls (default appearance is in primary color)</p>
+                  <form>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Task 1
+                            </label>
+                          </div>  
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Task 2
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Task 3
+                            </label>
+                          </div>                       
                         </div>
                       </div>
-                    </div></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
+                    </div>
+                  </form>
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Not Submitted Modal -->
+<div class="modal fade" id="notSubmittedModal" tabindex="-1" role="dialog" aria-labelledby="notSubmittedModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="notSubmittedModalLabel">Not Submitted Form</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Add your form fields and content here -->
+                <p>This is the not submitted form.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Late Modal -->
+<div class="modal fade" id="lateModal" tabindex="-1" role="dialog" aria-labelledby="lateModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="lateModalLabel">Late Form</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Add your form fields and content here -->
+                <p>This is the late form.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                        <td>
+                            <?php if ($row['lgcds'] == 'completed'): ?>
+                                <label class="badge badge-success">Completed</label>
+                            <?php elseif ($row['lgcds'] == 'not submitted'): ?>
+                                <label class="badge badge-danger">Not submitted</label>
+                            <?php elseif ($row['lgcds'] == 'late'): ?>
+                                <label class="badge badge-info">Late</label>
+                            <?php endif; ?>
+                        </td>
+                        <td>
+                            <?php if ($row['fas'] == 'completed'): ?>
+                                <label class="badge badge-success">Completed</label>
+                            <?php elseif ($row['fas'] == 'not submitted'): ?>
+                                <label class="badge badge-danger">Not submitted</label>
+                            <?php elseif ($row['fas'] == 'late'): ?>
+                                <label class="badge badge-info">Late</label>
+                            <?php endif; ?>
+                        </td>
+                        <td>
                                 <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
                             </td>
-                        </tr>
-                        <tr>
-                            <td>TABACO CITY</td>
-                            <td>47</td>
-                            <td>4</td>
-                            <td>Ruth Fay B. Belarmino</td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>BACACAY</td>
-                            <td>56</td>
-                            <td>2</td>
-                            <td>Nedita B. Balucio</td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>MALILIPOT</td>
-                            <td>18</td>
-                            <td>4</td>
-                            <td>Ma. Cecilia Del Puerto</td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>BACACAY</td>
-                            <td>29</td>
-                            <td>3</td>
-                            <td>Rey B. Balaguer</td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>MALILIPOT</td>
-                            <td>18</td>
-                            <td>4</td>
-                            <td>Ma. Cecilia Del Puerto</td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>MALINAO</td>
-                            <td>29</td>
-                            <td>3</td>
-                            <td>Rey B. Balaguer</td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>MANITO</td>
-                            <td>15</td>
-                            <td>4</td>
-                            <td>Gerardo Glenn D. Berces</td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>RAPU-RAPU</td>
-                            <td>34</td>
-                            <td>3</td>
-                            <td>Sharo B. Banzuela </td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                                <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>STO. DOMINGO</td>
-                            <td>23</td>
-                            <td>4</td>
-                            <td>Susan Emce B. Santiago</td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                            <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
-                        </tr>
-                        <tr>
-                            <td>TIWI</td>
-                            <td>25</td>
-                            <td>1</td>
-                            <td>Regino M. Serrano III</td>
-                            <td></td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                              <label class="badge badge-success">Complete</label>
-                            </td>
-                            <td>
-                            <button class="btn btn-outline-primary" onclick="editStatus(this)">View</button>
-                            </td>
-                        </tr>
-                      </tbody>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    <?php else: ?>
+        <p>No data available.</p>
+    <?php endif; ?>
                     </table>
                   </div>
                 </div>
@@ -622,7 +553,7 @@
           </div>
         </div>
 
-        <script>
+        <!-- <script>
   function editStatus(button) {
     var row = button.parentNode.parentNode;
     var statusLabel = row.querySelector(".badge");
@@ -638,7 +569,7 @@
       statusLabel.classList.add("badge-success");
     }
   }
-</script>
+</script> -->
            
         <!-- content-wrapper ends -->
 
