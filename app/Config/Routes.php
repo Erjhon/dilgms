@@ -38,7 +38,7 @@ $routes->group("user", function($routes){
     $routes->get('memorandum','UserController::memorandum',['as' => 'user.memorandum']);
     $routes->get('announcement','UserController::announcement',['as' => 'user.announcement']);
     $routes->get('registration','UserController::registration',['as' => 'user.registration']);
-    // $routes->get('status','UserController::status',['as' => 'user.status']);
+    $routes->get('status','UserController::status',['as' => 'user.status']);
     $routes->get('lgmed','UserController::lgmed',['as' => 'user.lgmed']);
     $routes->get('lgcdd','UserController::lgcdd',['as' => 'user.lgcdd']);
 
@@ -67,7 +67,6 @@ $routes->get('file-submission', 'AnnouncementCont::index');
 $routes->post('file-submit', 'AnnouncementCont::submitFile');
 $routes->get('user/home', 'AnnouncementCont::fileShow');
 $routes->get('files/(:segment)', 'AnnouncementCont::getFile/$1');
-$routes->get('status', 'DilgController::index');
 
 
 
