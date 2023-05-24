@@ -43,6 +43,8 @@ $routes->group("user", function($routes){
     $routes->get('lgcdd','UserController::lgcdd',['as' => 'user.lgcdd']);
 
     $routes->get('monitor','UserController::monitor',['as' => 'user.monitor']);
+    
+    $routes->get('lguadmin','UserController::lguadmin',['as' => 'user.lguadmin']);
 });
 
 /*

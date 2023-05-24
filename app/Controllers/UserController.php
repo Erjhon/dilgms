@@ -41,6 +41,11 @@ class UserController extends BaseController
         $data['pageTitle'] = 'Registration';
         return view('dashboard/registration', $data);
     }
+    public function lguadmin()
+    {
+        $data['pageTitle'] = 'Lguadmin';
+        return view('dashboard/lguadmin', $data);
+    }
 
     public function status()
     {

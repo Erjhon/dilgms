@@ -388,8 +388,8 @@
               <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
             </div> 
           </div>
-          <h2 class="h2home">LGCDs Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
-          <img class="report" src="images/report.png" alt="people">
+          <h2>LGU Administration and Governance Capacity Building Section (LAGCBS)</h2>
+          <!--<img class="report" src="images/report.png" alt="people">-->
         </div>
 
           <div class="row">
