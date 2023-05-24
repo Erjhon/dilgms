@@ -389,7 +389,7 @@
             </div> 
           </div>
           <h2 class="h2home">LGCDs Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
-          <img class="monitor-icon" src="images/monitor-icon.png" alt="people">
+          <img class="report" src="images/report.png" alt="people">
         </div>
 
           <div class="row">
@@ -457,7 +457,6 @@
       <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
             <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Local Government Capacity Development Division DILG Provincial Operations Office No. 5 All rights reserved.</span>
-            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
           </div>
         </footer>
       <!-- main-panel ends -->

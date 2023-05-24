@@ -19476,6 +19476,12 @@ input:focus {
   margin-top: -25%;
   margin-left: 60%;
 }
+.report {
+  width: 30%;
+  height: auto;
+  margin-top: -22%;
+  margin-left: 60%;
+}
 
 body {
   font-size: 1rem;
