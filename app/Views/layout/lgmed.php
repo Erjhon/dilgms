@@ -369,8 +369,8 @@
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
                 <div class="card-people mt-auto">
-                  <img src="images/dilg.png" alt="people">
-                  <img src="images/lgrrc.png" alt="people">
+                  <!-- <img src="images/dilg.png" alt="people"> -->
+                  <!-- <img src="images/lgrrc.png" alt="people"> -->
                   <div class="weather-info">
                     <div class="d-flex">
                       <div>
@@ -386,7 +386,7 @@
               </div>
               <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
             </div>
-              <h2 align="center" style="font-family:arial black; color: white;">LGMES Cluster 1 <br> List of Reports and Links</h2>
+              <h2 style="font-family:arial black; color: white; margin-top: 15%; margin-left: -19%">LGMES Cluster 1 <br> List of Reports and Links</h2>
             </div> 
           </div>
           <div class="row">
