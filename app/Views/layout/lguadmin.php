@@ -389,7 +389,7 @@
             </div> 
           </div>
           <h2>LGU Administration and Governance Capacity Building Section (LAGCBS)</h2>
-          <!--<img class="report" src="images/report.png" alt="people">-->
+       
         </div>
 
           <div class="row">
