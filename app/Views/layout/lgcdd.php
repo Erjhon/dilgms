@@ -336,9 +336,8 @@
         </ul>
       </nav>
 
-      <!--Panel Sadi ko nappundo-->
-            <div class="col-md-12">      
-      <div class="main-panel">
+     <!-- partial -->
+     <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
             <div class="col-md-12 grid-margin">
@@ -365,12 +364,14 @@
               </div>
             </div>
           </div>
-         <!--DILG LOGO--> 
+          
+        <div class="card1" >
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-md-3 grid-margin stretch-card">
               <div class="">
-                <div class="card-people mt-auto">
-                  <img src="images/dilg.png">
+                <div class="card-people" style="margin-left:5px">
+                  <img src="images/dilg.png" alt="people" style="width: 65px;">
+                  <img src="images/lgrrc.png" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
                       <div>
@@ -384,33 +385,12 @@
                   </div>
                 </div>
               </div>
-            </div>
-             <!--LGRRC LOGO--> 
-          <div class="col">
-            <div class="col-md-1 grid-margin stretch-card">
-              <div class="">
-                <div class="card-people mt-auto">
-                  <img src="images/lgrrc.png">
-                  <div class="weather-info">
-                    <div class="d-flex">
-                      <div>
-                        <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
-                      </div>
-                      <!-- <div class="ml-2">
-                        <h4 class="location font-weight-normal"><b>Memorandum</b></h4>
-                        <h6 class="font-weight-normal">Notice!</h6>
-                      </div> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- LGCDD Text-->
-            <h1 align="center" style="font-family:arial black;">LGCDD Central Reporting System</h1>
-            <h3 align="center" style="font-family:verdana;">MONITORING AND REPORTING GUIDE FOR PFPs AND C/MLGOOs </h3>
+              <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
+            </div> 
           </div>
-</div>
-</div>
+          <h2 class="h2home">LGCDs Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
+          <img class="monitor-icon" src="images/monitor-icon.png" alt="people">
+        </div>
 
           <div class="row">
             <div class="col-md-3 grid-margin">
@@ -419,7 +399,7 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/ars" class="link-class">LGU Administration and Governance Capacity Building Section (LAGCBS) </a>
+                    <a href="https://sites.google.com/dilg.gov.ph/lgcddcrs/lagcbs" class="link-class">LGU Administration and Governance Capacity Building Section (LAGCBS) </a>
 											<!--<a class="">Awards and Recognition Section </a>-->
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
@@ -433,7 +413,9 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/lgpbas" class="link-class">Local Economic Development Section (LEDS) </a>
+                    <a href="https://sites.google.com/dilg.gov.ph/lgcddcrs/leds" class="link-class">Local Economic Development Section (LEDS) 
+
+</a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
@@ -446,7 +428,7 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/poarcs" class="link-class">Disaster Resiliency and Environmental Protection Section (DREPS)  </a>
+                    <a href="https://sites.google.com/dilg.gov.ph/lgcddcrs/dreps" class="link-class">Disaster Resiliency and Environmental Protection Section (DREPS)  </a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
@@ -459,7 +441,7 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/poarcs" class="link-class">Local Planning and Project Development Assistance Section (LPPDAS)   </a>
+                    <a href="https://sites.google.com/dilg.gov.ph/lgcddcrs/lppdas" class="link-class">Disaster Resiliency and Environmental Protection Section (DREPS)  </a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
@@ -472,10 +454,17 @@
       
         <!-- partial -->
       </div>
+      <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Local Government Capacity Development Division DILG Provincial Operations Office No. 5 All rights reserved.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
+          </div>
+        </footer>
       <!-- main-panel ends -->
     </div>
     <!-- page-body-wrapper ends -->
   </div>
+
   <!-- container-scroller -->
 
   <!-- plugins:js -->
