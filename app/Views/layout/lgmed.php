@@ -321,8 +321,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">Local Government Capability Development Division</a></li>
-                <li class="nav-item"> <a class="nav-link" href="user/lgmed">Local Government Monitoring and Evaluation Division</a></li>          
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDS</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMES</a></li>          
               </ul>
             </div>
           </li>
@@ -369,7 +369,7 @@
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
                 <div class="card-people" style="margin-left:5px">
-                  <img src="images/dilg.png" alt="people" style="width: 65px;">
+                  <img src="images/dilg.png" alt="people" style="width: 6vw;">
                   <img src="images/lgrrc.png" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
@@ -398,7 +398,7 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/ars" class="link-class">Awards and Recognition Section</a>
+                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/ars" >Awards and Recognition Section (ARS)</a>
 											<!--<a class="">Awards and Recognition Section </a>-->
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
@@ -412,7 +412,7 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/lgpbas" class="link-class">Local Government Policy and Barangay Affairs Section (LGPBAS)</a>
+                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/lgpbas" >Local Government Policy and Barangay Affairs Section (LGPBAS)</a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
@@ -425,7 +425,7 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/poarcs" class="link-class">Peace and Order and Related Concerns Section (POARCS)</a>
+                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/poarcs" >Peace and Order and Related Concerns Section (POARCS)</a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
