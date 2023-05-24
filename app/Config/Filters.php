@@ -25,6 +25,7 @@ class Filters extends BaseConfig
 	 *
 	*/
 	public $aliases = [
+        'admin' => AdminFilter::class,
 		'csrf'     => \CodeIgniter\Filters\CSRF::class,
 		'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
 		'honeypot' => \CodeIgniter\Filters\Honeypot::class,
@@ -68,5 +69,13 @@ class Filters extends BaseConfig
      * Example:
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
-    public array $filters = [];
+    public $filters = [
+        // ...
+        'admin' => [
+            'before' => [
+                'admin',
+            ],
+        ],
+    ];
+    
 }

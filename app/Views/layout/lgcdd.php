@@ -302,15 +302,9 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="user/home/">
+            <a class="nav-link" href="user/home">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="user/navigation/">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title">Memorandum</span>
             </a>
           </li>
           <li class="nav-item">
@@ -320,17 +314,40 @@
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">Local Government Capability Development Division</a></li>
-                <li class="nav-item"> <a class="nav-link" href="user/lgmed">Local Government Monitoring and Evaluation Division</a></li>          
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDD</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMED</a></li>          
               </ul>
             </div>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="user/status">
               <i class="icon-columns menu-icon"></i>
               <span class="menu-title">Status of Compliance</span>
             </a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#reports" aria-expanded="false" aria-controls="ui-basic">
+              <i class="icon-columns menu-icon"></i>
+              <span class="menu-title">Status of Compliance</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="reports">
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" target=”_blank” href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=189689531">January</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Febuary</a></li> 
+                <li class="nav-item"> <a class="nav-link" target="_blank" href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=910401658">March</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">April</a></li>  
+                <li class="nav-item"> <a class="nav-link" href="">May</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">June</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">July</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">August</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">September</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">October</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">November</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">December</a></li>         
+              </ul>
+            </div>
           </li>
         </ul>
       </nav>

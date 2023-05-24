@@ -38,7 +38,7 @@ class FileController extends BaseController
                 'filepath' => 'public/uploads/' . $newName
             ]);
             
-            return redirect()->to('user/home')->with('success', 'File uploaded successfully');
+            return redirect()->to('admin/dashboard')->with('success', 'File uploaded successfully');
         } else {
             return redirect()->back()->withInput()->with('error', $file->getErrorString());
         }
@@ -53,6 +53,17 @@ class FileController extends BaseController
         $announceModel = new AnnounceModel();
         $data['announcements'] = $announceModel->findAll();
     
-        return view('layout/file_list', $data);
+        return view('layout/dashboard', $data);
+    }
+
+    public function fileShow()
+    {
+        $fileModel = new FileModel();
+        $data['files'] = $fileModel->findAll();
+
+        $announceModel = new AnnounceModel();
+        $data['announcements'] = $announceModel->findAll();
+    
+        return view('layout/userdashboard', $data);
     }
 }

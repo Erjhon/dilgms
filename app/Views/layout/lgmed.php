@@ -307,18 +307,7 @@
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="user/memorandum/">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title">Memorandum</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="user/announcement/">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title text-dark">Announcement</span>
-            </a>
-          </li>
+          
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
@@ -327,8 +316,8 @@
             </a>
             <div class="collapse" id="ui-basic">
             <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/navigation">Local Government Capability Development Division</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Local Government Monitoring and Evaluation Division</a></li>          
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDD</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMED</a></li>          
               </ul>
             </div>
           </li>

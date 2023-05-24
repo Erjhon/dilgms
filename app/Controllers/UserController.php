@@ -21,7 +21,7 @@ class UserController extends BaseController
     public function index()
     {
         $data['pageTitle'] = 'Dashboard';
-        return view('dashboard/home', $data);
+        return view('dashboard/userdashboard', $data);
 
     }
 
@@ -63,19 +63,25 @@ class UserController extends BaseController
         $data['pageTitle'] = 'Monitor';
         return view('monitoring/january.html', $data);
     }
+    public function admin()
+    {
+        $data['pageTitle'] = 'Admin Dashboard';
+        return view('dashboard/dashboard', $data);
+    }
+
+    public function lgmedAdmin()
+    {
+        $data['pageTitle'] = 'Admin LGMED';
+        return view('layout/lgmed_admin', $data);
+    }
+    public function lgcddAdmin()
+    {
+        $data['pageTitle'] = 'Admin LGCDD';
+        return view('layout/lgcdd_admin', $data);
+    }
     
-    // public function __construct()
-    // {
-    //     // parent::__construct();
+    
 
-    //     // Load the session library
-    //     $this->session = \Config\Services::session();
-
-    //     // Check if the session has expired
-    //     if (!$this->session->has('logged_in')) {
-    //         return redirect()->to(base_url());
-    //     }
-    // }
     
 
 }

@@ -52,7 +52,17 @@ class AnnouncementCont extends BaseController
         $announceModel = new AnnounceModel();
         $data['announcements'] = $announceModel->findAll();
     
-        return view('layout/file_list', $data);
+        return view('layout/userdashboard', $data);
+    }
+    public function showFiles()
+    {
+        $fileModel = new AnnounceModel();
+        $data['files'] = $fileModel->findAll();
+    
+        $announceModel = new AnnounceModel();
+        $data['announcements'] = $announceModel->findAll();
+    
+        return view('layout/dashboard', $data);
     }
     
 

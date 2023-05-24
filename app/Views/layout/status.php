@@ -400,18 +400,6 @@
                         <td><?= $row['lgoo_name'] ?></td>
                         <td><select  class="dropdown btn badge badge-light" name="month" id="month" form="month">
                         <option value=""><?= date('M', strtotime($row['month'])); ?></option>
-  <!-- <option value="January">January</option>
-  <option value="Febuary">Febuary</option>
-  <option value="March">March</option>
-  <option value="April">April</option>
-  <option value="May">May</option>
-  <option value="June">June</option>
-  <option value="July">July</option>
-  <option value="August">August</option>
-  <option value="September">September</option>
-  <option value="October">October</option>
-  <option value="November">November</option>
-  <option value="December">December</option> -->
 </select></td>                        
 <td>
     <?php if ($row['lgmes'] == 'completed'): ?>
@@ -446,8 +434,8 @@
                           <div class="form-check">
                             <label class="form-check-label">
                               <input type="checkbox" class="form-check-input">
-                              Task 1
                             </label>
+                            <input type="text"/>
                           </div>  
                           <div class="form-check">
                             <label class="form-check-label">

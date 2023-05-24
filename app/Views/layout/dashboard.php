@@ -302,40 +302,62 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="user/home/">
+            <a class="nav-link" href="admin/dashboard/">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="user/navigation/">
+            <a class="nav-link" href="admin/memorandum/">
               <i class="icon-paper menu-icon"></i>
               <span class="menu-title">Memorandum</span>
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="admin/announcement/">
+              <i class="icon-paper menu-icon"></i>
+              <span class="menu-title text-dark">Announcement</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
-              <span class="menu-title">Task Accomplishments</span>
+              <span class="menu-title">Reports for Submission</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/navigation">For the Month of May</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">For the Month of June</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">TypFor the Month of July</a></li>
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="admin/lgcdd_admin">LGCDD</a></li>
+                <li class="nav-item"> <a class="nav-link" href="admin/lgmed_admin">LGMED</a></li>          
               </ul>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="user/status">
               <i class="icon-columns menu-icon"></i>
-              <span class="menu-title">Date of Submission</span>
+              <span class="menu-title">Status of Compliance</span>
+            </a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#reports" aria-expanded="false" aria-controls="ui-basic">
+              <i class="icon-columns menu-icon"></i>
+              <span class="menu-title">Status of Compliance</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="form-elements">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="#">Basic Elements</a></li>
+            <div class="collapse" id="reports">
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" target=”_blank” href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=189689531">January</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Febuary</a></li> 
+                <li class="nav-item"> <a class="nav-link" target="_blank" href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=910401658">March</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">April</a></li>  
+                <li class="nav-item"> <a class="nav-link" href="">May</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">June</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">July</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">August</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">September</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">October</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">November</a></li> 
+                <li class="nav-item"> <a class="nav-link" href="">December</a></li>         
               </ul>
             </div>
           </li>
@@ -375,17 +397,37 @@
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card tale-bg">
                 <div class="card-people mt-auto">
-                  
+                <div class="ml-2">
+                        <h4 class="location font-weight-normal"><b>Memorandum</b></h4>
+                        <h6 class="font-weight-normal">Notice!</h6>
+                      </div>
+                <?php 
+$counter = 0;
+foreach ($files as $file) : 
+    if ($counter >= 1) {
+        break;
+    }
+?>
+    <div>
+        <?php if (endsWith($file['filename'], '.pdf')) : ?>
+            <embed src="<?= base_url($file['filepath']) ?>" type="application/pdf" width="100%" height="300px">
+        <?php elseif (endsWith($file['filename'], '.doc') || endsWith($file['filename'], '.docx')) : ?>
+            <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=<?= base_url($file['filepath']) ?>" width="100%" height="600px" frameborder="0">This browser does not support embedded PDFs. Please download the PDF to view it: <a href="<?= base_url($file['filepath']) ?>">Download PDF</a></iframe>
+        <?php else : ?>
+            <img src="<?= base_url($file['filepath']) ?>" alt="<?= $file['filename'] ?>" width="200">
+        <?php endif; ?>
+    </div>
+<?php 
+    $counter++;
+endforeach; 
+?>
                   <!-- <img src="images/dashboard/people.svg" alt="people"> -->
                   <div class="weather-info">
                     <div class="d-flex">
                       <div>
                         <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
                       </div>
-                      <div class="ml-2">
-                        <h4 class="location font-weight-normal"><b>Memorandum</b></h4>
-                        <h6 class="font-weight-normal">Notice!</h6>
-                      </div>
+                     
                     </div>
                   </div>
                 </div>
@@ -394,7 +436,39 @@
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card tale-bg">
                 <div class="card-people mt-auto">
-                  <img src="images/dashboard/people.svg" alt="people">
+
+                <?php 
+$counter = 0;
+foreach ($announcements as $announcement) : 
+    if ($counter >= 1) {
+        break;
+    }
+?>
+    <div>
+        <?php if (endsWith($announcement['filename'], '.pdf')) : ?>
+            <embed src="<?= base_url($announcement['filepath']) ?>" type="application/pdf" width="100%" height="300px">
+        <?php elseif (endsWith($announcement['filename'], '.doc') || endsWith($announcement['filename'], '.docx')) : ?>
+            <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=<?= base_url($announcement['filepath']) ?>" width="100%" height="600px" frameborder="0">This browser does not support embedded PDFs. Please download the PDF to view it: <a href="<?= base_url($file['filepath']) ?>">Download PDF</a></iframe>
+        <?php else : ?>
+            <img src="<?= base_url($announcement['filepath']) ?>" alt="<?= $announcement['filename'] ?>" width="200">
+        <?php endif; ?>
+    </div>
+<?php 
+    $counter++;
+endforeach; 
+?>
+
+<?php
+function endsWith($haystack, $needle)
+{
+    $length = strlen($needle);
+    if ($length == 0) {
+        return true;
+    }
+    return (substr($haystack, -$length) === $needle);
+}
+?>
+                  <!-- <img src="images/dashboard/people.svg" alt="people"> -->
                   <div class="weather-info">
                     <div class="d-flex">
                       <div>
@@ -1072,4 +1146,7 @@
 </body>
 
 </html>
+
+
+
 

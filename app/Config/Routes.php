@@ -32,43 +32,51 @@ $route['404_override'] = 'errors/error404';
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
-
 $routes->group("user", function($routes){
-    // $routes->get('home','UserController::index',['as'=>'user.home']); 
-    $routes->get('memorandum','UserController::memorandum',['as' => 'user.memorandum']);
-    $routes->get('announcement','UserController::announcement',['as' => 'user.announcement']);
-    $routes->get('registration','UserController::registration',['as' => 'user.registration']);
-    // $routes->get('status','UserController::status',['as' => 'user.status']);
-    $routes->get('lgmed','UserController::lgmed',['as' => 'user.lgmed']);
-    $routes->get('lgcdd','UserController::lgcdd',['as' => 'user.lgcdd']);
-
-    $routes->get('monitor','UserController::monitor',['as' => 'user.monitor']);
+    $routes->get('memorandum', 'UserController::memorandum', ['as' => 'user.memorandum']);
+    $routes->get('announcement', 'UserController::announcement', ['as' => 'user.announcement']);
+    $routes->get('registration', 'UserController::registration', ['as' => 'user.registration']);
+    $routes->get('lgmed', 'UserController::lgmed', ['as' => 'user.lgmed']);
+    $routes->get('lgcdd', 'UserController::lgcdd', ['as' => 'user.lgcdd']);
+    $routes->get('monitor', 'UserController::monitor', ['as' => 'user.monitor']);
+    $routes->get('home', 'FileController::fileShow');
+$routes->get('home', 'AnnouncementCont::fileShow');
+    
+    // Accessing home route only for regular users
+    $routes->get('home', 'UserController::index', ['as' => 'user.home']);
 });
 
-/*
- * --------------------------------------------------------------------
- * Route Definitions
- * --------------------------------------------------------------------
- */
 $routes->get('/', 'SignupController::index');
 $routes->get('/signup', 'SignupController::index');
 $routes->match(['get', 'post'], 'SignupController/store', 'SignupController::store');
 $routes->match(['get', 'post'], 'SigninController/loginAuth', 'SigninController::loginAuth');
 $routes->get('/signin', 'SigninController::index');
-$routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
+$routes->get('/profile', 'ProfileController::index', ['filter' => 'authGuard']);
 $routes->get('/logout', 'SigninController::logout');
 $routes->post('/file/upload', 'Main::upload');
 $routes->get('file-submission', 'FileController::index');
 $routes->post('submit-file', 'FileController::submitFile');
-$routes->get('user/home', 'FileController::showFiles');
 $routes->get('files/(:segment)', 'FileController::getFile/$1');
 
 $routes->get('file-submission', 'AnnouncementCont::index');
 $routes->post('file-submit', 'AnnouncementCont::submitFile');
-$routes->get('user/home', 'AnnouncementCont::fileShow');
 $routes->get('files/(:segment)', 'AnnouncementCont::getFile/$1');
-$routes->get('status', 'DilgController::index');
 
+// displaying files for admin
+$routes->get('admin/dashboard', 'FileController::showFiles');
+$routes->get('admin/dashboard', 'AnnouncementCont::showFiles');
+
+
+$routes->group("admin", function($routes){
+    $routes->get('dashboard', 'UserController::index', ['as' => 'admin.dashboard']); 
+    $routes->get('dashboard', 'AdminDashboardController::index');
+    $routes->get('memorandum', 'UserController::memorandum', ['as' => 'admin.memorandum']);
+    $routes->get('announcement', 'UserController::announcement', ['as' => 'admin.announcement']);
+    $routes->get('lgmed_admin', 'UserController::lgmedAdmin', ['as' => 'admin.lgmed_admin']);
+    $routes->get('lgcdd_admin', 'UserController::lgcddAdmin', ['as' => 'admin.lgcdd_admin']);
+    $routes->get('monitor', 'UserController::monitor', ['as' => 'admin.monitor']);
+    $routes->get('status', 'DilgController::status', ['as' => 'admin.status']);
+});
 
 
 /*
