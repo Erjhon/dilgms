@@ -1010,3 +1010,43 @@ WARNING - 2023-05-24 08:05:16 --> [DEPRECATED] Creation of dynamic property App\
  3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 >>>>>>> 4d63f5b84b4f0153bfa3b9bc9d876f365974a590
+CRITICAL - 2023-05-24 08:12:53 --> require(C:\xampp\htdocs\Codeigniter\app\Config/Routes.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\Router\RouteCollection.php on line 267.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\Codeigniter\\app\\Config/Routes.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Codeigniter\\system\\Router\\RouteCollection.php', 267)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 08:12:58 --> require(C:\xampp\htdocs\Codeigniter\app\Config/Routes.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\Router\RouteCollection.php on line 267.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\Codeigniter\\app\\Config/Routes.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Codeigniter\\system\\Router\\RouteCollection.php', 267)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 08:13:31 --> require(C:\xampp\htdocs\Codeigniter\app\Config/Routes.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\Router\RouteCollection.php on line 267.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\Codeigniter\\app\\Config/Routes.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Codeigniter\\system\\Router\\RouteCollection.php', 267)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 08:14:37 --> require(C:\xampp\htdocs\Codeigniter\app\Config/Routes.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\Router\RouteCollection.php on line 267.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\Codeigniter\\app\\Config/Routes.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Codeigniter\\system\\Router\\RouteCollection.php', 267)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 08:14:39 --> require(C:\xampp\htdocs\Codeigniter\app\Config/Routes.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\Router\RouteCollection.php on line 267.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\Codeigniter\\app\\Config/Routes.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Codeigniter\\system\\Router\\RouteCollection.php', 267)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
