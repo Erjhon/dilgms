@@ -13784,27 +13784,26 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid #e3e3e3;
   border-radius: 20px;
+  /* margin-top: -10px; */
 }
-
 .card1 {
   position: relative;
   display: flex;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  /* background-image: url(../../images/monitor-LGMES.png); */
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,36,9,1) 35%, rgba(0,212,255,1) 100%);;
-  background-size: cover;
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(255,87,87,1) 0%, rgba(255,243,89,1) 100%);
   background-clip: border-box;
   border: 1px solid #e3e3e3;
   border-radius: 20px;
-  margin-bottom: 10px;
-  height: 70%;
+  margin-bottom: 15px;
   margin-top: -40px;
-  opacity: 90%;
-  /* width: 100%;
-  height: 100%; */
+  padding: 25px;
+  height: 70%;
 }
+
+
 
 .card > hr {
   margin-right: 0;
@@ -19451,6 +19450,33 @@ input:focus {
 }
 
 /* Typography */
+.h2home{
+  font-family:arial black; 
+  color: black;  
+  margin-left: 30px;
+  margin-bottom: -10%;
+  /* padding-top:%; */
+  text-align: justify;
+  font-size: 300%;
+  
+}
+.h3home{
+  font-family:arial black; 
+  color: black;  
+  margin-left: 32px;
+  margin-top: 9%;
+  font-size: 150%;
+  /* padding-top:%; */
+  text-align: justify;
+}
+
+.monitor-icon {
+  width: 30%;
+  height: auto;
+  margin-top: -25%;
+  margin-left: 60%;
+}
+
 body {
   font-size: 1rem;
   font-family: "Nunito", sans-serif;
@@ -20217,11 +20243,12 @@ code {
 }
 
 .card-people img {
-  border-radius: 20px;
+  /* border-radius: 20px; */
 /*  width: 100%;*/
   width: 50px;
-  height: 50px;
+  height: auto;
   margin-top: -10px;
+  margin-right: 2px;
 }
 
 .card-people .weather-info {

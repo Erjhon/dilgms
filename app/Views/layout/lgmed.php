@@ -364,13 +364,13 @@
             </div>
           </div>
           
-          <div class="card1">
+        <div class="card1" >
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
-                <div class="card-people mt-auto">
-                  <!-- <img src="images/dilg.png" alt="people"> -->
-                  <!-- <img src="images/lgrrc.png" alt="people"> -->
+                <div class="card-people" style="margin-left:5px">
+                  <img src="images/dilg.png" alt="people" style="width: 65px;">
+                  <img src="images/lgrrc.png" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
                       <div>
@@ -385,10 +385,12 @@
                 </div>
               </div>
               <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
-            </div>
-              <h2 style="font-family:arial black; color: white; margin-top: 15%; margin-left: -19%">LGMES Cluster 1 <br> List of Reports and Links</h2>
             </div> 
           </div>
+          <h2 class="h2home">LGMES Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
+          <img class="monitor-icon" src="images/monitor-icon.png" alt="people">
+        </div>
+
           <div class="row">
             <div class="col-md-4 grid-margin">
 							<div class="card d-flex align-items-center">
