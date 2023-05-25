@@ -389,7 +389,7 @@
             </div> 
           </div>
           <div class="lguadmin">
-          <h1>LGU Administration and Governance Capacity Building Section (LAGCBS)</h1>
+          <h1>Local Economic Development Section (LEDS) </h1>
           </div>
         </div>
 
@@ -402,13 +402,13 @@
 										<div class="ms-3">
                       <ul>
                         <li>
-                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/1zNsCNJcQSYEbezEu5jyzUMJ4GWiILv73">Program for Newly-Elected Officials (NEO) Consolidated Report </a></h5>
+                          <h5 class="sub2">LGU Energy Code/Energy Virtual One Stop Shop (EVOSS) Compliance Monitoring Report</h5>
                         </li>
                         </ul>
                         
-                           <h6 style="margin-left: 15px;">Quarterly: Due 28th day of the last month of the Quarter  </h6>
-                           <h6 style="margin-left: 15px;"> Access: For C/MLGOOs</h6>
-                          
+                           <h6 style="margin-left: 15px;">Quarterly: Due Every 1st week of the ensuing month </h6>
+                           <h6 style="margin-left: 15px;"> Access: For Provincial FPs only</h6>
+                          <h6 style="margin-left: 15px;"><br>Link: <a href="https://drive.google.com/drive/folders/1LtcmLqmNRE-5q2zv25zhuMG2KMEfU5HW"> https://bit.ly/r5EVOSS2023 </a> </h6>
                       
 
 											<!--<a class="">Awards and Recognition Section </a>-->

@@ -45,6 +45,7 @@ $routes->group("user", function($routes){
     $routes->get('monitor','UserController::monitor',['as' => 'user.monitor']);
     
     $routes->get('lguadmin','UserController::lguadmin',['as' => 'user.lguadmin']);
+    $routes->get('leds','UserController::leds',['as' => 'user.leds']);
 });
 
 /*

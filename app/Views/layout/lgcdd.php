@@ -413,9 +413,7 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgcddcrs/leds" class="link-class">Local Economic Development Section (LEDS) 
-
-</a>
+                    <a href="user/leds" class="link-class">Local Economic Development Section (LEDS) </a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
@@ -454,10 +452,9 @@
       
         <!-- partial -->
       </div>
-      <footer class="footer">
-          <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Local Government Capacity Development Division DILG Provincial Operations Office No. 5 All rights reserved.</span>
-          </div>
+        <footer>
+          <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
+          <a>Rawis, Legazpi City</a></p>
         </footer>
       <!-- main-panel ends -->
     </div>

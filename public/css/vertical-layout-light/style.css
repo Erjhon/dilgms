@@ -19479,7 +19479,7 @@ input:focus {
 .report {
   width: 30%;
   height: auto;
-  margin-top: -22%;
+  margin-top: -21%;
   margin-left: 60%;
 }
 
@@ -30649,7 +30649,25 @@ div.tagsinput span.tag a {
   }
 }
 
-.footer {
+footer {
+  margin-top: 80px;
   text-align: center;
+  padding: 3px;
+  color: black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+}
+div.lguadmin {
+    text-align: center;
+}
+h5.sub2 {
+  text-align: justify;
+  text-justify: inter-word;
+  color: green;
 }
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
