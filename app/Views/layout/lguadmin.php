@@ -406,8 +406,8 @@
                         </li>
                         </ul>
                         
-                           <h6 style="margin-left: 15px;">Quarterly: Due 28th day of the last month of the Quarter  </h6>
-                           <h6 style="margin-left: 15px;"> Access: For C/MLGOOs</h6>
+                           <h6 style="margin-left: 15px;"><b>Quarterly:</b> Due 28th day of the last month of the Quarter  </h6>
+                           <h6 style="margin-left: 15px;"> <b>Access: </b>For C/MLGOOs</h6>
                           
                       
 
@@ -427,12 +427,12 @@
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2">Local Government Academy Monitoring and Evaluation System (LGAMES)</h5>
+                          <h5 class="sub2"> <a href="https://lgames.lga.gov.ph/">Local Government Academy Monitoring and Evaluation System (LGAMES)</a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Quarterly: Due 30th day of the last month of the Quarter <br>
-                           Access: For Provincial Office Only<br><br>
-                          Link: <a href="https://lgames.lga.gov.ph/">  https://lgames.lga.gov.ph/  </a> </h6>
+                           <h6 style="margin-left: 15px;"> <b>Quarterly:</b>Due 30th day of the last month of the Quarter <br><br>
+                           <b> Access: </b>For Provincial Office Only<br><br>
+                           </h6>
                       
 										</div>
 									</div>
@@ -448,12 +448,12 @@
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2">Online CapDev Market System (OCDMS)</h5>
+                          <h5 class="sub2"><a href="http://ocdms.lga.gov.ph/">Online CapDev Market System (OCDMS)</a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">One-time report; can be edited if there are updates<br>
-                           Access: For LGU OCDMS/CapDev Focal Person; DILG personnel<br><br>
-                           Link: <a href="http://ocdms.lga.gov.ph/">   http://ocdms.lga.gov.ph/ </a> </h6>
+                           <h6 style="margin-left: 15px;">One-time report; can be edited if there are updates<br><br>
+                          <b>Access:</b> For LGU OCDMS/CapDev Focal Person; DILG personnel<br>
+                           </h6>
 										</div>
 									</div>
 								</div>
@@ -468,12 +468,12 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2">Devolution Transition Plan (DTP) Repository</h5>
+                          <h5 class="sub2"> <a href="https://dtp.dilg.gov.ph/">Devolution Transition Plan (DTP) Repository </a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Access: LGU personnel, DILG personnel <br>
+                           <h6 style="margin-left: 15px;"><b>Access:</b> LGU personnel, DILG personnel <br>
                            <br>
-                           Link: <a href=" https://dtp.dilg.gov.ph">   http://ocdms.lga.gov.ph/ </a> </h6>
+                           </h6>
 										</div>
 									</div>
 								</div>

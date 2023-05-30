@@ -402,13 +402,13 @@
 										<div class="ms-3">
                       <ul>
                         <li>
-                          <h5 class="sub2">LGU Energy Code/Energy Virtual One Stop Shop (EVOSS) Compliance Monitoring Report</h5>
+                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1LtcmLqmNRE-5q2zv25zhuMG2KMEfU5HW">LGU Energy Code/Energy Virtual One Stop Shop (EVOSS) Compliance Monitoring Report</a></h5>
                         </li>
                         </ul>
                         
                            <h6 style="margin-left: 15px;">Quarterly: Due Every 1st week of the ensuing month </h6>
                            <h6 style="margin-left: 15px;"> Access: For Provincial FPs only</h6>
-                          <h6 style="margin-left: 15px;"><br>Link: <a href="https://drive.google.com/drive/folders/1LtcmLqmNRE-5q2zv25zhuMG2KMEfU5HW"> https://bit.ly/r5EVOSS2023 </a> </h6>
+        
                       
 
 											<!--<a class="">Awards and Recognition Section </a>-->
@@ -427,12 +427,12 @@
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2">Local Government Academy Monitoring and Evaluation System (LGAMES)</h5>
+                          <h5 class="sub2"> <a href="https://lgames.lga.gov.ph/">LBPLS/BPCO Quarterly Report</a></h5>
                         </li>
                     </ul>
                            <h6 style="margin-left: 15px;">Quarterly: Due 30th day of the last month of the Quarter <br>
                            Access: For Provincial Office Only<br><br>
-                          Link: <a href="https://lgames.lga.gov.ph/">  https://lgames.lga.gov.ph/  </a> </h6>
+                         </h6>
                       
 										</div>
 									</div>
