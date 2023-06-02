@@ -13784,11 +13784,10 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid #e3e3e3;
   border-radius: 20px;
-  /* margin-top: -10px; */
+margin-bottom: -10px; 
 }
 .card1 {
-  position: relative;
-  display: flex;
+
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
@@ -13802,6 +13801,7 @@ input[type="button"].btn-block {
   padding: 25px;
   height: 70%;
 }
+
 
 
 
@@ -30671,3 +30671,4 @@ h5.sub2 {
   color: green;
 }
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
+

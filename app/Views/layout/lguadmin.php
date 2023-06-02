@@ -485,7 +485,7 @@
       
         <!-- partial -->
       </div>
-      <footer>
+      <footer class="footer">
           <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
           <a>Rawis, Legazpi City</a></p>
         </footer>

@@ -26,6 +26,7 @@
 </head>
 <body>
   <div class="container-scroller">
+
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
@@ -338,6 +339,7 @@
 
      <!-- partial -->
      <div class="main-panel">
+     <div class="container-fluid page-body-wrapper">
         <div class="content-wrapper">
           <div class="row">
             <div class="col-md-12 grid-margin">
@@ -368,7 +370,7 @@
         <div class="card1" >
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
-              <div class="">
+              <div>
                 <div class="card-people" style="margin-left:5px">
                   <img src="images/dilg.png" alt="people" style="width: 65px;">
                   <img src="images/lgrrc.png" alt="people">
@@ -388,13 +390,15 @@
               <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
             </div> 
           </div>
+
           <div class="lguadmin">
           <h1>Local Economic Development Section (LEDS) </h1>
           </div>
         </div>
 
+        
           <div class="row">
-            <div class="col-md-3 grid-margin">
+            <div class="col-md-3 grid-margin"> 
 							<div class="card d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
@@ -430,8 +434,8 @@
                           <h5 class="sub2"> <a href="https://lgames.lga.gov.ph/">LBPLS/BPCO Quarterly Report</a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Quarterly: Due 30th day of the last month of the Quarter <br>
-                           Access: For Provincial Office Only<br><br>
+                           <h6 style="margin-left: 15px;">Quarterly: Submit every 1st week of the  ensuing month <br>
+                           Access: For Provincial FPs only<br><br>
                          </h6>
                       
 										</div>
@@ -448,12 +452,14 @@
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2">Online CapDev Market System (OCDMS)</h5>
+                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/19nSDpvfcd5px5a1n4BR-tR2wGjonH1-7"> Philippine Plan of Action for Nutrition (PPAN) Status of Nutrition Programs & Physical Accomplishments </a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">One-time report; can be edited if there are updates<br>
-                           Access: For LGU OCDMS/CapDev Focal Person; DILG personnel<br><br>
-                           Link: <a href="http://ocdms.lga.gov.ph/">   http://ocdms.lga.gov.ph/ </a> </h6>
+                           <h6 style="margin-left: 15px;">
+                           *Province/Cities/Municipalities (Semestral) <br> 
+                           Reports: Due 30th day JANUARY and JULY (semestral) <br>
+                           Access: For Provincial FPs only<br><br>
+                           </h6>
 										</div>
 									</div>
 								</div>
@@ -468,24 +474,33 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2">Devolution Transition Plan (DTP) Repository</h5>
+                          <h5> <a href="https://drive.google.com/drive/folders/1NKZ7np16-ZjC8FeuQdyPbvQyicXWJxzG">Persons with Disability Affairs Office (PDAO) Monitoring Reports</a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Access: LGU personnel, DILG personnel <br>
+                           <h6 style="margin-left: 15px;">
+                            *PDAO Functionality Assessment Form: Not later than January 30 of every year (hard & soft copies)<br><br>
+                            *Level of Functionality of PDAO per City/Municipality; Consolidated Assessment Report (Annex D) hard & soft copy not later than January 30 of every year<br><br>
+                            *Annual Accomplishment Report (HUCs and ICCs): Not later than 10th working day of the ensuing year <br><br>
+                            *Consolidated Annual Accomplishment Reports submitted not later than the 20th working day of the ensuing year <br><br>
+                           Access: For Provincial FPs only <br>
+                           
                            <br>
-                           Link: <a href=" https://dtp.dilg.gov.ph">   http://ocdms.lga.gov.ph/ </a> </h6>
+                           </h6>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+
+
           </div>
+          
         <!-- content-wrapper ends -->
 
-      
+        </div>
         <!-- partial -->
       </div>
-      <footer>
+      <footer class="footer">
           <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
           <a>Rawis, Legazpi City</a></p>
         </footer>
@@ -493,7 +508,7 @@
     </div>
     <!-- page-body-wrapper ends -->
   </div>
-
+  
   <!-- container-scroller -->
 
   <!-- plugins:js -->
