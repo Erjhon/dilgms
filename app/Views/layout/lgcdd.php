@@ -426,7 +426,7 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgcddcrs/dreps" class="link-class">Disaster Resiliency and Environmental Protection Section (DREPS)  </a>
+                    <a href="user/dreps" class="link-class">Disaster Resiliency and Environmental Protection Section (DREPS)  </a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>

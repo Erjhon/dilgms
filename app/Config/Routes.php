@@ -46,6 +46,7 @@ $routes->group("user", function($routes){
     
     $routes->get('lguadmin','UserController::lguadmin',['as' => 'user.lguadmin']);
     $routes->get('leds','UserController::leds',['as' => 'user.leds']);
+    $routes->get('dreps','UserController::dreps',['as' => 'user.dreps']);
     $routes->get('ars','UserController::ars',['as' => 'user.ars']);
 });
 

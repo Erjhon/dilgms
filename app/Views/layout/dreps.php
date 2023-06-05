@@ -389,7 +389,7 @@
             </div> 
           </div>
           <div class="lguadmin">
-          <h1>Local Economic Development Section (LEDS) </h1>
+          <h1>Disaster Resiliency and Environmental Protection Section (DREPS)  </h1>
           </div>
         </div>
 
@@ -402,12 +402,12 @@
 										<div class="ms-3">
                       <ul>
                         <li>
-                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/1LtcmLqmNRE-5q2zv25zhuMG2KMEfU5HW">LGU Energy Code/Energy Virtual One Stop Shop (EVOSS) Compliance Monitoring Report</a></h5>
+                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/1cn2dmwaKxB08cyANdHmUPFwZXNiEV-y1">Contingency Plan Monitoring Report</a></h5>
                         </li>
                         </ul>
                         
-                           <h6 style="margin-left: 15px;"> Quarterly: Due Every 1st week of the ensuing month   </h6>
-                           <h6 style="margin-left: 15px;">  Access: For Provincial FPs only</h6>
+                           <h6 style="margin-left: 15px;"> Quarterly: Due 30th day of the last month of the Quarter  </h6>
+                           <h6 style="margin-left: 15px;">  Access: For Provincial DRR OpCen Emails Only</h6>
                           
                       
 
@@ -427,11 +427,11 @@
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://docs.google.com/spreadsheets/d/1Z6anKX-FWOLknOB8LgsvM36Gd5yEik9G/edit#gid=1097009844">BPLS/BPCO Quarterly Report</a></h5>
+                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1j9Vu1UPmI2ixpxlBzOu2Gd0QFtXTAhnK">Local Climate Change Action Plan and CDRA Monitoring Report</a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;"> Quarterly: Submit every 1st week of the ensuing month<br>
-                           Access: For Provincial FPs only<br>
+                           <h6 style="margin-left: 15px;">    Quarterly: Due 30th day of the last month of the Quarter <br>
+                           Access: For Provincial DRR OpCen Emails Only<br>
                            </h6>
                       
 										</div>
@@ -448,12 +448,11 @@
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/19nSDpvfcd5px5a1n4BR-tR2wGjonH1-7">Philippine Plan of Action for Nutrition (PPAN) Status of Nutrition Programs & Physical Accomplishments</a></h5>
+                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/1UYijpoDqicJ085GKzHaaEw-5yyRfcSuC">Compliance to RA 10121</a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;"> *Province/Cities/Municipalities (Semestral)   <br>
-                           <br>           Reports: Due 30th day JANUARY and JULY (semestral) <br> 
-                           Access: For Provincial FPs only 
+                           <h6 style="margin-left: 15px;"> Quarterly Report - Due 30th Day of the Last Month of the Quarter <br>
+                           <br>           Access: For Provincial DRR OpCen Emails Only
                            </h6>
 										</div>
 									</div>
@@ -469,13 +468,11 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1NKZ7np16-ZjC8FeuQdyPbvQyicXWJxzG">Persons with Disability Affairs Office (PDAO) Monitoring Reports</a></h5>
+                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1WfXTYSybssHOYPdTcIHjIsqUrRucC0Gm">Compliance to QAS for BDRRMP</a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">*PDAO Functionality Assessment Form: Not later than January 30 of every year (hard & soft copies)   <br>
-                           *Level of Functionality of PDAO per City/Municipality; Consolidated Assessment Report (Annex D) hard & soft copy not later than January 30 of every year <br>
-                           *Consolidated Annual Accomplishment Reports submitted not later than the 20th working day of the ensuing year <br>
-                           Access: For Provincial FPs only
+                           <h6 style="margin-left: 15px;">  Quarterly Report - Due 30th Day of the Last Month of the Quarter <br>
+                           Access: For Provincial DRR OpCen Emails Only
                          
                            </h6>
 										</div>
@@ -494,13 +491,11 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1TpskvLSRBqjEaUJN62pJ7AaI8WVaJyYa ">RESPONSIBLE PARENTHOOD AND REPRODUCTIVE HEALTH (RPRH) Accomplishment Reports</a></h5>
+                          <h5 class="sub2"> <a href="https://alertandready.ph/qatportal/">Compliance to QAS for BDRRMP Portal</a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">  *HUC RPRH Report: Every 30th of January and July <br>
-                           *Provincial/City Implementation Team on RPRH law Annual Unified Work and Financial Plan: On or before January 15 of every year<br>
-                           *Consolidated Provincial RPRH Law Accomplishment Report: Every 30th of January and July <br>
-                           Access: For Provincial FPs only
+                           <h6 style="margin-left: 15px;">  Quarterly Report - Due 30th Day of the Month of the Quarter  <br>
+                           Access: For Provincial DRR OpCen Emails Only
                            </h6>
 										</div>
 									</div>
@@ -517,11 +512,11 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1DErgim5aZ9_7WVcYHNPLgOzCMW-kODrR">LOCAL REVENUE CODE / LOCAL INVESTMENTS AND INCENTIVES CODE (LRC/LIIC) </a></h5>
+                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1AUXRfvalRei-vgfU2I8y3C2yXpmjJK_m">Local Disaster Risk Reduction and Management Plan Monitoring Report</a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;"> Due 30th day of the last month of the quarter<br></h6>
-                           <h6 style="margin-left: 15px;">Upload scanned MOVs thru link: <a href="https://drive.google.com/drive/folders/1QLO6nvScb7ZLszgjwMZg6yeaODEWJcRy?usp=sharing"> </a> <br><br></h6>
+                           <h6 style="margin-left: 15px;">  Quarterly Report - Due 30th day of the last month of the Quarter <br></h6>
+                           <h6 style="margin-left: 15px;"> Access: For Provincial DRR OpCen Emails Only</h6>
                            
                             </div>
                         </div>
@@ -538,11 +533,35 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://bit.ly/3wcuYU">IMPLEMENTATION OF THE PANTAWID PAMILYANG PILIPINO PROGRAM</a></h5>
+                          <h5 class="sub2"> <a href="https://docs.google.com/spreadsheets/d/1UtYtsAABGitR_uYlhSIiyyoBck_F2BMATgoV5Q2qIr8/edit#gid=1679906141">!!!NEW!!! Report on the Actions Taken on the Recommendation of No Build Zones on the Legal Easements of the Bicol River Basin</a></h5>
                         </li>
                     </ul>
                         
-                        <h6 style="margin-left: 15px;">  Due every 15th working day of the month of the succeeding quarter 
+                        <h6 style="margin-left: 15px;">   Monthly Report - Due on July 30 and every 30th Day of the Month <br>
+                        Access: Open for concerned C/MLGOOs
+              
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://docs.google.com/spreadsheets/d/1UtYtsAABGitR_uYlhSIiyyoBck_F2BMATgoV5Q2qIr8/edit#gid=1679906141">!!!NEW!!! Report on the Barangay Youth Disaster Risk Reduction and Management Plan Formulation</a></h5>
+                        </li>
+                    </ul>
+                        
+                        <h6 style="margin-left: 15px;">   Monthly Report - Due on July 30 and every 30th Day of the Month <br>
+                        Access: Open for concerned C/MLGOOs
               
                         </h6>
                             </div>
