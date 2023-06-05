@@ -365,7 +365,7 @@
             </div>
           </div>
           
-        <div class="card1" >
+        <div class="card2" >
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
@@ -499,6 +499,98 @@
 								</div>
 							</div>
 						</div>
+
+          <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://bit.ly/3wcuYU">LGUs Compliance to RA 9344 as amended by RA 10630 </a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;">Submit the accomplished RA 9344 forms: 001 and 002 (Hard Copies); Input data thru shared Google Sheet (Database)<br><br></h6>
+                           <h6 style="margin-left: 15px;">Upload scanned MOVs thru link: <a href="https://drive.google.com/drive/folders/1QLO6nvScb7ZLszgjwMZg6yeaODEWJcRy?usp=sharing"> </a> <br><br></h6>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://bit.ly/3wcuYU">LCAT Accomplishment Report (LCAT AR)</a></h5>
+                        </li>
+                    </ul>
+                        
+                        <h6 style="margin-left: 15px;">Frequency of Submission: Every 22nd of January and July of the following Year<br>
+                        <br>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> Barangay Vaw Desk Functionality Assessment by the City/Municipal Inter-Agency Monitoring Team (C/IMT)</h5>
+                        </li>
+                    </ul>
+                        
+                        <h6 style="margin-left: 15px;">Deadline: 30/09/2023 (SUBJECT TO RESCHEDULE PENDING LATEST GUIDELINES)<br>
+                        <br>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://bit.ly/3wcuYU">Level of Functionality of LCPC</a></h5>
+                        </li>
+                    </ul>
+                        
+                        <h6 style="margin-left: 15px;">Deadline : To be submitted to Provincial IMTF on May 15, 2023<br>
+                        <br>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
           </div>
         <!-- content-wrapper ends -->
 

@@ -13802,6 +13802,22 @@ margin-bottom: -10px;
   height: 70%;
 }
 
+.card2 {
+
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(255,87,87,1) 0%, rgba(255,243,89,1) 100%);
+  background-clip: border-box;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  margin-top: -40px;
+  padding: 25px;
+  height: 30%;
+}
+
 
 
 
