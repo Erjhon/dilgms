@@ -19488,7 +19488,7 @@ input:focus {
 .monitor-icon {
   width: 30%;
   height: auto;
-  margin-top: -25%;
+  margin-top: -100px;
   margin-left: 60%;
 }
 .report {

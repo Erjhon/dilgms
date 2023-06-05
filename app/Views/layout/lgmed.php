@@ -388,7 +388,7 @@
             </div> 
           </div>
           <h2 class="h2home">LGMES Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
-          <img class="monitor-icon" src="images/monitor-icon.png" alt="people">
+          <img class="monitor-icon" src="images/monitoring.png" alt="people">
         </div>
 
           <div class="row">
