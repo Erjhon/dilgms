@@ -322,8 +322,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDD</a></li>
-                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMED</a></li>          
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">Local Government Capability Development Division</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">Local Government Monitoring and Evaluation Division</a></li>          
               </ul>
             </div>
           </li>
@@ -365,7 +365,7 @@
             </div>
           </div>
           
-        <div class="card1" >
+        <div class="card2" >
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
@@ -388,46 +388,95 @@
               <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
             </div> 
           </div>
-          <h2 class="h2home">LGCDs Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
-          <img class="report" src="images/report.png" alt="people">
+          <div class="lguadmin">
+          <h1>Local Planning and Project Development Assistance Section (LPPDAS)   </h1>
+          </div>
         </div>
 
           <div class="row">
+
+                <div class="col-md-3 grid-margin">
+					<div class="card d-flex align-items-center">
+				    	<div class="card-body">
+							<div class="d-flex flex-row align-items-center">
+								<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
+								<div class="ms-3">
+                                 <ul>
+                                      <li>
+                                        <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1coo6v4pCmB_ABORk-0R52f5-9gxYUkqk">Comprehensive Development Plan Monitoring Report</a></h5>
+                                     </li>
+                                </ul>
+                                        <h6 style="margin-left: 15px;">    Quarterly Report - Due 30th day of the last month of the Quarter <br>
+                                          Access: For Provincial Office Only<br>
+                                         Note: RFP will automatically close the sheet for editing at exactly 12mn on due date.
+                           </h6>
+                      
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
             <div class="col-md-3 grid-margin">
 							<div class="card d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="user/lguadmin">LGU Administration and Governance Capacity Building Section (LAGCBS) </a>
+                      <ul>
+                        <li>
+                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/1CyEpfgOBP_p2yVQ9EdTbdhxLWxRI-M-L">Comprehensive Land Use Plan Monitoring Report</a></h5>
+                        </li>
+                        </ul>
+                        
+                           <h6 style="margin-left: 15px;"> Quarterly Report - Due 30th day of the last month of the Quarter <br> Access: For Provincial Office Only </h6>
+                           <h6 style="margin-left: 15px;">  Access: For Provincial Office Only <br> Note: RFP will automatically close the sheet for editing at exactly 12mn on due date.</h6>
+                          
+                      
+
 											<!--<a class="">Awards and Recognition Section </a>-->
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
-										</div>
+                    </div>
 									</div>
 								</div>
 							</div>
 						</div>
+            
 						<div class="col-md-3 grid-margin">
 							<div class="card d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="user/leds" class="link-class">Local Economic Development Section (LEDS) </a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://docs.google.com/spreadsheets/d/1JeEsPkFvObPb7uOXYWRYlbxj1iarob6j/edit#gid=517259039">GAD Database 2023</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;">   One time Report if LGU is compliant<br>
+                           Access: For Provincial Office Only<br>
+                           </h6>
+                      
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+
 						<div class="col-md-3 grid-margin">
 							<div class="card d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="user/dreps" class="link-class">Disaster Resiliency and Environmental Protection Section (DREPS)  </a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+                    <ul>
+                        <li>
+                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/1uTLXUVmMGojkUZ-EafwvZ8mxjC8uEpL_">GAD Evaluation Report</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;"> One time submission Due on June 30, 2022<br>
+                           <br>          Access: For Provincial Office Only <br> Note: Kindly inform PLGUs to submit a hard copy to DILG Regional Office 5
+                           </h6>
 										</div>
 									</div>
 								</div>
@@ -438,21 +487,188 @@
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
-                    <a href="user/lppdas" class="link-class">Local Planning and Project Development Assistance Section (LPPDAS)   </a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+										<div class="ms-3" style="margin-top: -65px;">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1Dg9hczmq_GSXDeVUC-RTADX0Bv-NTbZv">CHR-DILG JMC 2020-01 M&E Tool Report</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;">  *Semestral Report: January 30 &  July 30 of each fiscal year<br>
+                           Access: For Provincial Office Only <br>
+                           Submission:    <br> <a href="chr5_legazpi@yahoo.com"> chr5_legazpi@yahoo.com <a><br>   cc: <a href="chr5_legazpi@yahoo.com">dilgr5lgcdd@gmail.com <a>
+                         
+                           </h6>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+         
+
+          <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3" style="margin-top: -65px;">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://www.appsheet.com/Account/Login?FullScope=False&SpecificDomain=&externalFailure=&appName=LGU%20COVID-19%20Monitoring%20System&partner=&returnUrl=https%3A%2F%2Fwww.appsheet.com%2Fstart%2Fa3514b00-42c1-4534-8761-11844b4569fa%3Ffbclid%3DIwAR0LXCXuLAO_Pm7dgs5zhyF9LhuLAR82o2bZMOkWNVlXD1BczNz2fjWZk28&provider=google">VaxCertPH Compliance Report</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;">    One-time report if LGU is compliant <br>
+                           Access: LGU Personnel, Field Officers and PFP<br> Link:  <br>
+                           <a href="https://tinyurl.com/VaxCertLGUCompliance"> tinyurl.com/VaxCertLGUCompliance </a>
+                           </h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+          <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3" style="margin-top: -65px;">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://docs.google.com/spreadsheets/d/1ThT6bxZo4FwAxsJAEjxIvfsnibMg10BAD2bf3etSCnk/edit?usp=sharing">VaxCertPH Booths and Provision of Equipment Monitoring Report</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;">  One-time report if LGU is compliant <br></h6>
+                           <h6 style="margin-left: 15px;">  Access: LGU personnel, field officers, Provincial FPs</h6>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3" style="margin-top: -65px;">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://drive.google.com/drive/u/0/folders/1WqwsXA7u9OjfqXECVhvdZXlUmSGDq2HC">Submission of Scanned Approved ELA FY 2022-2024 and Update Status of Formulation</a></h5>
+                        </li>
+                    </ul>
+                        
+                        <h6 style="margin-left: 15px;">      Due Date: October 30, 2022
+             
+              
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3" style="margin-top: -65px;">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1K2Fjo1BtHd-HV034yg7mt5YxIxGLlg6P">Submission of the Enhanced Barangay Development Plan (eBDP)</a></h5>
+                        </li>
+                    </ul>
+                        
+                        <h6 style="margin-left: 15px;"> Access: Provincial FPs, Field Officers
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3" style="margin-top: -65px;">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://docs.google.com/spreadsheets/d/1jxgKNLtMAAkmlIHUQ-zsB-qSlcueRff3j0XEmHDCswE/edit#gid=1459138647">Barangay Development Plan Inventory</a></h5>
+                        </li>
+                    </ul>
+                        
+                        <h6 style="margin-left: 15px;">  Access: For Provincial Office Only<br>
+                        
+              
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3" style="margin-top: -65px;">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1KgNNCoGfvbh-K5JmqGdwLSV04qGC39hU">Enhanced Barangay Development Plan Formulation References & Annexes</a></h5>
+                        </li>
+                    </ul>
+                        
+                        <h6 style="margin-left: 15px;">  Access: LGU Personnel, Field Officers, Provincial FPs<br>
+                        
+              
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3" style="margin-top: -65px;">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1i_yUxzG9rVdWWK8e67oJdLU4yHpgOver">Materials and References</a></h5>
+                        </li>
+                    </ul>
+                        
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
           </div>
         <!-- content-wrapper ends -->
 
       
         <!-- partial -->
       </div>
-        <footer class="footer">
+      <footer class="footer">
           <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
           <a>Rawis, Legazpi City</a></p>
         </footer>

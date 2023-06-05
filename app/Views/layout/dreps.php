@@ -556,12 +556,36 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://docs.google.com/spreadsheets/d/1UtYtsAABGitR_uYlhSIiyyoBck_F2BMATgoV5Q2qIr8/edit#gid=1679906141">!!!NEW!!! Report on the Barangay Youth Disaster Risk Reduction and Management Plan Formulation</a></h5>
+                          <h5 class="sub2"> <a href="https://docs.google.com/spreadsheets/d/1q3haaR3FRK38HzR_DrlWnGcOGpkvUWVGrcqGakjmEec/edit#gid=0">!!!NEW!!! Report on the Barangay Youth Disaster Risk Reduction and Management Plan Formulation</a></h5>
                         </li>
                     </ul>
                         
-                        <h6 style="margin-left: 15px;">   Monthly Report - Due on July 30 and every 30th Day of the Month <br>
-                        Access: Open for concerned C/MLGOOs
+                        <h6 style="margin-left: 15px;">   Quarterly Report - Due 30th Day of the Last Month of the Quarter  <br>
+                        Access: For Provincial DRR OpCen Emails Only
+              
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1Cvpa7rOjEnl3r8TN-TxzZgsqfmdLOBWA">!!!NEW!!! Ecological Solid Waste  Management Board Functionality and SWM Plan Monitoring Report</a></h5>
+                        </li>
+                    </ul>
+                        
+                        <h6 style="margin-left: 15px;">  Quarterly Report - Due 30th day of the last month of the Quarter  <br>
+                        Access: For Provincial DRR OpCen Emails Only
               
                         </h6>
                             </div>

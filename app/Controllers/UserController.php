@@ -43,7 +43,7 @@ class UserController extends BaseController
     }
     public function lguadmin()
     {
-        $data['pageTitle'] = 'Lguadmin';
+        $data['pageTitle'] = 'LAGCBS';
         return view('dashboard/lguadmin', $data);
     }
 
@@ -70,17 +70,22 @@ class UserController extends BaseController
     }
     public function leds()
     {
-        $data['pageTitle'] = 'leds';
+        $data['pageTitle'] = 'LEDS';
         return view('dashboard/leds', $data);
     }
     public function dreps()
     {
-        $data['pageTitle'] = 'dreps';
+        $data['pageTitle'] = 'DREPS';
         return view('dashboard/dreps', $data);
+    }
+    public function lppdas()
+    {
+        $data['pageTitle'] = 'LPPDAS';
+        return view('dashboard/lppdas', $data);
     }
     public function ars()
     {
-        $data['pageTitle'] = 'ars';
+        $data['pageTitle'] = 'ARS';
         return view('dashboard/ars', $data);
     }
     
