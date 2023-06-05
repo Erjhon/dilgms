@@ -391,17 +391,20 @@
             </div> 
           </div>
 
-          <div class="lguadmin">
-          <h1>Local Economic Development Section (LEDS) </h1>
-          </div>
-        </div>
+<!-- LEDS CAPTION -->
 
-        
-          <div class="row">
-            <div class="col-md-3 grid-margin"> 
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
+        <div class="lguadmin">
+             <h1>Local Economic Development Section (LEDS) </h1>
+        </div>
+        </div>
+     
+        <div class="row">
+            <div class="col-md-4 grid-margin"> 
+							<div class="">
+								<div class="">
+									<div class=""> 
+
+
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
 										<div class="ms-3">
                       <ul>
@@ -410,25 +413,25 @@
                         </li>
                         </ul>
                         
-                           <h6 style="margin-left: 15px;">Quarterly: Due Every 1st week of the ensuing month </h6>
-                           <h6 style="margin-left: 15px;"> Access: For Provincial FPs only</h6>
+                           <h6 style="margin-left: 15px;">Quarterly: Due Every 1st week of the ensuing month <br>
+                           Access: For Provincial FPs only</h6> 
         
                       
 
 											<!--<a class="">Awards and Recognition Section </a>-->
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
-                    </div>
+                   </div>
 									</div>
 								</div>
 							</div>
 						</div>
             
-						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
+						<div class="col-md-4 grid-margin">
+							<div class="">
+								<div class="">
+									<div class=""> 
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
-										<div class="ms-3">
+										<div class="ms-3" style="margin-left: 20px;">
                     <ul>
                         <li>
                           <h5 class="sub2"> <a href="https://lgames.lga.gov.ph/">LBPLS/BPCO Quarterly Report</a></h5>
@@ -444,10 +447,10 @@
 							</div>
 						</div>
 
-						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
+						<div class="col-md-4 grid-margin">
+							<div class="">
+								<div class="">
+									<div class=""> 
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
                     <ul>
@@ -465,12 +468,12 @@
 								</div>
 							</div>
 						</div>
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="">
+								<div class="">
+									<div class=""> 
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+										<div class="ms-3" style="margin-top: -65px;">
 
                     <ul>
                         <li>
@@ -484,7 +487,68 @@
                             *Consolidated Annual Accomplishment Reports submitted not later than the 20th working day of the ensuing year <br><br>
                            Access: For Provincial FPs only <br>
                            
-                           <br>
+                       
+                           </h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <div class="col-md-4 grid-margin">
+							<div class="">
+								<div class="">
+									<div class=""> 
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3"style="margin-top: -65px;">
+
+                    <ul>
+                        <li>
+                          <h5> <a href="https://drive.google.com/drive/folders/1NKZ7np16-ZjC8FeuQdyPbvQyicXWJxzG">RESPONSIBLE PARENTHOOD AND REPRODUCTIVE HEALTH (RPRH) Accomplishment Reports</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;">
+                             *HUC RPRH Report: Every 30th of January and July<br><br>
+                             *Provincial/City Implementation Team on RPRH law Annual Unified Work and Financial Plan: On or before January 15 of every year<br><br>
+                             *Consolidated Provincial RPRH Law Accomplishment Report: Every 30th of January and July <br><br>
+              Access: For Provincial FPs only <br>
+                           
+                         
+                           </h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="">
+								<div class="">
+									<div class=""> 
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3"  style="margin-top: -65px;">
+
+                    <ul>
+                        <li>
+                          <h5> <a href="https://drive.google.com/drive/folders/1NKZ7np16-ZjC8FeuQdyPbvQyicXWJxzG">LOCAL REVENUE CODE / LOCAL INVESTMENTS AND INCENTIVES CODE (LRC/LIIC)</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;">
+                           Due 30th day of the last month of the quarter
+                           
+                           <div class="ms-3">
+
+<ul>
+    <li>
+      <h5> <a href="https://drive.google.com/drive/folders/1NKZ7np16-ZjC8FeuQdyPbvQyicXWJxzG">IMPLEMENTATION OF THE PANTAWID PAMILYANG PILIPINO PROGRAM</a></h5>
+    </li>
+</ul>
+       <h6 style="margin-left: 15px;">
+       Due every 15th working day of the month of the succeeding quarter 
+       
+       <br>
+       </h6>
+</div>
                            </h6>
 										</div>
 									</div>
@@ -493,14 +557,15 @@
 						</div>
 
 
-          </div>
+
+          </div> 
           
         <!-- content-wrapper ends -->
 
         </div>
         <!-- partial -->
       </div>
-      <footer class="footer">
+   <footer class="footer">
           <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
           <a>Rawis, Legazpi City</a></p>
         </footer>
@@ -508,7 +573,7 @@
     </div>
     <!-- page-body-wrapper ends -->
   </div>
-  
+    </div>
   <!-- container-scroller -->
 
   <!-- plugins:js -->

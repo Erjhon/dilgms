@@ -13787,7 +13787,6 @@ input[type="button"].btn-block {
 margin-bottom: -10px; 
 }
 .card1 {
-
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
@@ -30687,4 +30686,7 @@ h5.sub2 {
   color: green;
 }
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
+
+/* Create four equal columns that floats next to each other */
+
 
