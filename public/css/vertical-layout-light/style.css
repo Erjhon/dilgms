@@ -19752,7 +19752,7 @@ code {
 /* Footer */
 .footer {
   background: #F5F7FF;
-  padding: 30px 2.45rem;
+  padding: 20px 2.45rem;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -19760,7 +19760,7 @@ code {
   font-size: calc(0.875rem - 0.05rem);
   font-family: "Nunito", sans-serif;
   font-weight: 400;
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: 3px solid rgba(0, 0, 0, 0.06);
 }
 
 .footer a {
@@ -30659,8 +30659,8 @@ footer {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  border: 1px solid #e3e3e3;
-  border-radius: 20px;
+  /* border: 1px solid #e3e3e3; */
+  /* border-radius: 20px; */
 }
 div.lguadmin {
     text-align: center;

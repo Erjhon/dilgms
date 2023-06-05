@@ -73,6 +73,11 @@ class UserController extends BaseController
         $data['pageTitle'] = 'leds';
         return view('dashboard/leds', $data);
     }
+    public function ars()
+    {
+        $data['pageTitle'] = 'ars';
+        return view('dashboard/ars', $data);
+    }
     
     // public function __construct()
     // {

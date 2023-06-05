@@ -297,6 +297,7 @@
           <!-- chat tab ends -->
         </div>
       </div>
+
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
@@ -335,8 +336,8 @@
         </ul>
       </nav>
 
-      <!-- partial -->
-      <div class="main-panel">
+     <!-- partial -->
+     <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
             <div class="col-md-12 grid-margin">
@@ -387,65 +388,132 @@
               <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
             </div> 
           </div>
-          <h2 class="h2home">LGMES Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
-          <img class="monitor-icon" src="images/monitor-icon.png" alt="people">
+          <div class="lguadmin">
+          <h1>Awards and Recognition Section (ARS) </h1>
+          </div>
         </div>
 
           <div class="row">
-            <div class="col-md-4 grid-margin">
+            <div class="col-md-3 grid-margin">
 							<div class="card d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="user/ars" class="link-class">Awards and Recognition Section</a>
+                      <ul>
+                        <li>
+                          <h5 class="sub2"><a href="https://fdpp.dilg.gov.ph/">Full Disclosure Policy</a></h5>
+                        </li>
+                        </ul>
+                        
+                           <h6 style="margin-left: 15px;">Deadline: 1st Quarter March 15, 2nd Quarter June 15, 3rd Quarter Sept 15, 4th Quarter Dec 15  </h6>
+                           <h6 style="margin-left: 15px;">Frequency of Submission : Quarterly</h6>
+                          
+                      
+
 											<!--<a class="">Awards and Recognition Section </a>-->
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
-										</div>
+                    </div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 grid-margin">
+            
+						<div class="col-md-3 grid-margin">
 							<div class="card d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/lgpbas" class="link-class">Local Government Policy and Barangay Affairs Section (LGPBAS)</a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://bit.ly/FDP-implementation-r5">CY 2023 FDP Implementation</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;"> Uploading of requests for rectification to FDP portal and updates <br><br>
+                           </h6>
+                      
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 grid-margin">
+
+						<div class="col-md-3 grid-margin">
 							<div class="card d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/poarcs" class="link-class">Peace and Order and Related Concerns Section (POARCS)</a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+                    <ul>
+                        <li>
+                          <h5 class="sub2"><a href="https://bit.ly/2022cflga-DCF">CY 2022 CFLGA Assessment</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;">Uploading of MOVs for the CY 2022 CFLGA Assessment (2021-year assessed) <br>
+                           </h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+            <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://bit.ly/CY2023SGLGactionPlan">CY 2023 SGLG Action Plans of Field Officers</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;">Uploading of Action Plans of  Field Officers for CY 2023 SGLG Implementation  <br>
+                           <br>
+                           </h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+         
+
+          <div class="col-md-3 grid-margin">
+							<div class="card d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://bit.ly/VacVaw ">Incidence of VAW and VAC at the Community Level during the COVID-19 Pandemic</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;">Frequency of Submission : 1st Quarter-April 10, 2nd Quarter-July 10, 3rd Quarter-October 10, 4th Quarter-January 10 <br>
+                           <br>
+                           </h6>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
           </div>
-        <!-- <div class="content-wrapper">
-          <div class="row">
-       -->
-
         <!-- content-wrapper ends -->
 
       
         <!-- partial -->
       </div>
+      <footer class="footer">
+          <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
+          <a>Rawis, Legazpi City</a></p>
+        </footer>
       <!-- main-panel ends -->
     </div>
     <!-- page-body-wrapper ends -->
   </div>
+
   <!-- container-scroller -->
 
   <!-- plugins:js -->
