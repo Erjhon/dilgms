@@ -6,7 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG System'; ?></title>
+  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG Monitoring System'; ?></title>
   <!-- Base url -->
   <base href="<?=base_url()?>public/">
   <!-- plugins:css -->
@@ -342,7 +342,7 @@
       </nav>
 
       <!-- partial -->
-      <div class="main-panel">
+    <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
             <div class="col-md-12 grid-margin">
@@ -377,7 +377,7 @@
                 <div class="ml-2">
                         <h4 class="location font-weight-normal"><b>Memorandum</b></h4>
                         <h6 class="font-weight-normal">Notice!</h6>
-                      </div>
+                      </div> 
                 <?php 
 $counter = 0;
 foreach ($files as $file) : 

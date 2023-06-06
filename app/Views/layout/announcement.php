@@ -6,7 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG System'; ?></title>
+  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG Monitoring System'; ?></title>
   <!-- Base url -->
   <base href="<?=base_url()?>public/">
   <!-- plugins:css -->
@@ -327,8 +327,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link text-dark" href="user/lgcdd">Local Government Capability Development Division</a></li>
-                <li class="nav-item"> <a class="nav-link text-dark" href="user/lgmed">Local Government Monitoring and Evaluation Division</a></li>          
+                <li class="nav-item"> <a class="nav-link text-dark" href="user/lgcdd">LGCDD</a></li>
+                <li class="nav-item"> <a class="nav-link text-dark" href="user/lgmed">LGMED</a></li>          
               </ul>
             </div>
           </li>
