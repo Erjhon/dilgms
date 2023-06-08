@@ -30672,3 +30672,34 @@ h5.sub2 {
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
 
 /* Create four equal columns that floats next to each other */
+.announcement-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; 
+}
+
+#announcement-text {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+#announcement-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#announcement-btn:hover {
+  background-color: #45a049;
+}

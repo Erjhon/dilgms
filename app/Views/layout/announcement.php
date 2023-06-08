@@ -360,14 +360,16 @@
                   <p class="card-description">
                    
                   </p>
-                  <form action="<?= site_url('file-submit') ?>" method="post" enctype="multipart/form-data" class="forms-sample">
-                    <div class="form-group">
+               
 
                     <div class="announcement-container">
                      <form action="<?php echo base_url('announcement/submit'); ?>" method="post">
                          <textarea name="announcement" id="announcement-text" placeholder="Enter your announcement here..."></textarea>
+                       
                     </form>
                     </div>
+                    <form action="<?= site_url('file-submit') ?>" method="post" enctype="multipart/form-data" class="forms-sample">
+                    <div class="form-group">
                       <label>File upload</label>
                       <input type="file" name="img[]" class="file-upload-default">
                       <div class="input-group col-xs-12">
