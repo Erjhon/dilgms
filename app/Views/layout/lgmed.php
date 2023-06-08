@@ -314,6 +314,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="user/announcement/">
+              <i class="icon-paper menu-icon"></i>
+              <span class="menu-title">Announcement</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">Reports for Submission</span>
@@ -321,8 +327,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">Local Government Capability Development Division</a></li>
-                <li class="nav-item"> <a class="nav-link" href="user/lgmed">Local Government Monitoring and Evaluation Division</a></li>          
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDD</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMED</a></li>          
               </ul>
             </div>
           </li>
