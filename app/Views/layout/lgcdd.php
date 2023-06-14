@@ -403,11 +403,11 @@
 
           <div class="row">
             <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="cardd d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
-										<div class="ms-3">
+										<div class="sub-text">
                     <a href="user/lguadmin">LGU Administration and Governance Capacity Building Section (LAGCBS) </a>
 											<!--<a class="">Awards and Recognition Section </a>-->
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
@@ -417,11 +417,11 @@
 							</div>
 						</div>
 						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="cardd d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
-										<div class="ms-3">
+										<div class="sub-text">
                     <a href="user/leds" class="link-class">Local Economic Development Section (LEDS) </a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
@@ -430,11 +430,11 @@
 							</div>
 						</div>
 						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="cardd d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+										<div class="sub-text">
                     <a href="user/dreps" class="link-class">Disaster Resiliency and Environmental Protection Section (DREPS)  </a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
@@ -443,11 +443,11 @@
 							</div>
 						</div>
             <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="cardd d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+										<div class="sub-text">
                     <a href="user/lppdas" class="link-class">Local Planning and Project Development Assistance Section (LPPDAS)   </a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>

@@ -514,7 +514,7 @@
                     </ul>
                            <h6 class="subsub-text">Submit the accomplished RA 9344 forms: 001 and 002 (Hard Copies); Input data thru shared Google Sheet (Database)<br><br>
                            Link: <a href="https://bit.ly/3wcuYU">https://bit.ly/3wcuYU</a><br></h6>
-                           <h6 class="subsub-text">Upload scanned MOVs thru link: <br> <a href="https://drive.google.com/drive/folders/1QLO6nvScb7ZLszgjwMZg6yeaODEWJcRy?usp=sharing">https://drive.google.com/drive/folders/1QLO6nvScb7ZLszgjwMZg6yeaODEWJcRy?usp=sharing</a><br><br></h6>
+                           <h6 class="subsub-text">Upload scanned MOVs thru link: <br> <a href="https://drive.google.com/drive/folders/1QLO6nvScb7ZLszgjwMZg6yeaODEWJcRy?usp=sharing">https://drive.google.com/drive/<br>folders/1QLO6nvScb7Z<br>LszgjwMZg6yeaODEWJcRy?usp=sharing</a><br><br></h6>
                             </div>
                         </div>
                     </div>
@@ -534,7 +534,7 @@
                         </li>
                     </ul>
                         <h6 class="subsub-text">Frequency of Submission: Every 22nd of January and July of the following Year<br><br>
-                           Link: <a href="https://docs.google.com/spreadsheets/d/1bQTcABSLiJVLQKKKjF-Ew_lVoCUaBKuCB2n5O8IpzWk/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1bQTcABSLiJVLQKKKjF-Ew_lVoCUaBKuCB2n5O8IpzWk/edit?usp=sharing</a><br></h6>
+                           Link: <a href="https://docs.google.com/spreadsheets/d/1bQTcABSLiJVLQKKKjF-Ew_lVoCUaBKuCB2n5O8IpzWk/edit?usp=sharing">https://docs.google.com/<br>spreadsheets/d/1bQTcABSLi<br>JVLQKKKjF-Ew_lVoCUaBKuCB2n5O8I<br>pzWk/edit?usp=sharing</a><br></h6>
                             </div>
                         </div>
                     </div>

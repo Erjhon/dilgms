@@ -365,7 +365,7 @@
             </div>
           </div>
           
-        <div class="card1" >
+        <div class="card2" >
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
@@ -389,13 +389,13 @@
             </div> 
           </div>
           <div class="lguadmin">
-          <h1>LGU Administration and Governance Capacity Building Section (LAGCBS)</h1>
+          <h2>LGU Administration and Governance Capacity Building Section (LAGCBS)</h2>
           </div>
         </div>
 
           <div class="row">
             <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
@@ -405,14 +405,8 @@
                           <h5 class="sub2"><a href="https://drive.google.com/drive/folders/1zNsCNJcQSYEbezEu5jyzUMJ4GWiILv73">Program for Newly-Elected Officials (NEO) Consolidated Report </a></h5>
                         </li>
                         </ul>
-                        
-                           <h6 style="margin-left: 15px;"><b>Quarterly:</b> Due 28th day of the last month of the Quarter  </h6>
-                           <h6 style="margin-left: 15px;"> <b>Access: </b>For C/MLGOOs</h6>
-                          
-                      
-
-											<!--<a class="">Awards and Recognition Section </a>-->
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+                           <h6 class="subsub-text"><b>Quarterly: </b>Due 28th day of the last month of the Quarter<br><br>
+                           <b>Access:</b> For C/MLGOOs<br><br></h6>
                     </div>
 									</div>
 								</div>
