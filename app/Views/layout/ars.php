@@ -389,7 +389,7 @@
             </div> 
           </div>
           <div class="lguadmin">
-          <h1>Awards and Recognition Section (ARS) </h1>
+          <h2>Awards and Recognition Section (ARS) </h2>
           </div>
         </div>
 
@@ -402,11 +402,11 @@
 										<div class="ms-3">
                       <ul>
                         <li>
-                          <h5 class="sub2">Full Disclosure Policy</h4>
+                          <h5 class="sub2">Full Disclosure Policy</h5>
                         </li>
                       </ul>
                            <h6 class="subsub-text">Deadline: 1st Quarter March 15, 2nd Quarter June 15, 3rd Quarter Sept 15, 4th Quarter Dec 15  <br>
-                           Frequency of Submission : Quarterly<br>
+                           Frequency of Submission : Quarterly<br><br>
                            Link: <a href="https://fdpp.dilg.gov.ph/">https://fdpp.dilg.gov.ph/</a></h6>
                           
                       
@@ -427,11 +427,11 @@
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://bit.ly/FDP-implementation-r5">CY 2023 FDP Implementation</a></h5>
+                          <h5 class="sub2">CY 2023 FDP Implementation</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px; "> Uploading of requests for rectification to FDP portal and updates <br><br>
-                           </h6>
+                           <h6 class="subsub-text">Uploading of requests for rectification to FDP portal and updates<br><br>
+                           Link: <a href="https://bit.ly/FDP-implementation-r5">https://bit.ly/FDP-implementation-r5</a></h6>
                       
 										</div>
 									</div>
@@ -447,11 +447,11 @@
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2"><a href="https://bit.ly/2022cflga-DCF">CY 2022 CFLGA Assessment</a></h5>
+                          <h5 class="sub2">CY 2022 CFLGA Assessment</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Uploading of MOVs for the CY 2022 CFLGA Assessment (2021-year assessed) <br>
-                           </h6>
+                           <h6 class="subsub-text">Uploading of MOVs for the CY 2022 CFLGA Assessment (2021-year assessed)<br><br>
+                           Link: <a href="https://bit.ly/2022cflga-DCF">https://bit.ly/2022cflga-DCF</a></h6>
 										</div>
 									</div>
 								</div>
@@ -466,12 +466,13 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://bit.ly/CY2023SGLGactionPlan">CY 2023 SGLG Action Plans of Field Officers</a></h5>
+                          <h5 class="sub2">CY 2023 SGLG</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Uploading of Action Plans of  Field Officers for CY 2023 SGLG Implementation  <br>
-                           <br>
-                           </h6>
+                           <h6 class="subsub-text">Uploading of Action Plans of  Field Officers for CY 2023 SGLG Implementation<br><br>
+                           Link: <a href="https://bit.ly/CY2023SGLGactionPlan">https://bit.ly/CY2023SGLGactionPlan</a><br>
+                           <a href="https://bit.ly/2023SGLG-Materials">https://bit.ly/2023SGLG-Materials</a></br>
+                           <a href="https://bit.ly/SGLG2023_NGAData">https://bit.ly/SGLG2023_NGAData</a></h6>
 										</div>
 									</div>
 								</div>
@@ -488,12 +489,11 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://bit.ly/VacVaw ">Incidence of VAW and VAC at the Community Level during the COVID-19 Pandemic</a></h5>
+                          <h5 class="sub2">Incidence of VAW and VAC at the Community Level during the COVID-19 Pandemic</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Frequency of Submission : 1st Quarter-April 10, 2nd Quarter-July 10, 3rd Quarter-October 10, 4th Quarter-January 10 <br>
-                           <br>
-                           </h6>
+                           <h6 class="subsub-text">Frequency of Submission : 1st Quarter-April 10, 2nd Quarter-July 10, 3rd Quarter-October 10, 4th Quarter-January 10<br><br>
+                           Link: <a href="https://bit.ly/VacVaw">https://bit.ly/VacVaw</a><br></h6>
 										</div>
 									</div>
 								</div>
@@ -509,12 +509,12 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://bit.ly/3wcuYU">LGUs Compliance to RA 9344 as amended by RA 10630 </a></h5>
+                          <h5 class="sub2">LGUs Compliance to RA 9344 as amended by RA 10630</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Submit the accomplished RA 9344 forms: 001 and 002 (Hard Copies); Input data thru shared Google Sheet (Database)<br><br></h6>
-                           <h6 style="margin-left: 15px;">Upload scanned MOVs thru link: <a href="https://drive.google.com/drive/folders/1QLO6nvScb7ZLszgjwMZg6yeaODEWJcRy?usp=sharing"> </a> <br><br></h6>
-                           
+                           <h6 class="subsub-text">Submit the accomplished RA 9344 forms: 001 and 002 (Hard Copies); Input data thru shared Google Sheet (Database)<br><br>
+                           Link: <a href="https://bit.ly/3wcuYU">https://bit.ly/3wcuYU</a><br></h6>
+                           <h6 class="subsub-text">Upload scanned MOVs thru link: <br> <a href="https://drive.google.com/drive/folders/1QLO6nvScb7ZLszgjwMZg6yeaODEWJcRy?usp=sharing">https://drive.google.com/drive/folders/1QLO6nvScb7ZLszgjwMZg6yeaODEWJcRy?usp=sharing</a><br><br></h6>
                             </div>
                         </div>
                     </div>
@@ -530,12 +530,30 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://bit.ly/3wcuYU">LCAT Accomplishment Report (LCAT AR)</a></h5>
+                          <h5 class="sub2">LCAT Accomplishment Report (LCAT AR)</h5>
                         </li>
                     </ul>
-                        
-                        <h6 style="margin-left: 15px;">Frequency of Submission: Every 22nd of January and July of the following Year<br>
-                        <br>
+                        <h6 class="subsub-text">Frequency of Submission: Every 22nd of January and July of the following Year<br><br>
+                           <!-- Link: <a href="https://docs.google.com/spreadsheets/d/1bQTcABSLiJVLQKKKjF-Ew_lVoCUaBKuCB2n5O8IpzWk/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1bQTcABSLiJVLQKKKjF-Ew_lVoCUaBKuCB2n5O8IpzWk/edit?usp=sharing</a><br></h6> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">Barangay Vaw Desk Functionality Assessment by the City/Municipal Inter-Agency Monitoring Team (C/IMT)</h5>
+                        </li>
+                    </ul>
+                        <h6 class="subsub-text">Deadline: 30/09/2023 (SUBJECT TO RESCHEDULE PENDING LATEST GUIDELINES)<br><br>
                         </h6>
                             </div>
                         </div>
@@ -552,12 +570,14 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> Barangay Vaw Desk Functionality Assessment by the City/Municipal Inter-Agency Monitoring Team (C/IMT)</h5>
+                          <h5 class="sub2">Level of Functionality of LCPC</h5>
                         </li>
                     </ul>
-                        
-                        <h6 style="margin-left: 15px;">Deadline: 30/09/2023 (SUBJECT TO RESCHEDULE PENDING LATEST GUIDELINES)<br>
-                        <br>
+                        <h6 class="subsub-text">Deadline : To be submitted to Provincial IMTF on May 15, 2023<br><br>
+                        For submission of MOVs <br><br>
+                        Link: <a href="https://bit.ly/VacVaw">https://bit.ly/VacVaw</a><br><br>
+                        Link for LCPC Templates and other resource materials: <br><br>
+                        Link: <a href="https://tinyurl.com/LCPC-Policy">https://tinyurl.com/LCPC-Policy</a><br>
                         </h6>
                             </div>
                         </div>
@@ -565,7 +585,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 grid-margin">
+            <div class="col-md-6 grid-margin">
 							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
@@ -574,18 +594,45 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://bit.ly/3wcuYU">Level of Functionality of LCPC</a></h5>
+                          <h5 class="sub2">Lupong Tagapamayapa Incentives Awards Information System (LTIA-IS)</h5>
                         </li>
                     </ul>
-                        
-                        <h6 style="margin-left: 15px;">Deadline : To be submitted to Provincial IMTF on May 15, 2023<br>
-                        <br>
+                        <h6 class="subsub-text">Deadline: Awaiting for final Guidelines for 2023 implementation<br><br>
+                        For submission of MOVs <br><br>
+                        Link: <a href="https://ltia.dilg.gov.ph/ ">https://ltia.dilg.gov.ph/ </a><br><br>
+                        Enhance Guidelines in CY 2023 LTIA Implementation<br>Technical Notes<br>LTIA Forms<br>Submission of Assessment forms and MOVs for CY 2023 LTIA assessesment  <br><br>
+                        Link: <a href="https://bit.ly/2023LTIA-implementation">https://bit.ly/2023LTIA-implementation</a><br>
                         </h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-6 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">Local Committee on Anti-Trafficking and Violence Against Women and their Children (LCAT-VAWC)</h5>
+                        </li>
+                    </ul>
+                        <h6 class="subsub-text">Deadline : LCAT-VAWC FORM 3 to be submitted to the Regional Inter-Agency Monitoring Team (RIMT) not later than May 15, 2023<br><br>
+                        For submission of MOVs <br><br>
+                        Link: <a href="bit.ly/LCAT-VAWC_ASSESSMENT">bit.ly/LCAT-VAWC_ASSESSMENT</a><br><br>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+      
 
 
 

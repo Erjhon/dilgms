@@ -13785,7 +13785,6 @@ input[type="button"].btn-block {
   border: 1px solid #e3e3e3;
   border-radius: 20px;
   margin-bottom: -10px; 
-  height: 15vh;
 }
 
 .sub-text a{
@@ -13794,6 +13793,7 @@ input[type="button"].btn-block {
   align-items: center;
   text-align: center;
   justify-content: center;
+  font-family: Arial;
 
 }
 .card1 {
@@ -13811,6 +13811,20 @@ input[type="button"].btn-block {
   height: 70%;
 }
 
+.cardd {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  /* border: 1px solid #e3e3e3; */
+  border-radius: 20px;
+  margin-bottom: -10px; 
+  height: 15vh;
+}
+
 .card2 {
   flex-direction: column;
   min-width: 0;
@@ -13823,7 +13837,7 @@ input[type="button"].btn-block {
   margin-bottom: 19px;
   margin-top: -40px;
   padding: 25px;
-  height: 23%;
+  height: 40vh;
 }
 
 .card3 {
@@ -13837,7 +13851,7 @@ input[type="button"].btn-block {
   /* border: 1px solid #e3e3e3; */
   border-radius: 10px;
   margin-bottom: -24px; 
-  height: 39vh;
+  height: 52vh;
 }
 
 
@@ -19512,7 +19526,7 @@ input:focus {
 .monitor-icon {
   width: 30%;
   height: auto;
-  margin-top: -100px;
+  margin-top: -25%;
   margin-left: 60%;
 }
 .report {
@@ -30705,10 +30719,11 @@ footer {
 }
 div.lguadmin {
     text-align: center;
+    font-family: Arial;
 }
 h5.sub2 {
   color: green;
-  font-size: 18px;
+  font-size: 17px;
   font-family: Arial;
   font-weight: bold;
 }

@@ -394,12 +394,12 @@
             </div> 
           </div>
           <h2 class="h2home">LGMES Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
-          <img class="monitor-icon" src="images/monitoring.png" alt="people">
+          <img class="monitor-icon" src="images/monitor-icon.png" alt="people">
         </div>
 
           <div class="row">
             <div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="cardd d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
@@ -413,12 +413,12 @@
 							</div>
 						</div>
 						<div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="cardd d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
 										<div class="sub-text">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/lgpbas" class="link-class">Local Government Policy and Barangay Affairs Section (LGPBAS)</a>
+                    <a href="user/lgpbas">Local Government Policy and Barangay Affairs Section (LGPBAS)</a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
@@ -426,7 +426,7 @@
 							</div>
 						</div>
 						<div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="cardd d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->

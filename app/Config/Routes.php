@@ -49,6 +49,7 @@ $routes->group("user", function($routes){
     $routes->get('dreps','UserController::dreps',['as' => 'user.dreps']);
     $routes->get('lppdas','UserController::lppdas',['as' => 'user.lppdas']);
     $routes->get('ars','UserController::ars',['as' => 'user.ars']);
+    $routes->get('lgpbas','UserController::lgpbas',['as' => 'user.lgpbas']);
 });
 
 /*
