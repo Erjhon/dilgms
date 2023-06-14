@@ -425,7 +425,7 @@
                         </li>
                     </ul>
                            <h6 class="subsub-text">Deadline: End of March <br>Frequency of Submission: Annual<br><br>
-                           Link: <a href="intranet.dilg.gov.ph">intranet.dilg.gov.ph</a></h6>
+                           Link: <a href="https://intranet.dilg.gov.ph/user/login">intranet.dilg.gov.ph</a></h6>
                       
                             </div>
                         </div>
