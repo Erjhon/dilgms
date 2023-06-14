@@ -6,7 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG System'; ?></title>
+  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG Monitoring System'; ?></title>
   <!-- Base url -->
   <base href="<?=base_url()?>public/">
   <!-- plugins:css -->
@@ -29,8 +29,9 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="images/dilg.png" class="mr-2" alt="logo"/></a>
-        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/dilg.png" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-5" href="index.html"> <img src="images/dilg.png" style="align: center; "class="mr-2" alt="logo"/></a><a> Monitoring System<a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/dilg.png" style="align: center;" alt="logo"/> </a> 
+        
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -342,14 +343,14 @@
       </nav>
 
       <!-- partial -->
-      <div class="main-panel">
+    <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
             <div class="col-md-12 grid-margin">
               <div class="row">
                 <div class="col-12 col-xl-8 mb-4 mb-xl-0">
                   <h3 class="font-weight-bold">Welcome C/MLGOO <?php $session = session(); echo $session->get('name');?></h3>
-                  <h6 class="font-weight-normal mb-0">Here is the updated Memorandum! You have <span class="text-primary">3 unread alerts!</span></h6>
+                  <h6 class="font-weight-normal mb-0">Here is the updated Memorandum! </span></h6>
                 </div>
                 <div class="col-12 col-xl-4">
                  <div class="justify-content-end d-flex">
@@ -377,7 +378,7 @@
                 <div class="ml-2">
                         <h4 class="location font-weight-normal"><b>Memorandum</b></h4>
                         <h6 class="font-weight-normal">Notice!</h6>
-                      </div>
+                      </div> 
                 <?php 
 $counter = 0;
 foreach ($files as $file) : 
@@ -402,6 +403,7 @@ endforeach;
                   <div class="weather-info">
                     <div class="d-flex">
                       <div>
+                        
                         <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
                       </div>
                      
@@ -412,6 +414,10 @@ endforeach;
             </div>
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card tale-bg">
+              <div class="ml-2">
+                        <h4 class="location font-weight-normal"><b><br>Anouncement</b></h4>
+                        <h6 class="font-weight-normal">Notice!</h6>
+                      </div>
                 <div class="card-people mt-auto">
 
                 <?php 
@@ -451,10 +457,7 @@ function endsWith($haystack, $needle)
                       <div>
                         <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
                       </div>
-                      <div class="ml-2">
-                        <h4 class="location font-weight-normal"><b>Anouncement</b></h4>
-                        <h6 class="font-weight-normal">Notice!</h6>
-                      </div>
+                  
                     </div>
                   </div>
                 </div>

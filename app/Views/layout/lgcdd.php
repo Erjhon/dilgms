@@ -315,6 +315,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="user/announcement/">
+              <i class="icon-paper menu-icon"></i>
+              <span class="menu-title">Announcement</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">Reports for Submission</span>
@@ -322,8 +328,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDD</a></li>
-                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMED</a></li>          
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDS</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMES</a></li>          
               </ul>
             </div>
           </li>
@@ -388,9 +394,12 @@
               <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
             </div> 
           </div>
-          <h2 class="h2home">LGCDs Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
-          <img class="report" src="images/report.png" alt="people">
+          <h2 class="h2home">LGCDS Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
+          <img class="monitor-icon" src="images/report.png" alt="people">
         </div>
+          <!-- <h2 class="h2home">LGCDs Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
+          <img class="report" src="images/report.png" alt="people">
+        </div> -->
 
           <div class="row">
             <div class="col-md-3 grid-margin">
@@ -439,7 +448,7 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgcddcrs/lppdas" class="link-class">Disaster Resiliency and Environmental Protection Section (DREPS)  </a>
+                    <a href="user/lppdas" class="link-class">Local Planning and Project Development Assistance Section (LPPDAS)   </a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
@@ -454,7 +463,7 @@
       </div>
         <footer class="footer">
           <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
-          <a>Rawis, Legazpi City</a></p>
+          Rawis, Legazpi City</p>
         </footer>
       <!-- main-panel ends -->
     </div>

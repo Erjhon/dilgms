@@ -6,7 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG System'; ?></title>
+  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG Monitoring System'; ?></title>
   <!-- Base url -->
   <base href="<?=base_url()?>public/">
   <!-- plugins:css -->
@@ -327,8 +327,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link text-dark" href="user/lgcdd">Local Government Capability Development Division</a></li>
-                <li class="nav-item"> <a class="nav-link text-dark" href="user/lgmed">Local Government Monitoring and Evaluation Division</a></li>          
+                <li class="nav-item"> <a class="nav-link text-dark" href="user/lgcdd">LGCDD</a></li>
+                <li class="nav-item"> <a class="nav-link text-dark" href="user/lgmed">LGMED</a></li>          
               </ul>
             </div>
           </li>
@@ -358,9 +358,10 @@
                 <div class="card-body">
                   <h4 class="card-title">Announcements</h4>
                   <p class="card-description">
-                   
+                    Kindly type or upload your announcement here. The announcement will be disseminated to C/MLGOO.
                   </p>
-                  <form action="<?= site_url('file-submit') ?>" method="post" enctype="multipart/form-data" class="forms-sample">
+                  <input type="text" name="userfile" class="form-control file-upload-info" style="padding: 50px;" placeholder="Type the announcement here...">
+                    <form action="<?= site_url('file-submit') ?>" method="post" enctype="multipart/form-data" class="forms-sample">
                     <div class="form-group">
                       <label>File upload</label>
                       <input type="file" name="img[]" class="file-upload-default">
@@ -380,6 +381,11 @@
             </div>
           </div>
         </div>
+
+        <div class="announcement">
+        <h2>Important Announcement</h2>
+        <p>This is the content of the announcement. You can replace it with your own text.</p>
+    </div>
         <!-- content-wrapper ends -->
 
       
