@@ -13811,6 +13811,35 @@ input[type="button"].btn-block {
   height: 70%;
 }
 
+.card2 {
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(255,87,87,1) 0%, rgba(255,243,89,1) 100%);
+  background-clip: border-box;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+  margin-bottom: 19px;
+  margin-top: -40px;
+  padding: 25px;
+  height: 23%;
+}
+
+.card3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  /* border: 1px solid #e3e3e3; */
+  border-radius: 10px;
+  margin-bottom: -24px; 
+  height: 39vh;
+}
+
 
 
 
@@ -13845,6 +13874,7 @@ input[type="button"].btn-block {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
+  font-family: Roboto;
 }
 
 .card-title {
@@ -30677,9 +30707,14 @@ div.lguadmin {
     text-align: center;
 }
 h5.sub2 {
-  text-align: justify;
-  text-justify: inter-word;
   color: green;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: bold;
+}
+h6.subsub-text {
+  margin-left: 15px; 
+  font-family: Helvetica;
 }
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
 

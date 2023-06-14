@@ -394,20 +394,20 @@
         </div>
 
           <div class="row">
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
 										<div class="ms-3">
                       <ul>
                         <li>
-                          <h5 class="sub2"><a href="https://fdpp.dilg.gov.ph/">Full Disclosure Policy</a></h5>
+                          <h5 class="sub2">Full Disclosure Policy</h4>
                         </li>
-                        </ul>
-                        
-                           <h6 style="margin-left: 15px;">Deadline: 1st Quarter March 15, 2nd Quarter June 15, 3rd Quarter Sept 15, 4th Quarter Dec 15  </h6>
-                           <h6 style="margin-left: 15px;">Frequency of Submission : Quarterly</h6>
+                      </ul>
+                           <h6 class="subsub-text">Deadline: 1st Quarter March 15, 2nd Quarter June 15, 3rd Quarter Sept 15, 4th Quarter Dec 15  <br>
+                           Frequency of Submission : Quarterly<br>
+                           Link: <a href="https://fdpp.dilg.gov.ph/">https://fdpp.dilg.gov.ph/</a></h6>
                           
                       
 
@@ -419,8 +419,8 @@
 							</div>
 						</div>
             
-						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+						<div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
@@ -430,7 +430,7 @@
                           <h5 class="sub2"> <a href="https://bit.ly/FDP-implementation-r5">CY 2023 FDP Implementation</a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;"> Uploading of requests for rectification to FDP portal and updates <br><br>
+                           <h6 style="margin-left: 15px; "> Uploading of requests for rectification to FDP portal and updates <br><br>
                            </h6>
                       
 										</div>
@@ -439,8 +439,8 @@
 							</div>
 						</div>
 
-						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+						<div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -457,8 +457,8 @@
 								</div>
 							</div>
 						</div>
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -479,8 +479,8 @@
 						</div>
          
 
-          <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+          <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -500,8 +500,8 @@
 							</div>
 						</div>
 
-          <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+          <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -521,8 +521,8 @@
                 </div>
             </div>
 
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -543,8 +543,8 @@
                 </div>
             </div>
 
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -565,8 +565,8 @@
                 </div>
             </div>
 
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
