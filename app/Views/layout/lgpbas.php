@@ -395,7 +395,7 @@
 
           <div class="row">
             <div class="col-md-4 grid-margin">
-				<div class="card d-flex align-items-center">
+				<div class="card3 d-flex align-items-center">
 					<div class="card-body">
 						<div class="d-flex flex-row align-items-center">
 							<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
@@ -410,116 +410,116 @@
                             Link: <a href="https://docs.google.com/spreadsheets/d/1LYfOi3NpMuQx5XuvoSzkcj3Rs6YJxqFtAuLx2jaEW7g/edit#gid=0">bit.ly/SSCP_COMonitoring</a><br>
                             Link: <a href="https://drive.google.com/drive/u/0/folders/1eGJ6Uq8UxcrnlNLrivqtJImamhco_adh"> bit.ly/SSCPMonitoring</a><br>
                         </h6>
-                      
-
-											<!--<a class="">Awards and Recognition Section </a>-->
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
                     </div>
-									</div>
-								</div>
-							</div>
-						</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
-						<div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
-										<div class="ms-3">
-                    <ul>
-                        <li>
-                             <h5 class="sub2">StaySafe.PH Monthly Report</h5>
-                             <p style="color: green; font-family: Arial;"> (DILG MC 2021-075)</p>
-                        </li>
-                    </ul>
-                           <h6 style="margin-left: 15px;"> Deadline : 5th day of ensuing month<br> Frequency of Submission : Monthly<br>
-                           </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://drive.google.com/drive/folders/1lcQIXSTjLb8VNz9KbvEYEwyJB31OtwAk">bit.ly/StaySafePH_Monthly</a></p>
-                      
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
-                    <ul>
-                        <li>
-                          <h5 class="sub2">African Swine Fever (ASF) Monthly Report</h5>
-                        </li>
-                    </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 10th day of the ensuing month<br> Frequency of Submission : Monthly
-                           </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://drive.google.com/drive/folders/1Fr20zzCBMGK7QkKxyk5WTf899D9M9CCa">bit.ly/ASFreport2021</a></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
             <div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                            <!-- <i class="ti-youtube text-youtube icon-md"></i> -->
+                            <div class="ms-3">
+                        <ul>
+                            <li>
+                                    <h5 class="sub2">StaySafe.PH Monthly Report</h5>
+                                    <p style="color: green; font-family: Arial;"> (DILG MC 2021-075)</p>
+                            </li>
+                        </ul>
+                            <h6 class="subsub-text">Deadline : 5th day of ensuing month<br>
+                                Frequency of Submission : Monthly<br><br>
+                                Link: <a href="https://drive.google.com/drive/folders/1lcQIXSTjLb8VNz9KbvEYEwyJB31OtwAk">bit.ly/StaySafePH_Monthly</a><br>
+                            </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                            <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
+                        <ul>
+                            <li>
+                                <h5 class="sub2">African Swine Fever (ASF) Monthly Report</h5>
+                            </li>
+                        </ul>
+                            <h6 class="subsub-text">Deadline : 10th day of the ensuing month<br>
+                                Frequency of Submission : Monthly<br><br>
+                                Link: <a href="https://drive.google.com/drive/folders/1Fr20zzCBMGK7QkKxyk5WTf899D9M9CCa">bit.ly/ASFreport2021</a><br>
+                            </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                            <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Monthly Barangay Road Clearing Report</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 25th day of the ensuing month  <br>Frequency of Submission : Monthly
-                           <br></h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://drive.google.com/drive/folders/1dLcRQ-0fX7elaqyz-aqrIaWckny8bfB6">bit.ly/ROADfolder2021</a></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                            <h6 class="subsub-text">Deadline : 25th day of the ensuing month <br>
+                                Frequency of Submission : Monthly<br><br>
+                                Link: <a href="https://drive.google.com/drive/folders/1dLcRQ-0fX7elaqyz-aqrIaWckny8bfB6">bit.ly/ROADfolder2021</a><br>
+                            </h6>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
          
 
           <div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                        <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Barangay Profile System (BPS)</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 5th working day of the 1st month of the ensuing quarter <br> Frequency of Submission : Monthly
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://intranet.dilg.gov.ph/user/login">https://intranet.dilg.gov.ph</a></p>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                            <h6 class="subsub-text">Deadline : 5th working day of the 1st month of the ensuing quarter <br>
+                                Frequency of Submission : Monthly<br><br>
+                                Link: <a href="https://intranet.dilg.gov.ph/user/login">https://intranet.dilg.gov.ph</a><br>
+                            </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
           <div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                        <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2"> Barangay Officials Profiling System (BOPS)</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 3rd working day of the month upon receipt of Letter of Acceptance of Resignation from elective or appointive officials or Death Certificate or ANA (as need arises), upon issuance of 'Certification on Correction of Error/s' to requesting barangay official <br>Frequency of Submission : Monthly<br></h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://intranet.dilg.gov.ph/user/login">https://intranet.dilg.gov.ph</a></p>
-                           
+                            <h6 class="subsub-text">Deadline : 3rd working day of the month upon receipt of Letter of Acceptance of Resignation from elective or appointive officials or Death Certificate or ANA (as need arises), upon issuance of 'Certification on Correction of Error/s' to requesting barangay official <br>
+                                Frequency of Submission : Monthly<br><br>
+                                Link: <a href="https://intranet.dilg.gov.ph/user/login">https://intranet.dilg.gov.ph</a><br>
+                            </h6>
                             </div>
                         </div>
                     </div>
@@ -527,211 +527,203 @@
             </div>
  
           <div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                        <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Resumption of Cockfighting (Alert level 2 & below)</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : Last working day of the month <br> Frequency of Submission : Monthly
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/1HRSAmDl7U79fgOhsw1Tz5C3YfQ_2Let0/edit#gid=1154480992"> https://bit.ly/MC2022-003Monitoring</a></p>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                        <h6 class="subsub-text">Deadline : Last working day of the month <br> Frequency of Submission : Monthly<br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1HRSAmDl7U79fgOhsw1Tz5C3YfQ_2Let0/edit#gid=1154480992"> https://bit.ly/MC2022-003Monitoring</a><br><br>
+                        </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
                 
           <div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                        <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Beneficiaries/Availees of the First Time Job Seekers Assistance Act</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 15th day of the ensuing month<br>Frequency of Submission : Monthly
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/1HUlPlQEsQubxs-lP8x9jwe18VUPBJgLDvrnWnVdPQ9U/edit#gid=825794607">bit.ly/RegionV_FTJAAreport_2023</a></p>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                        <h6 class="subsub-text">Deadline : 15th day of the ensuing month<br>Frequency of Submission : Monthly<br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1HUlPlQEsQubxs-lP8x9jwe18VUPBJgLDvrnWnVdPQ9U/edit#gid=825794607">bit.ly/RegionV_FTJAAreport_2023</a><br>
+                        </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
                         
           <div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                        <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Masterlist of Leagues</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : After Election <br> Frequency of Submission : Per Term
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/1etaH8onK6XOKP3brMmHUN9clisGLusWb/edit#gid=1370206473">  bit.ly/2022MasterlistofLiga</a></p>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                        <h6 class="subsub-text">Deadline : After Election <br> Frequency of Submission : Per Term<br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1etaH8onK6XOKP3brMmHUN9clisGLusWb/edit#gid=1370206473">  bit.ly/2022MasterlistofLiga</a><br>
+                        </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
                         
           <div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                        <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Establishment of CSO Desk & Institutionalization of People's Council</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 10th day of ensuing month<br>Frequency of Submission : Monthly
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://drive.google.com/drive/folders/1bVWUMe39xosGEOh9gx8l5KzpoXLWtXXQ"> tinyurl.com/Monitoring-CSOD-PC</a></p>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                        <h6 class="subsub-text">Deadline : 10th day of ensuing month<br>Frequency of Submission : Monthly<br><br>
+                            Link: <a href="https://drive.google.com/drive/folders/1bVWUMe39xosGEOh9gx8l5KzpoXLWtXXQ"> tinyurl.com/Monitoring-CSOD-PC</a><br>
+                        </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
                         
           <div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                        <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Monthly LGU Reports on the Illegal Vehicle Operations Activities</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 10th day of the ensuing month<br>Frequency of Submission : Monthly
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Note : Email to: iact.dotr@gmail.com, iact.charisseanne@gmail.com, cc: nboodilgco2020@gmail.com and lgmedregion5@gmail.com </p>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                        <h6 class="subsub-text">Deadline : 10th day of the ensuing month<br>Frequency of Submission : Monthly<br><br>
+                            Note: Email to: <a href="mailto:iact.dotr@gmail.com">iact.dotr@gmail.com</a>,<a href="mailto:iact.charisseanne@gmail.com">iact.charisseanne@gmail.com</a>, cc: 
+                            <a href="mailto:nboodilgco2020@gmail.com">nboodilgco2020@gmail.com</a>and <a href="mailto:lgmedregion5@gmail.com">lgmedregion5@gmail.com</a>, <br>
+                        </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
                         
           <div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                        <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Local Youth Development Office (LYDO) - Related Indicators</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : Not later than February 20<br>Frequency of Submission : Annual
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/16983hEdqaBe92UhuSQjkGev1dA9UMdVm/edit#gid=662353438"> bit.ly/LYDOReport</a></p>
-                           <p style="margin-left: 15px;"><a href="https://docs.google.com/spreadsheets/d/1tXaEGELaCDMayJxyWUV_F7fde6MiZhelXZTFUj_DujI/edit#gid=1391583137"> bit.ly/LYDOmonitoring</a></p>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                        <h6 class="subsub-text">Deadline : Not later than February 20<br>Frequency of Submission : Annual<br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/16983hEdqaBe92UhuSQjkGev1dA9UMdVm/edit#gid=662353438"> bit.ly/LYDOReport</a><br>
+                            <a href="https://docs.google.com/spreadsheets/d/1tXaEGELaCDMayJxyWUV_F7fde6MiZhelXZTFUj_DujI/edit#gid=1391583137"> bit.ly/LYDOmonitoring</a>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
               <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                                <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Utilization of SK Funds, SK Membership and Other Related Data</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : Not later than February 20<br>Frequency of Submission : Annual
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/1cWS9eYp7n3_n6r3Zgv5CY5TGp_Tgkkn10bhyiU5W_mA/edit#gid=603513384"> bit.ly/SKRelatedReports2023</a></p>
+                        <h6 class="subsub-text">Deadline : Not later than February 20<br>Frequency of Submission : Annual<br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1cWS9eYp7n3_n6r3Zgv5CY5TGp_Tgkkn10bhyiU5W_mA/edit#gid=603513384"> bit.ly/SKRelatedReports2023</a><br>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+            <div class="col-md-4 grid-margin">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                            <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Barangay Full Disclosure Policy CY 2023</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 1st Q – May 30, 2nd Q - Aug 30, 3rd Q - Nov 30, 4th Q - Jan 30<br>Frequency of Submission : Quarterly
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/1wKy9zynti7QisidZO3FjLeNloZNfOjcP4MLhmnyLdjQ/edit#gid=1409638356">https://bit.ly/R5-BFDP-2023</a></p>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                        <h6 class="subsub-text">Deadline : 1st Q – May 30, 2nd Q - Aug 30, 3rd Q - Nov 30, 4th Q - Jan 30<br>Frequency of Submission : Quarterly<br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1wKy9zynti7QisidZO3FjLeNloZNfOjcP4MLhmnyLdjQ/edit#gid=1409638356">https://bit.ly/R5-BFDP-2023</a><br>
+                        </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                         
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                                <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Dispensing, Selling and Reselling of Pharmaceutical Products in Sari-Sari Stores and Other Similar Retail Outlets</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : Every last Thursday of the Month<br>Frequency of Submission : Monthly
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://drive.google.com/drive/u/0/folders/1ThfnOXNOKF1BKldhOtCeR6jEjfhwq5iU"> https://bit.ly/MC2022-025MonitoringR5</a></p>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                        <h6 class="subsub-text">Deadline : Every last Thursday of the Month<br>Frequency of Submission : Monthly<br><br>
+                            Link: <a href="https://drive.google.com/drive/u/0/folders/1ThfnOXNOKF1BKldhOtCeR6jEjfhwq5iU"> https://bit.ly/MC2022-025MonitoringR5</a><br>
+                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                         <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
+						<div class="card3 d-flex align-items-center">
 							<div class="card-body">
 								<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -742,323 +734,311 @@
                           <h5 class="sub2">Elective Local Officials Profiling Database System (ELOPDS)</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 3rd working day of the month upon receipt of Letter of Acceptance of Resignation from elective or appointive officials or Death Certificate or ANA (as need arises), upon issuance of 'Certification on Correction of Error/s' to requesting barangay official <br>Frequency of Submission : Monthly
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://intranet.dilg.gov.ph/user/login"> https://intranet.dilg.gov.ph</a></p>
+                        <h6 class="subsub-text">Deadline : 3rd working day of the month upon receipt of Letter of Acceptance of Resignation from elective or appointive officials or Death Certificate or ANA (as need arises), upon issuance of 'Certification on Correction of Error/s' to requesting barangay official <br>
+                            Frequency of Submission : Monthly<br><br>
+                            Link: <a href="https://intranet.dilg.gov.ph/user/login"> https://intranet.dilg.gov.ph</a><br>
+                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                    <div class="col-md-4 grid-margin">
+                    <div class="card3 d-flex align-items-center">
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center">
+                                    <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                                <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Accreditation of Barangay-Based NGOs</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : December 15, 2023<br>Frequency of Submission : Annual
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://drive.google.com/drive/folders/1_yyPmwqMHzo32g5p6taG7OIO4E7sm44O">bit.ly/R5_MC2022-124-Monitoring</a></p>
+                        <h6 class="subsub-text">Deadline : December 15, 2023<br>Frequency of Submission : Annual<br><br>
+                            Link: <a href="https://drive.google.com/drive/folders/1_yyPmwqMHzo32g5p6taG7OIO4E7sm44O">bit.ly/R5_MC2022-124-Monitoring</a><br>
+                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                                <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">RA 11706: Timbangan ng Bayan</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 10th day of the ensuing month<br>Frequency of Submission : Monthly
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/1R5IyFfliK4tUKqfIt3MaBijUiBalAxpTu37m4W8h2XE/edit#gid=0">bit.ly/R5-TimbanganNgBayan </a></p>
+                        <h6 class="subsub-text">Deadline : 10th day of the ensuing month<br>Frequency of Submission : Monthly<br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1R5IyFfliK4tUKqfIt3MaBijUiBalAxpTu37m4W8h2XE/edit#gid=0">bit.ly/R5-TimbanganNgBayan</a><br>
+                        </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                                <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Barangay Registration of Kasambahay</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : Every July 15 (1st Sem) and January 15 (2nd Sem)<br>Frequency of Submission : Semestral
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/1WtFJWvUoufcLP9EJRyVIgxy3LKYiaDN1Gz7Uli7XR1A/edit#gid=587311972">bit.ly/KasambahayMonitoring </a></p>
+                        <h6 class="subsub-text">Deadline : Every July 15 (1st Sem) and January 15 (2nd Sem)<br>Frequency of Submission : Semestral<br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1WtFJWvUoufcLP9EJRyVIgxy3LKYiaDN1Gz7Uli7XR1A/edit#gid=587311972">bit.ly/KasambahayMonitoring</a><br>
+                        </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                                <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">SO NQMS Documentation</h5>
                         </li>
                     </ul>
-                           <p style="margin-left: 15px;">Processing of Authority to Purchase Motor Vehicle<br>Processing of Foreign Travel Authority <br> Processing of Death Benefit Claims <br> Issuance of Certificate of Service Rendered for Grant of CSC Eligibility <br> Issuance of Certificate of Incumbency <br> Deadline : Every 8th of the ensuing month
-                           <br> </p>
-                           <p style="margin-left: 15px;">Link: <a href="https://drive.google.com/drive/folders/1dtO6DSCa6Isx0PwHYlipTpJGmWhfVUQp?fbclid=IwAR06EMpcVP1dPJL3jQw6pwFtQLErTwadNzx819eonAZ_xvey4rVVJn3x4SM">https://bit.ly/LGPBAS-QMS-Province</a></p>
+                        <h6 class="subsub-text">Processing of Authority to Purchase Motor Vehicle<br>Processing of Foreign Travel Authority <br> Processing of Death Benefit Claims <br> Issuance of Certificate of Service Rendered for Grant of CSC Eligibility <br> 
+                            Issuance of Certificate of Incumbency <br> Deadline : Every 8th of the ensuing month<br><br>
+                            Link: <a href="https://drive.google.com/drive/folders/1dtO6DSCa6Isx0PwHYlipTpJGmWhfVUQp?fbclid=IwAR06EMpcVP1dPJL3jQw6pwFtQLErTwadNzx819eonAZ_xvey4rVVJn3x4SM">https://bit.ly/LGPBAS-QMS-Province</a><br>
+                        </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                                <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">HAPAG-Monitoring Report (Supplemental Guidelines)</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : JULY 25 (1st Sem) and January 25 (2nd Sem)<br>Frequency of Submission : Semestral 
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/1g0QVazlqlUZBcNa-a7QSG6bZvsX8NofrJXaYwd7J4KI/edit#gid=894497711">bit.ly/R5-2023HAPAGMonitoringReport</a></p>
+                        <h6 class="subsub-text">Deadline : JULY 25 (1st Sem) and January 25 (2nd Sem)<br>Frequency of Submission : Semestral<br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1g0QVazlqlUZBcNa-a7QSG6bZvsX8NofrJXaYwd7J4KI/edit#gid=894497711">bit.ly/R5-2023HAPAGMonitoringReport</a><br>
+                        </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                                <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Day of Remembrance for Road Crash Victims, Survivors and their Families (RA 114668)</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 5th working day after the 3rd Sunday of November<br>Frequency of Submission : Annual
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://drive.google.com/drive/u/0/folders/1GUWUD3QL2TLQgsJVX6dYloi8zwk6GaYU">bit.ly/RA-11468</a></p>
+                        <h6 class="subsub-text">Deadline : 5th working day after the 3rd Sunday of November<br>Frequency of Submission : Annual<br><br>
+                            Link: <a href="https://drive.google.com/drive/u/0/folders/1GUWUD3QL2TLQgsJVX6dYloi8zwk6GaYU">bit.ly/RA-11468</a><br>
+                        </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                                <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Katarungang Pambarangay</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : Every March 15<br>Frequency of Submission : Annual 
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/1yd_a1d2WBwGBt5i_hgkbYdTrZx9mYRNWgSnkT29O7-A/edit#gid=597567614">bit.ly/KP2023Report</a></p>
+                        <h6 class="subsub-text">Deadline : Every March 15<br>Frequency of Submission : Annual <br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1yd_a1d2WBwGBt5i_hgkbYdTrZx9mYRNWgSnkT29O7-A/edit#gid=597567614">bit.ly/KP2023Report</a><br>
+                        </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                                <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Accreditation of CSO and Selection of Representatives to the LSBs</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : 10th day of the ensuing month<br>Frequency of Submission : Monthly
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://drive.google.com/drive/u/0/folders/1bm5ElCOvIT7a_9tagBOLPFqez3hm28mu">bit.ly/2022-083-R5</a></p>
+                        <h6 class="subsub-text">Deadline : 10th day of the ensuing month<br>Frequency of Submission : Monthly <br><br>
+                            Link: <a href="https://drive.google.com/drive/u/0/folders/1bm5ElCOvIT7a_9tagBOLPFqez3hm28mu">bit.ly/2022-083-R5</a><br>
+                        </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                                <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Barangay Assembly Semestral Report </h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : May 30, 2023<br>Frequency of Submission : Semestral 
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/1GgVLtPsZWyw6yDwUAD2ud78fsth-6Sry/edit#gid=803968248">bit.ly/RegionV_BA1stSem2023</a></p>
+                        <h6 class="subsub-text">Deadline : May 30, 2023<br>Frequency of Submission : Semestral <br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1GgVLtPsZWyw6yDwUAD2ud78fsth-6Sry/edit#gid=803968248">bit.ly/RegionV_BA1stSem2023</a><br>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+                <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                                <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                            <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Local Public Transport Route Plan 2023 </h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : April 21, 2023<br>Frequency of Submission : Annual 
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://docs.google.com/spreadsheets/d/1L9KKzuGDzgmVm95fDUb23gMXh4WqcUN3/edit?pli=1#gid=563100318">bit.ly/LPTRP-R52023</a></p>
+                        <h6 class="subsub-text">Deadline : April 21, 2023<br>Frequency of Submission : Annual  <br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1L9KKzuGDzgmVm95fDUb23gMXh4WqcUN3/edit?pli=1#gid=563100318">bit.ly/LPTRP-R52023</a><br>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+            <div class="col-md-4 grid-margin">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                            <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">RA 11535 Cooperative Development Officer</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : February 28, 2023<br>Extended Deadline: April 28, 2023
-                           <br> </h6>
-                           <p style="margin-left: 15px;">Link: <a href="https://drive.google.com/drive/folders/1HtOL1QKOybRmMSeGlVmiczdpI7SyA1to">bit.ly/R5-CDOreportFY2022</a></p>
+                        <h6 class="subsub-text">Deadline : February 28, 2023<br>Extended Deadline: April 28, 2023<br><br>
+                            Link: <a href="https://drive.google.com/drive/folders/1HtOL1QKOybRmMSeGlVmiczdpI7SyA1to">bit.ly/R5-CDOreportFY2022</a><br>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+            <div class="col-md-4 grid-margin">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                            <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">Highest Ranking Sanggunian Member (2022-2025)</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : April 21, 2023<br>
-                           <br> </h6>
-                           <p style="https://drive.google.com/drive/folders/1rTjLQeBFOMu90gZS30H213BaRfPT3RSG">bit.ly/HighestSanggunian2023</a></p>
+                        <h6 class="subsub-text">Deadline : April 21, 2023 <br><br>
+                            Link: <a href="https://drive.google.com/drive/folders/1rTjLQeBFOMu90gZS30H213BaRfPT3RSG">bit.ly/HighestSanggunian2023</a><br>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+            <div class="col-md-4 grid-margin">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                            <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">BHERT/Contact Tracing Related Data</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : Every Friday, 5:00PM<br>Frequency of Submission : Weekly
-                           <br> </h6>
-                           <p style="https://docs.google.com/spreadsheets/d/1xFOLs6bvgRkO5317WH0mGdyu-V3e6ieNYZfsVRiBWuE/edit#gid=0">bit.ly/R5_BHERT</a></p>
+                        <h6 class="subsub-text">Deadline : Every Friday, 5:00PM<br>Frequency of Submission : Weekly<br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1xFOLs6bvgRkO5317WH0mGdyu-V3e6ieNYZfsVRiBWuE/edit#gid=0">bit.ly/R5_BHERT</a><br>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-                        <div class="col-md-4 grid-margin">
-						<div class="card d-flex align-items-center">
-							<div class="card-body">
-								<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-									<div class="ms-3">
+            <div class="col-md-4 grid-margin">
+            <div class="card3 d-flex align-items-center">
+                <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                            <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                        <div class="ms-3">
 
                     <ul>
                         <li>
                           <h5 class="sub2">BSKO COmpliance on Public Bonding Law and Treasury</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">Deadline : May 26, 2023<br> </h6>
-                           <p style="https://docs.google.com/spreadsheets/d/1D36iWdfKGyfzFYi3jCPxJX5fkZyfDZt3PO5K1qHebro/edit#gid=0">bit.ly/BSKOBonding2023</a></p>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                        <h6 class="subsub-text">Deadline : May 26, 2023<br><br>
+                            Link: <a href="https://docs.google.com/spreadsheets/d/1D36iWdfKGyfzFYi3jCPxJX5fkZyfDZt3PO5K1qHebro/edit#gid=0">bit.ly/BSKOBonding2023</a><br>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
           </div>

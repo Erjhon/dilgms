@@ -6,7 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG System'; ?></title>
+  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG Monitoring System'; ?></title>
   <!-- Base url -->
   <base href="<?=base_url()?>public/">
   <!-- plugins:css -->
@@ -297,6 +297,7 @@
           <!-- chat tab ends -->
         </div>
       </div>
+
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
@@ -314,12 +315,6 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="user/announcement/">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title">Announcement</span>
-            </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">Reports for Submission</span>
@@ -327,8 +322,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDS</a></li>
-                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMES</a></li>          
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">Local Government Capability Development Division</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">Local Government Monitoring and Evaluation Division</a></li>          
               </ul>
             </div>
           </li>
@@ -341,8 +336,8 @@
         </ul>
       </nav>
 
-      <!-- partial -->
-      <div class="main-panel">
+     <!-- partial -->
+     <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
             <div class="col-md-12 grid-margin">
@@ -370,7 +365,7 @@
             </div>
           </div>
           
-        <div class="card1" >
+        <div class="card2" >
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
@@ -393,62 +388,60 @@
               <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
             </div> 
           </div>
-          <h2 class="h2home">LGMES Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
-          <img class="monitor-icon" src="images/monitor-icon.png" alt="people">
+          <div class="lguadmin">
+          <h2>Peace and Order and Related Concerns Section (POARCS)</h2>
+          </div>
         </div>
 
           <div class="row">
             <div class="col-md-4 grid-margin">
-							<div class="cardd d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
-										<div class="sub-text">
-                    <a href="user/ars">Awards and Recognition Section</a>
-											<!--<a class="">Awards and Recognition Section </a>-->
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 grid-margin">
-							<div class="cardd d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
-										<div class="sub-text">
-                    <a href="user/lgpbas">Local Government Policy and Barangay Affairs Section (LGPBAS)</a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 grid-margin">
-							<div class="cardd d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="sub-text">
-                    <a href="user/poarcs">Peace and Order and Related Concerns Section (POARCS)</a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-          </div>
-        <!-- <div class="content-wrapper">
-          <div class="row">
-       -->
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                            <!-- <i class="ti-facebook text-facebook icon-md"></i> -->
+                            <div class="ms-3">
+                      <ul>
+                        <li>
+                          <h5 class="sub2">Submission of Functionality Report of B/M/PADAC and B/M/PPOC (w/ dates of meeting conducted)</h5>
+                        </li>
+                      </ul>
+                           <h6 class="subsub-text">Deadline: NLT 5th of the first month after the quarter <br>Frequency of Submission: Quarterly<br><br>
+                           Link: <a href="https://drive.google.com/drive/u/1/folders/1fnC-Jc7qeq7VRdbfh3yvEwW7fLDe3Gcr">bit.ly/POCADAC2022Meetings</a></h6>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 grid-margin">
+                <div class="card3 d-flex align-items-center">
+                    <div class="card-body">
+                        <div class="d-flex flex-row align-items-center">
+                            <!-- <i class="ti-youtube text-youtube icon-md"></i> -->
+                            <div class="ms-3">
+                    <ul>
+                        <li>
+                          <h5 class="sub2">POPS-PCMS Compliance Report</h5>
+                        </li>
+                    </ul>
+                           <h6 class="subsub-text">Deadline: End of March <br>Frequency of Submission: Annual<br><br>
+                           Link: <a href="intranet.dilg.gov.ph">intranet.dilg.gov.ph</a></h6>
+                      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+
+
+          </div>
         <!-- content-wrapper ends -->
 
       
         <!-- partial -->
       </div>
-        <footer class="footer">
+      <footer class="footer">
           <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
           <a>Rawis, Legazpi City</a></p>
         </footer>
@@ -456,6 +449,7 @@
     </div>
     <!-- page-body-wrapper ends -->
   </div>
+
   <!-- container-scroller -->
 
   <!-- plugins:js -->
