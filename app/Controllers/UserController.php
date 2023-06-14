@@ -88,16 +88,6 @@ class UserController extends BaseController
         $data['pageTitle'] = 'ARS';
         return view('dashboard/ars', $data);
     }
-    public function poarcs()
-    {
-        $data['pageTitle'] = 'POARCS';
-        return view('dashboard/poarcs', $data);
-    }
-    public function lgpbas()
-    {
-        $data['pageTitle'] = 'LGPBAS';
-        return view('dashboard/lgpbas', $data);
-    }
     
     // public function __construct()
     // {
