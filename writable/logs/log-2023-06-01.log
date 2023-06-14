@@ -1,0 +1,1069 @@
+INFO - 2023-06-01 00:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 00:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 01:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 01:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 01:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 01:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 01:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 01:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 01:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 01:32:13 --> Undefined variable: users
+in APPPATH\Views\user_view.php on line 30.
+ 1 APPPATH\Views\user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: users', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\TaskController.php(11): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:32:49 --> Undefined variable: tasks
+in APPPATH\Views\user_view.php on line 30.
+ 1 APPPATH\Views\user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tasks', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\TaskController.php(11): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:32:56 --> Undefined variable: user
+in APPPATH\Views\user_view.php on line 33.
+ 1 APPPATH\Views\user_view.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\TaskController.php(11): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:33:13 --> Undefined variable: user
+in APPPATH\Views\user_view.php on line 33.
+ 1 APPPATH\Views\user_view.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\TaskController.php(11): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:33:25 --> Undefined variable: user
+in APPPATH\Views\user_view.php on line 33.
+ 1 APPPATH\Views\user_view.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\TaskController.php(11): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:33:45 --> Undefined index: task1
+in APPPATH\Views\user_view.php on line 34.
+ 1 APPPATH\Views\user_view.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: task1', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\TaskController.php(11): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:36:32 --> Class 'App\Controllers\TaskModel' not found
+in APPPATH\Controllers\TaskController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-01 01:37:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dilg`.`task`, CONSTRAINT `task_ibfk_1` FOREIGN KEY (`dilg_id`) REFERENCES `dilg` (`id`)) in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\TaskController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-01 01:39:54 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dilg`.`task`, CONSTRAINT `task_ibfk_1` FOREIGN KEY (`dilg_id`) REFERENCES `dilg` (`id`)) in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\TaskController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-01 01:41:39 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dilg`.`task`, CONSTRAINT `task_ibfk_1` FOREIGN KEY (`dilg_id`) REFERENCES `dilg` (`id`)) in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\TaskController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-01 01:46:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dilg`.`task`, CONSTRAINT `task_ibfk_1` FOREIGN KEY (`dilg_id`) REFERENCES `dilg` (`id`)) in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\TaskController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-01 01:47:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dilg`.`task`, CONSTRAINT `task_ibfk_1` FOREIGN KEY (`dilg_id`) REFERENCES `dilg` (`id`)) in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\TaskController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-01 01:47:33 --> Undefined variable: tasks
+in APPPATH\Views\user_view.php on line 30.
+ 1 APPPATH\Views\user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tasks', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\TaskController.php(11): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-01 01:47:57 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dilg`.`task`, CONSTRAINT `task_ibfk_1` FOREIGN KEY (`dilg_id`) REFERENCES `dilg` (`id`)) in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\TaskController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-01 01:56:00 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dilg`.`task`, CONSTRAINT `task_ibfk_1` FOREIGN KEY (`dilg_id`) REFERENCES `dilg` (`id`)) in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\TaskController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-01 01:58:23 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dilg`.`task`, CONSTRAINT `task_ibfk_1` FOREIGN KEY (`dilg_id`) REFERENCES `dilg` (`id`)) in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\TaskController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-01 01:59:06 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dilg`.`task`, CONSTRAINT `task_ibfk_1` FOREIGN KEY (`dilg_id`) REFERENCES `dilg` (`id`)) in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\TaskController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\TaskController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-01 02:02:48 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+in APPPATH\Views\layout\status.php on line 420.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 3 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 02:02:57 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+in APPPATH\Views\layout\status.php on line 423.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 3 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 02:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 02:27:08 --> syntax error, unexpected end of file
+in APPPATH\Views\layout\status.php on line 540.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 3 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 02:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 02:42:35 --> Undefined variable: files
+in APPPATH\Views\layout\userdashboard.php on line 395.
+ 1 APPPATH\Views\layout\userdashboard.php(395): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: files', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\userdashboard.php', 395, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\userdashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/userdashboard', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/userdashboard', [], true)
+ 6 APPPATH\Controllers\UserController.php(25): view('dashboard/userdashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 02:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 02:58:35 --> mysqli_sql_exception: Column 'lgu_place' cannot be null in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 02:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 02:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 03:00:49 --> mysqli_sql_exception: Column 'lgu_place' cannot be null in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 03:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 03:04:38 --> mysqli_sql_exception: Column 'lgu_place' cannot be null in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 03:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 03:08:17 --> mysqli_sql_exception: Column 'lgu_place' cannot be null in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 03:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 03:10:02 --> mysqli_sql_exception: Column 'lgu_place' cannot be null in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 03:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 03:10:50 --> mysqli_sql_exception: Column 'lgu_place' cannot be null in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 03:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 03:11:08 --> mysqli_sql_exception: Column 'lgu_place' cannot be null in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 03:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 03:12:50 --> mysqli_sql_exception: Column 'lgu_place' cannot be null in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 03:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 03:13:47 --> mysqli_sql_exception: Column 'lgu_place' cannot be null in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 03:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 03:14:41 --> mysqli_sql_exception: Column 'lgu_place' cannot be null in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->store()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 03:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 03:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 04:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:03:55 --> Undefined index: id
+in APPPATH\Views\layout\status.php on line 356.
+ 1 APPPATH\Views\layout\status.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 356, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:04:08 --> Undefined index: id
+in APPPATH\Views\layout\status.php on line 356.
+ 1 APPPATH\Views\layout\status.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 356, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:04:30 --> Undefined index: id
+in APPPATH\Views\layout\status.php on line 356.
+ 1 APPPATH\Views\layout\status.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 356, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:04:33 --> Undefined index: id
+in APPPATH\Views\layout\status.php on line 356.
+ 1 APPPATH\Views\layout\status.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 356, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:05:18 --> syntax error, unexpected 'else' (T_ELSE)
+in APPPATH\Views\layout\status.php on line 479.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 3 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:05:25 --> syntax error, unexpected 'as' (T_AS)
+in APPPATH\Views\layout\status.php on line 355.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 3 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:05:42 --> syntax error, unexpected 'as' (T_AS)
+in APPPATH\Views\layout\status.php on line 355.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 3 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:06:17 --> syntax error, unexpected 'else' (T_ELSE)
+in APPPATH\Views\layout\status.php on line 479.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 3 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:06:50 --> syntax error, unexpected 'else' (T_ELSE)
+in APPPATH\Views\layout\status.php on line 479.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 3 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:18:03 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\layout\status.php on line 479.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 3 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:21:24 --> Invalid file: "dilg/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dilg/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dilg/edit', [], true)
+ 3 APPPATH\Controllers\DilgController.php(48): view('dilg/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('7')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:23:31 --> Invalid file: "dilg/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dilg/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dilg/edit', [], true)
+ 3 APPPATH\Controllers\DilgController.php(48): view('dilg/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('3')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:24:25 --> Undefined variable: row
+in APPPATH\Views\layout\edit.php on line 5.
+ 1 APPPATH\Views\layout\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 5, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:25:47 --> Undefined variable: row
+in APPPATH\Views\layout\edit.php on line 5.
+ 1 APPPATH\Views\layout\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 5, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:25:55 --> Undefined variable: row
+in APPPATH\Views\layout\edit.php on line 5.
+ 1 APPPATH\Views\layout\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 5, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:27:21 --> Undefined variable: row
+in APPPATH\Views\layout\edit.php on line 5.
+ 1 APPPATH\Views\layout\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 5, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:27:37 --> Undefined variable: row
+in APPPATH\Views\layout\edit.php on line 5.
+ 1 APPPATH\Views\layout\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 5, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:28:50 --> syntax error, unexpected end of file
+in APPPATH\Views\layout\edit.php on line 48.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 3 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:29:05 --> Illegal string offset 'id'
+in APPPATH\Views\layout\edit.php on line 9.
+ 1 APPPATH\Views\layout\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id\'', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:29:15 --> Illegal string offset 'id'
+in APPPATH\Views\layout\edit.php on line 8.
+ 1 APPPATH\Views\layout\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id\'', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:29:27 --> syntax error, unexpected '<'
+in APPPATH\Views\layout\edit.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 3 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:29:51 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+in APPPATH\Views\layout\edit.php on line 44.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 3 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:30:05 --> Illegal string offset 'id'
+in APPPATH\Views\layout\edit.php on line 8.
+ 1 APPPATH\Views\layout\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id\'', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:30:28 --> Undefined variable: row
+in APPPATH\Views\layout\edit.php on line 6.
+ 1 APPPATH\Views\layout\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:31:25 --> Undefined variable: row
+in APPPATH\Views\layout\edit.php on line 6.
+ 1 APPPATH\Views\layout\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:31:27 --> Undefined variable: row
+in APPPATH\Views\layout\edit.php on line 6.
+ 1 APPPATH\Views\layout\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:34:34 --> Undefined property: App\Controllers\DilgController::$dilg_model
+in APPPATH\Controllers\DilgController.php on line 53.
+ 1 APPPATH\Controllers\DilgController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\DilgController::$dilg_model', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Controllers\\DilgController.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:34:54 --> Undefined property: App\Controllers\DilgController::$dilgModel
+in APPPATH\Controllers\DilgController.php on line 53.
+ 1 APPPATH\Controllers\DilgController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\DilgController::$dilgModel', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Controllers\\DilgController.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:35:06 --> Undefined variable: dilgModel
+in APPPATH\Controllers\DilgController.php on line 53.
+ 1 APPPATH\Controllers\DilgController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dilgModel', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Controllers\\DilgController.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:35:28 --> Undefined property: App\Controllers\DilgController::$dilgModel
+in APPPATH\Controllers\DilgController.php on line 53.
+ 1 APPPATH\Controllers\DilgController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\DilgController::$dilgModel', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Controllers\\DilgController.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:36:02 --> Undefined variable: row
+in APPPATH\Views\layout\edit.php on line 6.
+ 1 APPPATH\Views\layout\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\DilgController.php(48): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 05:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:57:37 --> Undefined variable: lgoo_id
+in APPPATH\Views\layout\status.php on line 376.
+ 1 APPPATH\Views\layout\status.php(376): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: lgoo_id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 376, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:58:12 --> Undefined index: lgoo_id
+in APPPATH\Views\layout\status.php on line 367.
+ 1 APPPATH\Views\layout\status.php(367): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: lgoo_id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 367, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:58:41 --> Undefined index: lgoo_id
+in APPPATH\Views\layout\status.php on line 367.
+ 1 APPPATH\Views\layout\status.php(367): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: lgoo_id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 367, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:59:04 --> Undefined variable: id
+in APPPATH\Views\layout\status.php on line 401.
+ 1 APPPATH\Views\layout\status.php(401): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 401, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 05:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 05:59:39 --> Undefined variable: id
+in APPPATH\Views\layout\status.php on line 401.
+ 1 APPPATH\Views\layout\status.php(401): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 401, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 06:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 06:00:13 --> Undefined variable: id
+in APPPATH\Views\layout\status.php on line 401.
+ 1 APPPATH\Views\layout\status.php(401): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 401, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 06:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 06:01:08 --> Undefined variable: id
+in APPPATH\Views\layout\status.php on line 401.
+ 1 APPPATH\Views\layout\status.php(401): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 401, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 06:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 06:01:47 --> Undefined index: lgoo_id
+in APPPATH\Views\layout\status.php on line 367.
+ 1 APPPATH\Views\layout\status.php(367): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: lgoo_id', 'C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php', 367, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter\\app\\Views\\layout\\status.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/status', [], true)
+ 5 APPPATH\Controllers\DilgController.php(15): view('layout/status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-01 06:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-01 06:11:46 --> Class 'App\Controllers\TaskModel' not found
+in APPPATH\Controllers\DilgController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->createTask()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 06:13:22 --> Class 'App\Controllers\TaskModel' not found
+in APPPATH\Controllers\DilgController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DilgController->createTask()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-01 06:13:54 --> mysqli_sql_exception: Unknown column 'task_name' in 'field list' in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->createTask()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 06:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 06:14:30 --> mysqli_sql_exception: Unknown column 'task_name' in 'field list' in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->createTask()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 06:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-01 06:16:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dilg`.`task`, CONSTRAINT `task_ibfk_1` FOREIGN KEY (`dilg_id`) REFERENCES `dilg` (`id`)) in C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\Codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\Codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter\app\Controllers\DilgController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(934): App\Controllers\DilgController->createTask()
+#9 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DilgController))
+#10 C:\xampp\htdocs\Codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\index.php(69): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-06-01 06:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 06:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-01 07:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

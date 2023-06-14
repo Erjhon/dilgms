@@ -104,9 +104,9 @@
               <?php $session = session(); echo $session->get('name');?>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-              <a class="dropdown-item">
+            <a class="dropdown-item"href="user/profile">
                 <i class="ti-settings text-primary"></i>
-                Settings
+                Profile
               </a>
               <a class="dropdown-item" href="logout">
                 <i class="ti-power-off text-primary"></i>

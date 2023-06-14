@@ -7,6 +7,18 @@ use App\Models\UserModel;
 
 class SigninController extends Controller
 {
+
+    
+
+    public function myMethod()
+    {
+        if (!logged_in()) {
+            return redirect()->to(base_url());
+        }
+        
+        // Your logic for logged-in user
+    }
+    
     public function index()
     {
         helper(['form']);

@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class AnnounceModel extends Model
 {
-    protected $table = 'announcement';
+    protected $table = 'events';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['filename', 'filepath'];
+    protected $allowedFields = ['title', 'start_date','end_date'];
 }

@@ -328,7 +328,7 @@
             <div class="collapse" id="ui-basic">
             <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="admin/lgcdd_admin">LGCDD</a></li>
-                <li class="nav-item"> <a class="nav-link" href="admin/lgmed-admin">LGMED</a></li>          
+                <li class="nav-item"> <a class="nav-link" href="admin/lgmed_admin">LGMED</a></li>          
               </ul>
             </div>
           </li>

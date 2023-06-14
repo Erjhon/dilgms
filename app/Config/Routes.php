@@ -41,12 +41,14 @@ $routes->group("user", function($routes){
     $routes->get('monitor', 'UserController::monitor', ['as' => 'user.monitor']);
     $routes->get('home', 'FileController::fileShow');
 $routes->get('home', 'AnnouncementCont::fileShow');
+$routes->get('profile', 'UserController::profile', ['as' => 'user.profile']);
     
     // Accessing home route only for regular users
     $routes->get('home', 'UserController::index', ['as' => 'user.home']);
+    $routes->get('user_status', 'DilgController::status', ['as' => 'user.status']);
 });
 
-$routes->get('/', 'SignupController::index');
+$routes->get('/', 'SigninController::index');
 $routes->get('/signup', 'SignupController::index');
 $routes->match(['get', 'post'], 'SignupController/store', 'SignupController::store');
 $routes->match(['get', 'post'], 'SigninController/loginAuth', 'SigninController::loginAuth');
@@ -59,24 +61,46 @@ $routes->post('submit-file', 'FileController::submitFile');
 $routes->get('files/(:segment)', 'FileController::getFile/$1');
 
 $routes->get('file-submission', 'AnnouncementCont::index');
-$routes->post('file-submit', 'AnnouncementCont::submitFile');
+$routes->post('addAnnouncement', 'AnnouncementCont::addAnnouncement');
 $routes->get('files/(:segment)', 'AnnouncementCont::getFile/$1');
 
 // displaying files for admin
 $routes->get('admin/dashboard', 'FileController::showFiles');
 $routes->get('admin/dashboard', 'AnnouncementCont::showFiles');
 
+	
+$routes->get('calendar', 'FullCalendar::calendar');
 
 $routes->group("admin", function($routes){
-    $routes->get('dashboard', 'UserController::index', ['as' => 'admin.dashboard']); 
+    $routes->get('dashboard', 'FullCalendar::calendar', ['as' => 'admin.dashboard']); 
     $routes->get('dashboard', 'AdminDashboardController::index');
     $routes->get('memorandum', 'UserController::memorandum', ['as' => 'admin.memorandum']);
     $routes->get('announcement', 'UserController::announcement', ['as' => 'admin.announcement']);
     $routes->get('lgmed_admin', 'UserController::lgmedAdmin', ['as' => 'admin.lgmed_admin']);
     $routes->get('lgcdd_admin', 'UserController::lgcddAdmin', ['as' => 'admin.lgcdd_admin']);
     $routes->get('monitor', 'UserController::monitor', ['as' => 'admin.monitor']);
-    $routes->get('status', 'DilgController::status', ['as' => 'admin.status']);
+    $routes->get('status', 'DilgController::index', ['as' => 'admin.status']);
+    
 });
+
+$routes->post('add-task', 'TaskController::addTask');
+
+$routes->get('dilg', 'DilgController::index');
+$routes->get('dilg/create', 'DilgController::create');
+$routes->post('dilg', 'DilgController::store');
+$routes->get('dilg/edit/(:num)', 'DilgController::edit/$1');
+$routes->post('dilg/update/(:num)', 'DilgController::update/$1');
+$routes->post('dilg/insert/(:num)', 'DilgController::insert/$1');
+$routes->get('dilg/delete/(:num)', 'DilgController::delete/$1');
+$routes->post('task/create', 'DilgController::createTask', ['as' => 'task.create']);
+$routes->post('dilg/insert', 'TaskController::insert');
+$routes->post('dilg/fas', 'TaskController::fas');
+$routes->post('dilg/lgmes', 'TaskController::lgmes');
+
+$routes->post('dilg/update/(:num)', 'DilgController@update/$1');
+
+
+
 
 
 /*
