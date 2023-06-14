@@ -365,7 +365,7 @@
             </div>
           </div>
           
-        <div class="card1" >
+        <div class="card2" >
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">

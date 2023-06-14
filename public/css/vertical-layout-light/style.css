@@ -13784,17 +13784,7 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid #e3e3e3;
   border-radius: 20px;
-  margin-bottom: -10px; 
-  height: 15vh;
-}
-
-.sub-text a{
-  height: 8vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-
+margin-bottom: -10px; 
 }
 .card1 {
   flex-direction: column;
@@ -13805,7 +13795,7 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid #e3e3e3;
   border-radius: 20px;
-  margin-bottom: 19px;
+  margin-bottom: 15px;
   margin-top: -40px;
   padding: 25px;
   height: 70%;
@@ -19518,7 +19508,7 @@ input:focus {
 .report {
   width: 30%;
   height: auto;
-  margin-top: -28%;
+  margin-top: -21%;
   margin-left: 60%;
 }
 
@@ -19791,7 +19781,7 @@ code {
 /* Footer */
 .footer {
   background: #F5F7FF;
-  padding: 20px 2.45rem;
+  padding: 30px 2.45rem;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -19802,11 +19792,9 @@ code {
   border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-.footer p {
-  color: black;
-  font-size: 12px;
-  line-height: 1.2;
-  
+.footer a {
+  color: #4B49AC;
+  font-size: inherit;
 }
 
 @media (max-width: 991px) {
@@ -30691,17 +30679,17 @@ div.tagsinput span.tag a {
 }
 
 footer {
-  margin-top: 10px;
+  margin-top: 80px;
   text-align: center;
-  /* padding: 3px; */
+  padding: 3px;
   color: black;
   position: relative;
   display: flex;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  /* border: 1px solid #e3e3e3; */
-  /* border-radius: 20px; */
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
 }
 div.lguadmin {
     text-align: center;

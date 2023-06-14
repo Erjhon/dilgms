@@ -6,7 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG System'; ?></title>
+  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG Monitoring System'; ?></title>
   <!-- Base url -->
   <base href="<?=base_url()?>public/">
   <!-- plugins:css -->
@@ -315,12 +315,6 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="user/announcement/">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title">Announcement</span>
-            </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">Reports for Submission</span>
@@ -394,8 +388,9 @@
               <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
             </div> 
           </div>
-          <h2 class="h2home">LGCDs Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
-          <img class="report" src="images/report.png" alt="people">
+          <div class="lguadmin">
+          <h1>Peace and Order and Related Concerns Section (POARCS) </h1>
+          </div>
         </div>
 
           <div class="row">
@@ -405,60 +400,59 @@
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="user/lguadmin">LGU Administration and Governance Capacity Building Section (LAGCBS) </a>
+                      <ul>
+                        <li>
+                          <h5 class="sub2"><a href="https://drive.google.com/drive/u/0/folders/1fnC-Jc7qeq7VRdbfh3yvEwW7fLDe3Gcr">Submission of Functionality Report of B/M/PADAC and B/M/PPOC (w/ dates of meeting conducted)</a></h5>
+                        </li>
+                        </ul>
+                        
+                           <h6 style="margin-left: 15px;">Deadline:  NLT 5th of the first month after the quarter <br>Frequency of Submission: Quarterly </h6>
+                           <h6 style="margin-left: 15px;">Frequency of Submission : Quarterly</h6>
+                          
+                      
+
 											<!--<a class="">Awards and Recognition Section </a>-->
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
-										</div>
+                    </div>
 									</div>
 								</div>
 							</div>
 						</div>
+            
 						<div class="col-md-3 grid-margin">
 							<div class="card d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
 										<div class="ms-3">
-                    <a href="user/leds" class="link-class">Local Economic Development Section (LEDS) </a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+                    <ul>
+                        <li>
+                          <h5 class="sub2"> <a href="https://intranet.dilg.gov.ph/user/login">POPS-PCMS Compliance Report</a></h5>
+                        </li>
+                    </ul>
+                           <h6 style="margin-left: 15px;"> Deadline: End of March <br> Frequency of Submission: Annual<br>
+                           </h6>
+                      
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
-                    <a href="user/dreps" class="link-class">Disaster Resiliency and Environmental Protection Section (DREPS)  </a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
-								<div class="card-body">
-									<div class="d-flex flex-row align-items-center">
-										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
-                    <a href="user/lppdas" class="link-class">Local Planning and Project Development Assistance Section (LPPDAS)   </a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+
+</div>
+            </div>
+
+
+
+
+
           </div>
         <!-- content-wrapper ends -->
 
       
         <!-- partial -->
       </div>
-        <footer class="footer">
+      <footer class="footer">
           <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
           <a>Rawis, Legazpi City</a></p>
         </footer>
