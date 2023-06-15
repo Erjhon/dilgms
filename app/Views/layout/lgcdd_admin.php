@@ -320,6 +320,7 @@
                     <!-- chat tab ends -->
                 </div>
             </div>
+
             <!-- partial -->
             <!-- partial:partials/_sidebar.html -->
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
@@ -452,19 +453,23 @@
                                 <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
                             </div>
                         </div>
-                        <h2 class="h2home">LGMES Cluster 1 </h2><br>
+                        <h2 class="h2home">LGCDS Cluster 1 </h2><br>
                         <h2 class="h3home"> List of Reports and Links</h2>
-                        <img class="monitor-icon" src="images/monitor-icon.png" alt="people">
+                        <img class="monitor-icon" src="images/report.png" alt="people">
                     </div>
+                    <!-- <h2 class="h2home">LGCDs Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
+          <img class="report" src="images/report.png" alt="people">
+        </div> -->
 
                     <div class="row">
-                        <div class="col-md-4 grid-margin">
+                        <div class="col-md-3 grid-margin">
                             <div class="cardd d-flex align-items-center">
                                 <div class="card-body">
                                     <div class="d-flex flex-row align-items-center">
                                         <!-- <i class="ti-facebook text-facebook icon-md"></i> -->
                                         <div class="sub-text">
-                                            <a href="user/ars">Awards and Recognition Section</a>
+                                            <a href="user/lguadmin">LGU Administration and Governance Capacity Building
+                                                Section (LAGCBS) </a>
                                             <!--<a class="">Awards and Recognition Section </a>-->
                                             <!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
                                         </div>
@@ -472,28 +477,42 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 grid-margin">
+                        <div class="col-md-3 grid-margin">
                             <div class="cardd d-flex align-items-center">
                                 <div class="card-body">
                                     <div class="d-flex flex-row align-items-center">
                                         <!-- <i class="ti-youtube text-youtube icon-md"></i> -->
                                         <div class="sub-text">
-                                            <a href="user/lgpbas">Local Government Policy and Barangay Affairs Section
-                                                (LGPBAS)</a>
+                                            <a href="user/leds" class="link-class">Local Economic Development Section
+                                                (LEDS) </a>
                                             <!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 grid-margin">
+                        <div class="col-md-3 grid-margin">
                             <div class="cardd d-flex align-items-center">
                                 <div class="card-body">
                                     <div class="d-flex flex-row align-items-center">
                                         <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
                                         <div class="sub-text">
-                                            <a href="user/poarcs">Peace and Order and Related Concerns Section
-                                                (POARCS)</a>
+                                            <a href="user/dreps" class="link-class">Disaster Resiliency and
+                                                Environmental Protection Section (DREPS) </a>
+                                            <!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 grid-margin">
+                            <div class="cardd d-flex align-items-center">
+                                <div class="card-body">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+                                        <div class="sub-text">
+                                            <a href="user/lppdas" class="link-class">Local Planning and Project
+                                                Development Assistance Section (LPPDAS) </a>
                                             <!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
                                         </div>
                                     </div>
@@ -501,10 +520,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="content-wrapper">
-          <div class="row">
-       -->
-
                     <!-- content-wrapper ends -->
 
 
@@ -513,13 +528,13 @@
                 <footer class="footer">
                     <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No.
                         5<br>
-                        <a>Rawis, Legazpi City</a>
-                    </p>
+                        Rawis, Legazpi City</p>
                 </footer>
                 <!-- main-panel ends -->
             </div>
             <!-- page-body-wrapper ends -->
         </div>
+
         <!-- container-scroller -->
 
         <!-- plugins:js -->
