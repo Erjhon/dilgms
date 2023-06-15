@@ -13784,7 +13784,78 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid #e3e3e3;
   border-radius: 20px;
+  margin-bottom: -10px; 
 }
+
+.sub-text a{
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial;
+
+}
+.card1 {
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(255,87,87,1) 0%, rgba(255,243,89,1) 100%);
+  background-clip: border-box;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+  margin-bottom: 19px;
+  margin-top: -40px;
+  padding: 25px;
+  height: 70%;
+}
+
+.cardd {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  /* border: 1px solid #e3e3e3; */
+  border-radius: 20px;
+  margin-bottom: -10px; 
+  height: 15vh;
+}
+
+.card2 {
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(255,87,87,1) 0%, rgba(255,243,89,1) 100%);
+  background-clip: border-box;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+  margin-bottom: 19px;
+  margin-top: -40px;
+  padding: 25px;
+  height: 40vh;
+}
+
+.card3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  /* border: 1px solid #e3e3e3; */
+  border-radius: 10px;
+  margin-bottom: -24px; 
+  height: 52vh;
+}
+
+
+
 
 .card > hr {
   margin-right: 0;
@@ -13817,6 +13888,7 @@ input[type="button"].btn-block {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
+  font-family: Roboto;
 }
 
 .card-title {
@@ -19431,6 +19503,39 @@ input:focus {
 }
 
 /* Typography */
+.h2home{
+  font-family:arial black; 
+  color: black;  
+  margin-left: 30px;
+  margin-bottom: -10%;
+  /* padding-top:%; */
+  text-align: justify;
+  font-size: 300%;
+  
+}
+.h3home{
+  font-family:arial black; 
+  color: black;  
+  margin-left: 32px;
+  margin-top: 9%;
+  font-size: 150%;
+  /* padding-top:%; */
+  text-align: justify;
+}
+
+.monitor-icon {
+  width: 30%;
+  height: auto;
+  margin-top: -25%;
+  margin-left: 60%;
+}
+.report {
+  width: 30%;
+  height: auto;
+  margin-top: -28%;
+  margin-left: 60%;
+}
+
 body {
   font-size: 1rem;
   font-family: "Nunito", sans-serif;
@@ -19700,7 +19805,7 @@ code {
 /* Footer */
 .footer {
   background: #F5F7FF;
-  padding: 30px 2.45rem;
+  padding: 20px 2.45rem;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -19711,9 +19816,11 @@ code {
   border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-.footer a {
-  color: #4B49AC;
-  font-size: inherit;
+.footer p {
+  color: black;
+  font-size: 12px;
+  line-height: 1.2;
+  
 }
 
 @media (max-width: 991px) {
@@ -20197,8 +20304,12 @@ code {
 }
 
 .card-people img {
-  border-radius: 20px;
-  width: 100%;
+  /* border-radius: 20px; */
+/*  width: 100%;*/
+  width: 50px;
+  height: auto;
+  margin-top: -10px;
+  margin-right: 2px;
 }
 
 .card-people .weather-info {
@@ -21981,6 +22092,7 @@ code {
   -moz-transition: background 0.25s ease;
   -ms-transition: background 0.25s ease;
   border: none;
+  margin-bottom: 15px;
 }
 
 .card.tale-bg {
@@ -30592,4 +30704,44 @@ div.tagsinput span.tag a {
   }
 }
 
+footer {
+  margin-top: 10px;
+  text-align: center;
+  /* padding: 3px; */
+  color: black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  /* border: 1px solid #e3e3e3; */
+  /* border-radius: 20px; */
+}
+div.lguadmin {
+    text-align: center;
+    font-family: Arial;
+}
+h5.sub2 {
+  color: green;
+  font-size: 17px;
+  font-family: Arial;
+  font-weight: bold;
+}
+h6.subsub-text {
+  margin-left: 15px; 
+  font-family: Helvetica;
+}
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
+
+/* Create four equal columns that floats next to each other */
+ .announcement {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        
+        .announcement h2 {
+            margin-top: 0;
+        }
