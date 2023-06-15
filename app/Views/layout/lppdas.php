@@ -297,26 +297,21 @@
           <!-- chat tab ends -->
         </div>
       </div>
+
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="admin/dashboard/">
+            <a class="nav-link" href="user/home/">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="admin/memorandum/">
+            <a class="nav-link" href="user/navigation/">
               <i class="icon-paper menu-icon"></i>
               <span class="menu-title">Memorandum</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="admin/announcement/">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title text-dark">Announcement</span>
             </a>
           </li>
           <li class="nav-item">
@@ -326,57 +321,347 @@
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="admin/lgcdd_admin">LGCDD</a></li>
-                <li class="nav-item"> <a class="nav-link" href="admin/lgmed_admin">LGMED</a></li>          
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">Local Government Capability Development Division</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">Local Government Monitoring and Evaluation Division</a></li>          
               </ul>
             </div>
           </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="user/status">
               <i class="icon-columns menu-icon"></i>
               <span class="menu-title">Status of Compliance</span>
             </a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#reports" aria-expanded="false" aria-controls="ui-basic">
-              <i class="icon-columns menu-icon"></i>
-              <span class="menu-title">Status of Compliance</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="reports">
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" target=”_blank” href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=189689531">January</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Febuary</a></li> 
-                <li class="nav-item"> <a class="nav-link" target="_blank" href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=910401658">March</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">April</a></li>  
-                <li class="nav-item"> <a class="nav-link" href="">May</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">June</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">July</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">August</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">September</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">October</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">November</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">December</a></li>         
-              </ul>
-            </div>
           </li>
         </ul>
       </nav>
 
-   
+     <!-- partial -->
+     <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
-    
+            <div class="col-md-12 grid-margin">
+              <div class="row">
+                <!-- <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                  <h3 class="font-weight-bold">Welcome C/MLGOO <?php $session = session(); echo $session->get('name');?></h3>
+                  <h6 class="font-weight-normal mb-0">Here is the updated Memorandum! You have <span class="text-primary">3 unread alerts!</span></h6>
+                </div> -->
+                <div class="col-12 col-xl-4">
+                 <div class="justify-content-end d-flex">
+                  <div class="dropdown flex-md-grow-1 flex-xl-grow-0">
+                    <!-- <button class="btn btn-sm btn-light bg-white dropdown-toggle" type="button" id="dropdownMenuDate2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                     <i class="mdi mdi-calendar"></i> Today (10 Jan 2021)
+                    </button> -->
+                    <!-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuDate2">
+                      <a class="dropdown-item" href="#">January - March</a>
+                      <a class="dropdown-item" href="#">March - June</a>
+                      <a class="dropdown-item" href="#">June - August</a>
+                      <a class="dropdown-item" href="#">August - November</a>
+                    </div> -->
+                  </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <div class="card2" >
+          <div class="row">
+            <div class="col-md-3 grid-margin stretch-card">
+              <div class="">
+                <div class="card-people" style="margin-left:5px">
+                  <img src="images/dilg.png" alt="people" style="width: 65px;">
+                  <img src="images/lgrrc.png" alt="people">
+                  <div class="weather-info">
+                    <div class="d-flex">
+                      <div>
+                        <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
+                      </div>
+                      <!-- <div class="ml-2">
+                        <h4 class="location font-weight-normal"><b>Memorandum</b></h4>
+                        <h6 class="font-weight-normal">Notice!</h6>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
+            </div> 
+          </div>
+          <div class="lguadmin">
+          <h2>Local Planning and Project Development Assistance Section (LPPDAS)   </h2>
+          </div>
+        </div>
+
+          <div class="row">
+          <div class="col-md-3 grid-margin">
+					<div class="card3 d-flex align-items-center">
+				    	<div class="card-body">
+							<div class="d-flex flex-row align-items-center">
+								<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
+								<div class="ms-3">
+                    <ul>
+                        <li>
+                          <h5 class="sub2">Comprehensive Development Plan Monitoring Report</h5>
+                        </li>
+                  </ul>
+                      <h6 class="subsub-text">Quarterly Report - Due 30th day of the last month of the Quarter <br>
+                      Access: For Provincial Office Only<br>
+                      Note: RFP will automatically close the sheet for editing at exactly 12mn on due date.<br><br>
+                      Link: <a href="https://bit.ly/r5CDP2023 ">https://bit.ly/r5CDP2023 </a><br></h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
+										<div class="ms-3">
+                      <ul>
+                        <li>
+                          <h5 class="sub2">Comprehensive Land Use Plan Monitoring Report</h5>
+                        </li>
+                        </ul>
+                          <h6 class="subsub-text">Quarterly Report - Due 30th day of the last month of the Quarter <br> Access: For Provincial Office Only<br>
+                           Note: RFP will automatically close the sheet for editing at exactly 12mn on due date.<br><br>
+                           Link: <a href="https://bit.ly/r5CLUP2023">https://bit.ly/r5CLUP2023</a><br></h6>
+                    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+            
+						<div class="col-md-3 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
+										<div class="ms-3">
+                    <ul>
+                        <li>
+                          <h5 class="sub2">GAD Database 2023</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">One time Report if LGU is compliant<br>
+                           Access: For Provincial Office Only<br><br>
+                           Link: <a href="https://bit.ly/R5GADDATABASE2023">https://bit.ly/R5GAD<br>DATABASE2023</a><br></h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+                    <ul>
+                        <li>
+                          <h5 class="sub2">GAD Evaluation Report</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">One time submission Due on June 30, 2022<br>
+                           <br>Access: For Provincial Office Only <br> 
+                           Note: Kindly inform PLGUs to submit a hard copy to DILG Regional Office 5<br><br>
+                           Link: <a href="https://bit.ly/GADEvaluationReport2022"> https://bit.ly/GAD<br>EvaluationReport2022</a> (Scanned copy) <br></h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+            <div class="col-md-3 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">CHR-DILG JMC 2020-01 M&E Tool Report</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">*Semestral Report: January 30 &  July 30 of each fiscal year<br>
+                           Access: For Provincial Office Only<br><br>
+                           Link: <a href="https://drive.google.com/drive/folders/1Dg9hczmq_GSXDeVUC-RTADX0Bv-NTbZv">bit.ly/CHR-DILG-Tool</a><br>
+                           Submission: <a href="mailto: chr5_legazpi@yahoo.com"> chr5_legazpi@yahoo.<br>com </a> cc: <a href="dilgr5lgcdd@gmail.com"> dilgr5lgcdd@gmail.com</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+         
+
+          <div class="col-md-3 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">VaxCertPH Compliance Report</h5>
+                        </li>
+                    </ul>
+                           <h6 class="subsub-text">One-time report if LGU is compliant <br>
+                           Access: LGU Personnel, Field Officers and PFP<br><br> 
+                           Link: <a href="https://www.appsheet.com/Account/Login?domainOnly=&FullScope=False&SpecificDomain=&externalFailure=&appName=LGU%20COVID-19%20Monitoring%20System&LimitedFullScope=&partner=&returnUrl=https%3A%2F%2Fwww.appsheet.com%2Fstart%2Fa3514b00-42c1-4534-8761-11844b4569fa%3Ffbclid%3DIwAR0LXCXuLAO_Pm7dgs5zhyF9LhuLAR82o2bZMOkWNVlXD1BczNz2fjWZk28&provider=google">bit.ly/5Ecqms</a><br>
+                           Link <a href="https://tinyurl.com/VaxCertLGUCompliance">https://tinyurl.com/Vax<br>CertLGUCompliance</a>
+                           </h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+          <div class="col-md-3 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">VaxCertPH Booths and Provision of Equipment Monitoring Report</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">One-time report if LGU is compliant<br>
+                           Access: LGU personnel, field officers, Provincial FPs<br><br>
+                           Link: <a href="https://bit.ly/r5VaxcertphBooths">https://bit.ly/r5Vax<br>certphBooths</a><br></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">Submission of Scanned Approved ELA FY 2022-2024 and Update Status of Formulation</h5>
+                        </li>
+                    </ul>
+                        <h6 class="subsub-text">Due Date: October 30, 2022<br><br>
+                        Link: <a href="https://drive.google.com/drive/u/0/folders/1WqwsXA7u9OjfqXECVhvdZXlUmSGDq2HC">bit.ly/R5ELASubmission</a><br></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">Submission of the Enhanced Barangay Development Plan (eBDP)</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">Access: Provincial FPs, Field Officers<br><br>
+                           Link: <a href="https://bit.ly/BDPUpload2022">https://bit.ly/BDPUpload<br>2022</a><br></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-3 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">Barangay Development Plan Inventory</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">Access: For Provincial Office Only<br>
+                          For updates pls check link:<br>
+                          <a href="https://bit.ly/BDPInventory">https://bit.ly/BDP<br>Inventory</a><br></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">Enhanced Barangay Development Plan Formulation References & Annexes</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">Access: LGU Personnel, Field Officers, Provincial FPs<br><br>
+                           Link: <a href="https://drive.google.com/drive/folders/1KgNNCoGfvbh-K5JmqGdwLSV04qGC39hU">bit.ly/eBDP_Annexes</a><br></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">Materials and References</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">
+                           Link: <a href="https://bit.ly/r5References2023">https://bit.ly/r5<br>References2023</a><br></h6>
+                        </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+          </div>
         <!-- content-wrapper ends -->
 
       
         <!-- partial -->
       </div>
+      <footer class="footer">
+          <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
+          <a>Rawis, Legazpi City</a></p>
+        </footer>
       <!-- main-panel ends -->
     </div>
     <!-- page-body-wrapper ends -->
   </div>
+
   <!-- container-scroller -->
 
   <!-- plugins:js -->

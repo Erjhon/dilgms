@@ -6,7 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG System'; ?></title>
+  <title><?= (isset($pageTitle)) ?  $pageTitle: 'DILG Monitoring System'; ?></title>
   <!-- Base url -->
   <base href="<?=base_url()?>public/">
   <!-- plugins:css -->
@@ -297,6 +297,7 @@
           <!-- chat tab ends -->
         </div>
       </div>
+
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
@@ -314,12 +315,6 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="user/announcement/">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title">Announcement</span>
-            </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">Reports for Submission</span>
@@ -327,8 +322,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDS</a></li>
-                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMES</a></li>          
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">Local Government Capability Development Division</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">Local Government Monitoring and Evaluation Division</a></li>          
               </ul>
             </div>
           </li>
@@ -341,8 +336,8 @@
         </ul>
       </nav>
 
-      <!-- partial -->
-      <div class="main-panel">
+     <!-- partial -->
+     <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
             <div class="col-md-12 grid-margin">
@@ -370,7 +365,7 @@
             </div>
           </div>
           
-        <div class="card1" >
+        <div class="card2" >
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
@@ -393,62 +388,174 @@
               <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
             </div> 
           </div>
-          <h2 class="h2home">LGMES Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
-          <img class="monitor-icon" src="images/monitor-icon.png" alt="people">
+          <div class="lguadmin">
+          <h2>Local Economic Development Section (LEDS) </h2>
+          </div>
         </div>
 
           <div class="row">
             <div class="col-md-4 grid-margin">
-							<div class="cardd d-flex align-items-center">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
-										<div class="sub-text">
-                    <a href="user/ars">Awards and Recognition Section</a>
-											<!--<a class="">Awards and Recognition Section </a>-->
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
-										</div>
+										<div class="ms-3">
+                      <ul>
+                        <li>
+                          <h5 class="sub2">LGU Energy Code/Energy Virtual One Stop Shop (EVOSS) Compliance Monitoring Report</h5>
+                        </li>
+                        </ul>
+                           <h6 class="subsub-text">Quarterly: Due Every 1st week of the ensuing month<br>
+                           Access: For Provincial FPs only<br><br>
+                           Link: <a href="https://bit.ly/r5EVOSS2023">https://bit.ly/r5EVOSS2023</a><br></h6>
+                    </div>
 									</div>
 								</div>
 							</div>
 						</div>
+            
 						<div class="col-md-4 grid-margin">
-							<div class="cardd d-flex align-items-center">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
-										<div class="sub-text">
-                    <a href="user/lgpbas">Local Government Policy and Barangay Affairs Section (LGPBAS)</a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+										<div class="ms-3">
+                    <ul>
+                        <li>
+                          <h5 class="sub2">BPLS/BPCO Quarterly Report</a></h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">Quarterly: Submit every 1st week of the ensuing month<br>
+                           Access: For Provincial FPs only<br><br>
+                           Link: <a href="https://bit.ly/r5bplsbpco">https://bit.ly/r5bplsbpco</a><br></h6>
+                           
+                      
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+
 						<div class="col-md-4 grid-margin">
-							<div class="cardd d-flex align-items-center">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="sub-text">
-                    <a href="user/poarcs">Peace and Order and Related Concerns Section (POARCS)</a>
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+										<div class="ms-3">
+                    <ul>
+                        <li>
+                          <h5 class="sub2">Philippine Plan of Action for Nutrition (PPAN) Status of Nutrition Programs & Physical Accomplishments</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">*Province/Cities/Municipalities (Semestral)<br>
+                           Reports: Due 30th day JANUARY and JULY (semestral) <br> 
+                           Access: For Provincial FPs only<br><br>
+                           Link: <a href="https://bit.ly/r5PPAN2023">https://bit.ly/r5PPAN2023</a><br></h6>
+                           
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-          </div>
-        <!-- <div class="content-wrapper">
-          <div class="row">
-       -->
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
 
+                    <ul>
+                        <li>
+                          <h5 class="sub2">Persons with Disability Affairs Office (PDAO) Monitoring Reports</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">*PDAO Functionality Assessment Form: Not later than January 30 of every year (hard & soft copies)<br>
+                          *Level of Functionality of PDAO per City/Municipality; Consolidated Assessment Report (Annex D) hard & soft copy not later than January 30 of every year <br>
+                           *Consolidated Annual Accomplishment Reports submitted not later than the 20th working day of the ensuing year <br>
+                           Access: For Provincial FPs only<br><br>
+                           Link: <a href="https://bit.ly/r5PDAO2023">https://bit.ly/r5PDAO2023</a><br></h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+         
+
+          <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">RESPONSIBLE PARENTHOOD AND REPRODUCTIVE HEALTH (RPRH) Accomplishment Reports</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">*HUC RPRH Report: Every 30th of January and July <br>
+                           *Provincial/City Implementation Team on RPRH law Annual Unified Work and Financial Plan: On or before January 15 of every year<br>
+                           *Consolidated Provincial RPRH Law Accomplishment Report: Every 30th of January and July <br>
+                           Access: For Provincial FPs only<br><br>
+                           Link: <a href="https://bit.ly/r5RPRH2023">https://bit.ly/r5RPRH2023</a><br></h6>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+          <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">LOCAL REVENUE CODE / LOCAL INVESTMENTS AND INCENTIVES CODE (LRC/LIIC)</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">Due 30th day of the last month of the quarter<br>
+                           <br>
+                           Link: <a href="https://bit.ly/r5NEO2023">https://bit.ly/r5NEO2023</a><br></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
+								<div class="card-body">
+									<div class="d-flex flex-row align-items-center">
+										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
+										<div class="ms-3">
+
+                    <ul>
+                        <li>
+                          <h5 class="sub2">IMPLEMENTATION OF THE PANTAWID PAMILYANG PILIPINO PROGRAM</h5>
+                        </li>
+                    </ul>
+                          <h6 class="subsub-text">Due every 15th working day of the month of the succeeding quarter<br>
+                           <br>
+                           Link: <a href="https://bit.ly/3wcuYU">https://bit.ly/3wcuYU</a><br></h6>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+          </div>
         <!-- content-wrapper ends -->
 
       
         <!-- partial -->
       </div>
-        <footer class="footer">
+      <footer class="footer">
           <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
           <a>Rawis, Legazpi City</a></p>
         </footer>
@@ -456,6 +563,7 @@
     </div>
     <!-- page-body-wrapper ends -->
   </div>
+
   <!-- container-scroller -->
 
   <!-- plugins:js -->

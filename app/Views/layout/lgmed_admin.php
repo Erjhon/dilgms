@@ -302,21 +302,21 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="admin/dashboard/">
+            <a class="nav-link" href="user/home/">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="admin/memorandum/">
+            <a class="nav-link" href="user/navigation/">
               <i class="icon-paper menu-icon"></i>
               <span class="menu-title">Memorandum</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="admin/announcement/">
+            <a class="nav-link" href="user/announcement/">
               <i class="icon-paper menu-icon"></i>
-              <span class="menu-title text-dark">Announcement</span>
+              <span class="menu-title">Announcement</span>
             </a>
           </li>
           <li class="nav-item">
@@ -326,40 +326,17 @@
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="admin/lgcdd_admin">LGCDD</a></li>
-                <li class="nav-item"> <a class="nav-link" href="admin/lgmed_admin">LGMED</a></li>          
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="user/lgcdd">LGCDS</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user/lgmed">LGMES</a></li>          
               </ul>
             </div>
           </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="user/status">
               <i class="icon-columns menu-icon"></i>
               <span class="menu-title">Status of Compliance</span>
             </a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#reports" aria-expanded="false" aria-controls="ui-basic">
-              <i class="icon-columns menu-icon"></i>
-              <span class="menu-title">Status of Compliance</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="reports">
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" target=”_blank” href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=189689531">January</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Febuary</a></li> 
-                <li class="nav-item"> <a class="nav-link" target="_blank" href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=910401658">March</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">April</a></li>  
-                <li class="nav-item"> <a class="nav-link" href="">May</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">June</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">July</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">August</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">September</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">October</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">November</a></li> 
-                <li class="nav-item"> <a class="nav-link" href="">December</a></li>         
-              </ul>
-            </div>
           </li>
         </ul>
       </nav>
@@ -393,15 +370,15 @@
             </div>
           </div>
           
+        <div class="card1" >
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
-                <div class="card-people mt-auto">
-                  <img src="images/dilg.png" alt="people">
+                <div class="card-people" style="margin-left:5px">
+                  <img src="images/dilg.png" alt="people" style="width: 65px;">
                   <img src="images/lgrrc.png" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
-                   <h1> LGMED Central Reporting System</h1>
                       <div>
                         <!-- <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2> -->
                       </div>
@@ -413,17 +390,21 @@
                   </div>
                 </div>
               </div>
-            </div>
-                 
+              <!-- <h3 align="center" style="font-family:verdana;"> </h3> -->
+            </div> 
           </div>
+          <h2 class="h2home">LGMES Cluster 1 </h2><br><h2 class="h3home"> List of Reports and Links</h2>
+          <img class="monitor-icon" src="images/monitor-icon.png" alt="people">
+        </div>
+
           <div class="row">
             <div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="cardd d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
-										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/ars" class="link-class">Awards and Recognition Section</a>
+										<div class="sub-text">
+                    <a href="user/ars">Awards and Recognition Section</a>
 											<!--<a class="">Awards and Recognition Section </a>-->
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
@@ -432,12 +413,12 @@
 							</div>
 						</div>
 						<div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="cardd d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
-										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/lgpbas" class="link-class">Local Government Policy and Barangay Affairs Section (LGPBAS)</a>
+										<div class="sub-text">
+                    <a href="user/lgpbas">Local Government Policy and Barangay Affairs Section (LGPBAS)</a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
@@ -445,12 +426,12 @@
 							</div>
 						</div>
 						<div class="col-md-4 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="cardd d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
-										<div class="ms-3">
-                    <a href="https://sites.google.com/dilg.gov.ph/lgmedcrs/poarcs" class="link-class">Peace and Order and Related Concerns Section (POARCS)</a>
+										<div class="sub-text">
+                    <a href="user/poarcs">Peace and Order and Related Concerns Section (POARCS)</a>
 											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
 										</div>
 									</div>
@@ -467,6 +448,10 @@
       
         <!-- partial -->
       </div>
+        <footer class="footer">
+          <p>Local Government Capacity Development Division <br>Division DILG Provincial Operations Office No. 5<br>
+          <a>Rawis, Legazpi City</a></p>
+        </footer>
       <!-- main-panel ends -->
     </div>
     <!-- page-body-wrapper ends -->
