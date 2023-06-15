@@ -52,56 +52,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav navbar-nav-right">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#"
-                            data-toggle="dropdown">
-                            <i class="icon-bell mx-0"></i>
-                            <span class="count"></span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
-                            aria-labelledby="notificationDropdown">
-                            <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
-                            <a class="dropdown-item preview-item">
-                                <div class="preview-thumbnail">
-                                    <div class="preview-icon bg-success">
-                                        <i class="ti-info-alt mx-0"></i>
-                                    </div>
-                                </div>
-                                <div class="preview-item-content">
-                                    <h6 class="preview-subject font-weight-normal">Application Error</h6>
-                                    <p class="font-weight-light small-text mb-0 text-muted">
-                                        Just now
-                                    </p>
-                                </div>
-                            </a>
-                            <a class="dropdown-item preview-item">
-                                <div class="preview-thumbnail">
-                                    <div class="preview-icon bg-warning">
-                                        <i class="ti-settings mx-0"></i>
-                                    </div>
-                                </div>
-                                <div class="preview-item-content">
-                                    <h6 class="preview-subject font-weight-normal">Settings</h6>
-                                    <p class="font-weight-light small-text mb-0 text-muted">
-                                        Private message
-                                    </p>
-                                </div>
-                            </a>
-                            <a class="dropdown-item preview-item">
-                                <div class="preview-thumbnail">
-                                    <div class="preview-icon bg-info">
-                                        <i class="ti-user mx-0"></i>
-                                    </div>
-                                </div>
-                                <div class="preview-item-content">
-                                    <h6 class="preview-subject font-weight-normal">New user registration</h6>
-                                    <p class="font-weight-light small-text mb-0 text-muted">
-                                        2 days ago
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
+
                     <li class="nav-item nav-profile dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
                             <!-- <img src="images/faces/face28.jpg" alt="profile"/> -->
@@ -158,80 +109,7 @@
                     </div>
                 </div>
             </div>
-            <div id="right-sidebar" class="settings-panel">
-                <i class="settings-close ti-close"></i>
-                <ul class="nav nav-tabs border-top" id="setting-panel" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="todo-tab" data-toggle="tab" href="#todo-section" role="tab"
-                            aria-controls="todo-section" aria-expanded="true">TO DO LIST</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="setting-content">
-                    <div class="tab-pane fade show active scroll-wrapper" id="todo-section" role="tabpanel"
-                        aria-labelledby="todo-section">
-                        <div class="add-items d-flex px-3 mb-0">
-                            <form class="form w-100">
-                                <div class="form-group d-flex">
-                                    <input type="text" class="form-control todo-list-input" placeholder="Add To-do">
-                                    <button type="submit" class="add btn btn-primary todo-list-add-btn"
-                                        id="add-task">Add</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="list-wrapper px-3">
-                            <ul class="d-flex flex-column-reverse todo-list">
-                                <li>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="checkbox" type="checkbox">
-                                            Team review meeting at 3.00 PM
-                                        </label>
-                                    </div>
-                                    <i class="remove ti-close"></i>
-                                </li>
-                                <li>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="checkbox" type="checkbox">
-                                            Prepare for presentation
-                                        </label>
-                                    </div>
-                                    <i class="remove ti-close"></i>
-                                </li>
-                                <li>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="checkbox" type="checkbox">
-                                            Resolve all the low priority tickets due today
-                                        </label>
-                                    </div>
-                                    <i class="remove ti-close"></i>
-                                </li>
-                                <li class="completed">
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="checkbox" type="checkbox" checked>
-                                            Schedule meeting for next week
-                                        </label>
-                                    </div>
-                                    <i class="remove ti-close"></i>
-                                </li>
-                                <li class="completed">
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="checkbox" type="checkbox" checked>
-                                            Project review
-                                        </label>
-                                    </div>
-                                    <i class="remove ti-close"></i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
 
-                    <!-- chat tab ends -->
-                </div>
-            </div>
             <!-- partial -->
             <!-- partial:partials/_sidebar.html -->
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
@@ -391,29 +269,12 @@
                                                     <option value="late">Late</option>
                                                 </select>
                                             </div>
-                                            <?php if ($dilg['lgmes'] === 'not submitted' || $dilg['lgmes'] === 'late'): ?>
-                                            <div class="form-group">
-                                                <input hidden type="text" name="dilg_id" id="dilg_id" value="<?= $dilg['id'] ?>
-                                                <label for=" task">Task:</label>
-                                                <input class="form-control" type="text" name="task" id="task" required>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="task_sec">Task Secondary:</label>
-                                                <input class="form-control" type="text" name="task_sec" id="task_sec"
-                                                    required>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="task_sec">Task Secondary:</label>
-                                                <input class="form-control" type="text" name="task_sec" id="task_sec"
-                                                    required>
-                                            </div>
-                                            <?php endif; ?>
                                             <div class="from-group">
                                                 <button type="submit" class="btn btn-primary me-2">Update</button>
                                                 <div>
                                         </form>
 
-                                        <a href="<?= site_url('dilg/create') ?>">Add New Entry</a>
+                                        <!-- <a href="<?= site_url('dilg/create') ?>">Add New Entry</a> -->
                                     </div>
                                 </div>
                             </div>

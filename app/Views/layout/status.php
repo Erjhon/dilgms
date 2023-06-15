@@ -52,56 +52,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav navbar-nav-right">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#"
-                            data-toggle="dropdown">
-                            <i class="icon-bell mx-0"></i>
-                            <span class="count"></span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
-                            aria-labelledby="notificationDropdown">
-                            <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
-                            <a class="dropdown-item preview-item">
-                                <div class="preview-thumbnail">
-                                    <div class="preview-icon bg-success">
-                                        <i class="ti-info-alt mx-0"></i>
-                                    </div>
-                                </div>
-                                <div class="preview-item-content">
-                                    <h6 class="preview-subject font-weight-normal">Application Error</h6>
-                                    <p class="font-weight-light small-text mb-0 text-muted">
-                                        Just now
-                                    </p>
-                                </div>
-                            </a>
-                            <a class="dropdown-item preview-item">
-                                <div class="preview-thumbnail">
-                                    <div class="preview-icon bg-warning">
-                                        <i class="ti-settings mx-0"></i>
-                                    </div>
-                                </div>
-                                <div class="preview-item-content">
-                                    <h6 class="preview-subject font-weight-normal">Settings</h6>
-                                    <p class="font-weight-light small-text mb-0 text-muted">
-                                        Private message
-                                    </p>
-                                </div>
-                            </a>
-                            <a class="dropdown-item preview-item">
-                                <div class="preview-thumbnail">
-                                    <div class="preview-icon bg-info">
-                                        <i class="ti-user mx-0"></i>
-                                    </div>
-                                </div>
-                                <div class="preview-item-content">
-                                    <h6 class="preview-subject font-weight-normal">New user registration</h6>
-                                    <p class="font-weight-light small-text mb-0 text-muted">
-                                        2 days ago
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
+
                     <li class="nav-item nav-profile dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
                             <!-- <img src="images/faces/face28.jpg" alt="profile"/> -->
@@ -158,80 +109,7 @@
                     </div>
                 </div>
             </div>
-            <div id="right-sidebar" class="settings-panel">
-                <i class="settings-close ti-close"></i>
-                <ul class="nav nav-tabs border-top" id="setting-panel" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="todo-tab" data-toggle="tab" href="#todo-section" role="tab"
-                            aria-controls="todo-section" aria-expanded="true">TO DO LIST</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="setting-content">
-                    <div class="tab-pane fade show active scroll-wrapper" id="todo-section" role="tabpanel"
-                        aria-labelledby="todo-section">
-                        <div class="add-items d-flex px-3 mb-0">
-                            <form class="form w-100">
-                                <div class="form-group d-flex">
-                                    <input type="text" class="form-control todo-list-input" placeholder="Add To-do">
-                                    <button type="submit" class="add btn btn-primary todo-list-add-btn"
-                                        id="add-task">Add</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="list-wrapper px-3">
-                            <ul class="d-flex flex-column-reverse todo-list">
-                                <li>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="checkbox" type="checkbox">
-                                            Team review meeting at 3.00 PM
-                                        </label>
-                                    </div>
-                                    <i class="remove ti-close"></i>
-                                </li>
-                                <li>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="checkbox" type="checkbox">
-                                            Prepare for presentation
-                                        </label>
-                                    </div>
-                                    <i class="remove ti-close"></i>
-                                </li>
-                                <li>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="checkbox" type="checkbox">
-                                            Resolve all the low priority tickets due today
-                                        </label>
-                                    </div>
-                                    <i class="remove ti-close"></i>
-                                </li>
-                                <li class="completed">
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="checkbox" type="checkbox" checked>
-                                            Schedule meeting for next week
-                                        </label>
-                                    </div>
-                                    <i class="remove ti-close"></i>
-                                </li>
-                                <li class="completed">
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="checkbox" type="checkbox" checked>
-                                            Project review
-                                        </label>
-                                    </div>
-                                    <i class="remove ti-close"></i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
 
-                    <!-- chat tab ends -->
-                </div>
-            </div>
             <!-- partial -->
             <!-- partial:partials/_sidebar.html -->
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
@@ -422,13 +300,12 @@
 
 
                     <!-- Completed Modal -->
-                    <div class="modal fade" id="completedModal" tabindex="-1" role="dialog"
+                    <!-- <div class="modal fade" id="completedModal" tabindex="-1" role="dialog"
                         aria-labelledby="completedModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-body">
-                                    <!-- dilg/create.php -->
-
+                                   
                                     <h1>Create Dilg Entry</h1>
 
                                     <form method="post" action="<?= site_url('dilg/update') ?>">
@@ -451,40 +328,40 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <!-- Not Submitted Modal -->
-                <div class="modal fade" id="notSubmittedModal" tabindex="-1" role="dialog"
+                    <!-- Not Submitted Modal -->
+                    <!-- <div class="modal fade" id="notSubmittedModal" tabindex="-1" role="dialog"
                     aria-labelledby="notSubmittedModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <!-- Add your content here for the Not Submitted modal -->
+                              
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <!-- Late Modal -->
-                <div class="modal fade" id="lateModal" tabindex="-1" role="dialog" aria-labelledby="lateModalLabel"
+                    <!-- Late Modal -->
+                    <!-- <div class="modal fade" id="lateModal" tabindex="-1" role="dialog" aria-labelledby="lateModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <!-- Add your content here for the Late modal -->
+                               
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
-                <!-- <script>
+                    <!-- <script>
   function editStatus(button) {
     var row = button.parentNode.parentNode;
     var statusLabel = row.querySelector(".badge");
@@ -502,38 +379,38 @@
   }
 </script> -->
 
-                <!-- content-wrapper ends -->
+                    <!-- content-wrapper ends -->
 
 
-                <!-- partial -->
+                    <!-- partial -->
+                </div>
+                <!-- main-panel ends -->
             </div>
-            <!-- main-panel ends -->
+            <!-- page-body-wrapper ends -->
         </div>
-        <!-- page-body-wrapper ends -->
-    </div>
-    <!-- container-scroller -->
+        <!-- container-scroller -->
 
-    <!-- plugins:js -->
-    <script src="vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <script src="vendors/chart.js/Chart.min.js"></script>
-    <script src="vendors/datatables.net/jquery.dataTables.js"></script>
-    <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
-    <script src="js/dataTables.select.min.js"></script>
+        <!-- plugins:js -->
+        <script src="vendors/js/vendor.bundle.base.js"></script>
+        <!-- endinject -->
+        <!-- Plugin js for this page -->
+        <script src="vendors/chart.js/Chart.min.js"></script>
+        <script src="vendors/datatables.net/jquery.dataTables.js"></script>
+        <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+        <script src="js/dataTables.select.min.js"></script>
 
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
-    <script src="js/off-canvas.js"></script>
-    <script src="js/hoverable-collapse.js"></script>
-    <script src="js/template.js"></script>
-    <script src="js/settings.js"></script>
-    <script src="js/todolist.js"></script>
-    <!-- endinject -->
-    <!-- Custom js for this page-->
-    <script src="js/dashboard.js"></script>
-    <script src="js/Chart.roundedBarCharts.js"></script>
-    <!-- End custom js for this page-->
+        <!-- End plugin js for this page -->
+        <!-- inject:js -->
+        <script src="js/off-canvas.js"></script>
+        <script src="js/hoverable-collapse.js"></script>
+        <script src="js/template.js"></script>
+        <script src="js/settings.js"></script>
+        <script src="js/todolist.js"></script>
+        <!-- endinject -->
+        <!-- Custom js for this page-->
+        <script src="js/dashboard.js"></script>
+        <script src="js/Chart.roundedBarCharts.js"></script>
+        <!-- End custom js for this page-->
 </body>
 
 </html>
