@@ -447,18 +447,29 @@ foreach ($files as $file) :
                                         <?php elseif (endsWith($file['filename'], '.doc') || endsWith($file['filename'], '.docx')) : ?>
                                         <iframe
                                             src="https://view.officeapps.live.com/op/embed.aspx?src=<?= base_url($file['filepath']) ?>"
-                                            width="100%" height="600px" frameborder="0">This browser does not support
-                                            embedded PDFs. Please download the PDF to view it: <a
-                                                href="<?= base_url($file['filepath']) ?>">Download PDF</a></iframe>
+                                            width="100%" height="600px" frameborder="0">
+                                            This browser does not support embedded PDFs. Please download the PDF to view
+                                            it:
+                                            <a href="<?= base_url($file['filepath']) ?>">Download PDF</a>
+                                        </iframe>
                                         <?php else : ?>
                                         <img src="<?= base_url($file['filepath']) ?>" alt="<?= $file['filename'] ?>"
                                             width="200">
                                         <?php endif; ?>
+
+                                        <!-- Add delete button -->
+                                        <form action="<?= site_url('file/delete/'.$file['id']) ?>" method="post"
+                                            onsubmit="return confirm('Are you sure you want to delete this file?')">
+                                            <button type="submit" class="btn btn-danger">Remove
+                                                Memo</button>
+                                        </form>
                                     </div>
                                     <?php 
     $counter++;
 endforeach; 
 ?>
+
+                                    <!-- Rest of the code -->
 
                                     <!-- <img src="images/dashboard/people.svg" alt="people"> -->
                                     <div class="weather-info">

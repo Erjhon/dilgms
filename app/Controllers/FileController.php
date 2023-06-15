@@ -48,8 +48,8 @@ class FileController extends BaseController
     public function showFiles()
     {
         $fileModel = new FileModel();
-        $data['files'] = $fileModel->findAll();
-
+        $data['files'] = $fileModel->orderBy('id', 'desc')->findAll();
+    
         $announceModel = new AnnounceModel();
         $data['announcements'] = $announceModel->findAll();
     
@@ -66,4 +66,25 @@ class FileController extends BaseController
     
         return view('layout/userdashboard', $data);
     }
+
+    public function deleteFile($id)
+{
+    $fileModel = new FileModel();
+    $file = $fileModel->find($id);
+
+    if (!$file) {
+        return redirect()->back()->with('error', 'File not found');
+    }
+
+    $filePath = ROOTPATH . $file['filepath'];
+
+    if (file_exists($filePath)) {
+        unlink($filePath); // Delete the file from the filesystem
+    }
+
+    $fileModel->delete($id); // Delete the file record from the database
+
+    return redirect()->back()->with('success', 'File deleted successfully');
+}
+
 }

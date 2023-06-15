@@ -68,6 +68,8 @@ $routes->get('files/(:segment)', 'AnnouncementCont::getFile/$1');
 $routes->get('admin/dashboard', 'FileController::showFiles');
 $routes->get('admin/dashboard', 'AnnouncementCont::showFiles');
 
+
+
 	
 $routes->get('calendar', 'FullCalendar::calendar');
 
@@ -80,9 +82,11 @@ $routes->group("admin", function($routes){
     $routes->get('lgcdd_admin', 'UserController::lgcddAdmin', ['as' => 'admin.lgcdd_admin']);
     $routes->get('monitor', 'UserController::monitor', ['as' => 'admin.monitor']);
     $routes->get('status', 'DilgController::index', ['as' => 'admin.status']);
+    $routes->get('memo', 'FileController::memo', ['as' => 'admin.memorandum']);
     
 });
-
+$routes->get('file/delete/(:num)', 'FileController::deleteFile/$1');
+$routes->post('file/delete/(:num)', 'FileController::deleteFile/$1');
 $routes->post('add-task', 'TaskController::addTask');
 
 $routes->get('dilg', 'DilgController::index');
