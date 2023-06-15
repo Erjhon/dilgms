@@ -402,11 +402,12 @@
 										<div class="ms-3">
                       <ul>
                         <li>
-                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/1zNsCNJcQSYEbezEu5jyzUMJ4GWiILv73">Program for Newly-Elected Officials (NEO) Consolidated Report </a></h5>
+                          <h5 class="sub2">Program for Newly-Elected Officials (NEO) Consolidated Report</h5>
                         </li>
                         </ul>
-                           <h6 class="subsub-text"><b>Quarterly: </b>Due 28th day of the last month of the Quarter<br><br>
-                           <b>Access:</b> For C/MLGOOs<br><br></h6>
+                           <h6 class="subsub-text">Quarterly: Due 28th day of the last month of the Quarter<br>
+                           Access: For C/MLGOOs<br><br>
+                           Link: <a href="https://bit.ly/r5NEO2023">https://bit.ly/r5NEO2023</a><br></h6>
                     </div>
 									</div>
 								</div>
@@ -414,20 +415,19 @@
 						</div>
             
 						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://lgames.lga.gov.ph/">Local Government Academy Monitoring and Evaluation System (LGAMES)</a></h5>
+                          <h5 class="sub2">Local Government Academy Monitoring and Evaluation System (LGAMES)</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;"> <b>Quarterly:</b>Due 30th day of the last month of the Quarter <br><br>
-                           <b> Access: </b>For Provincial Office Only<br><br>
-                           </h6>
-                      
+                          <h6 class="subsub-text">Quarterly: Due 30th day of the last month of the Quarter<br>
+                           Access: For Provincial Office Only<br><br>
+                           Link: <a href="https://lgames.lga.gov.ph/">https://lgames.lga.gov.ph/</a><br></h6>            
 										</div>
 									</div>
 								</div>
@@ -435,26 +435,26 @@
 						</div>
 
 						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2"><a href="http://ocdms.lga.gov.ph/">Online CapDev Market System (OCDMS)</a></h5>
+                          <h5 class="sub2">Online CapDev Market System (OCDMS)</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">One-time report; can be edited if there are updates<br><br>
-                          <b>Access:</b> For LGU OCDMS/CapDev Focal Person; DILG personnel<br>
-                           </h6>
+                          <h6 class="subsub-text">One-time report; can be edited if there are updates<br>
+                           Access: For LGU OCDMS/CapDev Focal Person; DILG personnel<br><br>
+                           Link: <a href="http://ocdms.lga.gov.ph/">http://ocdms.lga.gov.ph/</a><br></h6>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
             <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -462,12 +462,11 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://dtp.dilg.gov.ph/">Devolution Transition Plan (DTP) Repository </a></h5>
+                          <h5 class="sub2">Devolution Transition Plan (DTP) Repository</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;"><b>Access:</b> LGU personnel, DILG personnel <br>
-                           <br>
-                           </h6>
+                          <h6 class="subsub-text">Access: LGU personnel, DILG personnel<br><br>
+                           Link: <a href="https://dtp.dilg.gov.ph/">https://dtp.dilg.gov.ph/</a><br></h6>
 										</div>
 									</div>
 								</div>

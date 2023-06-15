@@ -389,78 +389,74 @@
             </div> 
           </div>
           <div class="lguadmin">
-          <h1>Disaster Resiliency and Environmental Protection Section (DREPS)  </h1>
+          <h2>Disaster Resiliency and Environmental Protection Section (DREPS)  </h2>
           </div>
         </div>
 
           <div class="row">
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
 										<div class="ms-3">
                       <ul>
                         <li>
-                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/1cn2dmwaKxB08cyANdHmUPFwZXNiEV-y1">Contingency Plan Monitoring Report</a></h5>
+                          <h5 class="sub2">Contingency Plan Monitoring Report</h5>
                         </li>
                         </ul>
-                        
-                           <h6 style="margin-left: 15px;"> Quarterly: Due 30th day of the last month of the Quarter  </h6>
-                           <h6 style="margin-left: 15px;">  Access: For Provincial DRR OpCen Emails Only</h6>
-                          
-                      
-
-											<!--<a class="">Awards and Recognition Section </a>-->
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+                           <h6 class="subsub-text">Quarterly: Due 30th day of the last month of the Quarter<br>
+                           Access: For Provincial DRR OpCen Emails Only<br><br>
+                           Link: <a href="https://bit.ly/r5CP2023">https://bit.ly/r5CP2023</a><br></h6>
+                           
                     </div>
 									</div>
 								</div>
 							</div>
 						</div>
             
-						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+						<div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1j9Vu1UPmI2ixpxlBzOu2Gd0QFtXTAhnK">Local Climate Change Action Plan and CDRA Monitoring Report</a></h5>
+                          <h5 class="sub2">Local Climate Change Action Plan and CDRA Monitoring Report</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">    Quarterly: Due 30th day of the last month of the Quarter <br>
-                           Access: For Provincial DRR OpCen Emails Only<br>
-                           </h6>
-                      
+                          <h6 class="subsub-text">Quarterly: Due 30th day of the last month of the Quarter<br>
+                           Access: For Provincial DRR OpCen Emails Only<br><br>
+                           Link: <a href="https://bit.ly/r5LCCAPCDRA2023">https://bit.ly/r5LCCAPCDRA2023</a><br></h6>
+                     
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+						<div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/1UYijpoDqicJ085GKzHaaEw-5yyRfcSuC">Compliance to RA 10121</a></h5>
+                          <h5 class="sub2">Compliance to RA 10121</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;"> Quarterly Report - Due 30th Day of the Last Month of the Quarter <br>
-                           <br>           Access: For Provincial DRR OpCen Emails Only
-                           </h6>
+                          <h6 class="subsub-text">Quarterly Report - Due 30th Day of the Last Month of the Quarter<br>
+                           Access: For Provincial DRR OpCen Emails Only<br><br>
+                           Link: <a href="https://bit.ly/r5101212023">https://bit.ly/r5101212023</a><br></h6>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -468,13 +464,12 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1WfXTYSybssHOYPdTcIHjIsqUrRucC0Gm">Compliance to QAS for BDRRMP</a></h5>
+                          <h5 class="sub2">Compliance to QAS for BDRRMP</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">  Quarterly Report - Due 30th Day of the Last Month of the Quarter <br>
-                           Access: For Provincial DRR OpCen Emails Only
-                         
-                           </h6>
+                          <h6 class="subsub-text">Quarterly Report - Due 30th Day of the Last Month of the Quarter <br>
+                           Access: For Provincial DRR OpCen Emails Only<br><br>
+                           Link: <a href="https://bit.ly/r5BDRRMP2023">https://bit.ly/r5BDRRMP2023</a><br></h6>
 										</div>
 									</div>
 								</div>
@@ -482,8 +477,8 @@
 						</div>
          
 
-          <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+          <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -491,20 +486,20 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://alertandready.ph/qatportal/">Compliance to QAS for BDRRMP Portal</a></h5>
+                          <h5 class="sub2">Compliance to QAS for BDRRMP Portal</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">  Quarterly Report - Due 30th Day of the Month of the Quarter  <br>
-                           Access: For Provincial DRR OpCen Emails Only
-                           </h6>
+                          <h6 class="subsub-text">Quarterly Report - Due 30th Day of the Month of the Quarter  <br>
+                           Access: For Provincial DRR OpCen Emails Only<br><br>
+                           Link: <a href="http://alertandready.ph/qatportal/">http://alertandready.ph/qatportal/</a><br></h6>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 
-          <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+          <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -512,20 +507,20 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1AUXRfvalRei-vgfU2I8y3C2yXpmjJK_m">Local Disaster Risk Reduction and Management Plan Monitoring Report</a></h5>
+                          <h5 class="sub2">Local Disaster Risk Reduction and Management Plan Monitoring Report</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">  Quarterly Report - Due 30th day of the last month of the Quarter <br></h6>
-                           <h6 style="margin-left: 15px;"> Access: For Provincial DRR OpCen Emails Only</h6>
-                           
+                          <h6 class="subsub-text">Quarterly Report - Due 30th day of the last month of the Quarter<br>
+                          Access: For Provincial DRR OpCen Emails Only<br><br>
+                           Link: <a href="https://bit.ly/r5LDRRMP2023">https://bit.ly/r5LDRRMP2023</a><br></h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -533,22 +528,20 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://docs.google.com/spreadsheets/d/1UtYtsAABGitR_uYlhSIiyyoBck_F2BMATgoV5Q2qIr8/edit#gid=1679906141">!!!NEW!!! Report on the Actions Taken on the Recommendation of No Build Zones on the Legal Easements of the Bicol River Basin</a></h5>
+                          <h5 class="sub2">!!!NEW!!! Report on the Actions Taken on the Recommendation of No Build Zones on the Legal Easements of the Bicol River Basin</h5>
                         </li>
                     </ul>
-                        
-                        <h6 style="margin-left: 15px;">   Monthly Report - Due on July 30 and every 30th Day of the Month <br>
-                        Access: Open for concerned C/MLGOOs
-              
-                        </h6>
+                          <h6 class="subsub-text">Monthly Report - Due on July 30 and every 30th Day of the Month <br>
+                          Access: Open for concerned C/MLGOOs<br><br>
+                           Link: <a href="https://bit.ly/BBB-LegEase">https://bit.ly/BBB-LegEase</a><br></h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -556,14 +549,12 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://docs.google.com/spreadsheets/d/1q3haaR3FRK38HzR_DrlWnGcOGpkvUWVGrcqGakjmEec/edit#gid=0">!!!NEW!!! Report on the Barangay Youth Disaster Risk Reduction and Management Plan Formulation</a></h5>
+                          <h5 class="sub2">!!!NEW!!! Report on the Barangay Youth Disaster Risk Reduction and Management Plan Formulation</h5>
                         </li>
                     </ul>
-                        
-                        <h6 style="margin-left: 15px;">   Quarterly Report - Due 30th Day of the Last Month of the Quarter  <br>
-                        Access: For Provincial DRR OpCen Emails Only
-              
-                        </h6>
+                          <h6 class="subsub-text">Quarterly Report - Due 30th Day of the Last Month of the Quarter  <br>
+                           Access: For Provincial DRR OpCen Emails Only<br><br>
+                           Link: <a href="https://bit.ly/r5BYDRRMP2023">https://bit.ly/r5BYDRRMP2023</a><br></h6>
                             </div>
                         </div>
                     </div>
@@ -571,8 +562,8 @@
             </div>
 
             
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -580,14 +571,12 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1Cvpa7rOjEnl3r8TN-TxzZgsqfmdLOBWA">!!!NEW!!! Ecological Solid Waste  Management Board Functionality and SWM Plan Monitoring Report</a></h5>
+                          <h5 class="sub2">!!!NEW!!! Ecological Solid Waste  Management Board Functionality and SWM Plan Monitoring Report</h5>
                         </li>
                     </ul>
-                        
-                        <h6 style="margin-left: 15px;">  Quarterly Report - Due 30th day of the last month of the Quarter  <br>
-                        Access: For Provincial DRR OpCen Emails Only
-              
-                        </h6>
+                          <h6 class="subsub-text">Quarterly Report - Due 30th day of the last month of the Quarter  <br>
+                          Access: For Provincial DRR OpCen Emails Only<br><br>
+                           Link: <a href="https://bit.ly/r5ESWMBP2023">https://bit.ly/r5ESWMBP2023</a><br></h6>
                             </div>
                         </div>
                     </div>

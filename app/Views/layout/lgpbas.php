@@ -627,8 +627,8 @@
                         </li>
                     </ul>
                         <h6 class="subsub-text">Deadline : 10th day of the ensuing month<br>Frequency of Submission : Monthly<br><br>
-                            Note: Email to: <a href="mailto:iact.dotr@gmail.com">iact.dotr@gmail.com</a>,<a href="mailto:iact.charisseanne@gmail.com">iact.charisseanne@gmail.com</a>, cc: 
-                            <a href="mailto:nboodilgco2020@gmail.com">nboodilgco2020@gmail.com</a>and <a href="mailto:lgmedregion5@gmail.com">lgmedregion5@gmail.com</a>, <br>
+                            Note: Email to: <a href="mailto:iact.dotr@gmail.com">iact.dotr@gmail.com</a>,<br><a href="mailto:iact.charisseanne@gmail.com">iact.charisseanne@gmail.com</a>, cc: 
+                            <a href="mailto:nboodilgco2020@gmail.com">nboodilgco2020@gmail.com</a> and <a href="mailto:lgmedregion5@gmail.com">lgmedregion5@gmail.com</a><br>
                         </h6>
                         </div>
                     </div>

@@ -365,7 +365,7 @@
             </div>
           </div>
           
-        <div class="card1" >
+        <div class="card2" >
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="">
@@ -389,50 +389,46 @@
             </div> 
           </div>
           <div class="lguadmin">
-          <h1>Local Economic Development Section (LEDS) </h1>
+          <h2>Local Economic Development Section (LEDS) </h2>
           </div>
         </div>
 
           <div class="row">
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-facebook text-facebook icon-md"></i> -->
 										<div class="ms-3">
                       <ul>
                         <li>
-                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/1LtcmLqmNRE-5q2zv25zhuMG2KMEfU5HW">LGU Energy Code/Energy Virtual One Stop Shop (EVOSS) Compliance Monitoring Report</a></h5>
+                          <h5 class="sub2">LGU Energy Code/Energy Virtual One Stop Shop (EVOSS) Compliance Monitoring Report</h5>
                         </li>
                         </ul>
-                        
-                           <h6 style="margin-left: 15px;"> Quarterly: Due Every 1st week of the ensuing month   </h6>
-                           <h6 style="margin-left: 15px;">  Access: For Provincial FPs only</h6>
-                          
-                      
-
-											<!--<a class="">Awards and Recognition Section </a>-->
-											<!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
+                           <h6 class="subsub-text">Quarterly: Due Every 1st week of the ensuing month<br>
+                           Access: For Provincial FPs only<br><br>
+                           Link: <a href="https://bit.ly/r5EVOSS2023">https://bit.ly/r5EVOSS2023</a><br></h6>
                     </div>
 									</div>
 								</div>
 							</div>
 						</div>
             
-						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+						<div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-youtube text-youtube icon-md"></i> -->
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://docs.google.com/spreadsheets/d/1Z6anKX-FWOLknOB8LgsvM36Gd5yEik9G/edit#gid=1097009844">BPLS/BPCO Quarterly Report</a></h5>
+                          <h5 class="sub2">BPLS/BPCO Quarterly Report</a></h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;"> Quarterly: Submit every 1st week of the ensuing month<br>
-                           Access: For Provincial FPs only<br>
-                           </h6>
+                          <h6 class="subsub-text">Quarterly: Submit every 1st week of the ensuing month<br>
+                           Access: For Provincial FPs only<br><br>
+                           Link: <a href="https://bit.ly/r5bplsbpco">https://bit.ly/r5bplsbpco</a><br></h6>
+                           
                       
 										</div>
 									</div>
@@ -440,28 +436,29 @@
 							</div>
 						</div>
 
-						<div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+						<div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
 										<div class="ms-3">
                     <ul>
                         <li>
-                          <h5 class="sub2"><a href="https://drive.google.com/drive/folders/19nSDpvfcd5px5a1n4BR-tR2wGjonH1-7">Philippine Plan of Action for Nutrition (PPAN) Status of Nutrition Programs & Physical Accomplishments</a></h5>
+                          <h5 class="sub2">Philippine Plan of Action for Nutrition (PPAN) Status of Nutrition Programs & Physical Accomplishments</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;"> *Province/Cities/Municipalities (Semestral)   <br>
-                           <br>           Reports: Due 30th day JANUARY and JULY (semestral) <br> 
-                           Access: For Provincial FPs only 
-                           </h6>
+                          <h6 class="subsub-text">*Province/Cities/Municipalities (Semestral)<br>
+                           Reports: Due 30th day JANUARY and JULY (semestral) <br> 
+                           Access: For Provincial FPs only<br><br>
+                           Link: <a href="https://bit.ly/r5PPAN2023">https://bit.ly/r5PPAN2023</a><br></h6>
+                           
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -469,15 +466,14 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1NKZ7np16-ZjC8FeuQdyPbvQyicXWJxzG">Persons with Disability Affairs Office (PDAO) Monitoring Reports</a></h5>
+                          <h5 class="sub2">Persons with Disability Affairs Office (PDAO) Monitoring Reports</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">*PDAO Functionality Assessment Form: Not later than January 30 of every year (hard & soft copies)   <br>
-                           *Level of Functionality of PDAO per City/Municipality; Consolidated Assessment Report (Annex D) hard & soft copy not later than January 30 of every year <br>
+                          <h6 class="subsub-text">*PDAO Functionality Assessment Form: Not later than January 30 of every year (hard & soft copies)<br>
+                          *Level of Functionality of PDAO per City/Municipality; Consolidated Assessment Report (Annex D) hard & soft copy not later than January 30 of every year <br>
                            *Consolidated Annual Accomplishment Reports submitted not later than the 20th working day of the ensuing year <br>
-                           Access: For Provincial FPs only
-                         
-                           </h6>
+                           Access: For Provincial FPs only<br><br>
+                           Link: <a href="https://bit.ly/r5PDAO2023">https://bit.ly/r5PDAO2023</a><br></h6>
 										</div>
 									</div>
 								</div>
@@ -485,8 +481,8 @@
 						</div>
          
 
-          <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+          <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -494,22 +490,22 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1TpskvLSRBqjEaUJN62pJ7AaI8WVaJyYa ">RESPONSIBLE PARENTHOOD AND REPRODUCTIVE HEALTH (RPRH) Accomplishment Reports</a></h5>
+                          <h5 class="sub2">RESPONSIBLE PARENTHOOD AND REPRODUCTIVE HEALTH (RPRH) Accomplishment Reports</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;">  *HUC RPRH Report: Every 30th of January and July <br>
+                          <h6 class="subsub-text">*HUC RPRH Report: Every 30th of January and July <br>
                            *Provincial/City Implementation Team on RPRH law Annual Unified Work and Financial Plan: On or before January 15 of every year<br>
                            *Consolidated Provincial RPRH Law Accomplishment Report: Every 30th of January and July <br>
-                           Access: For Provincial FPs only
-                           </h6>
+                           Access: For Provincial FPs only<br><br>
+                           Link: <a href="https://bit.ly/r5RPRH2023">https://bit.ly/r5RPRH2023</a><br></h6>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 
-          <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+          <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -517,20 +513,20 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://drive.google.com/drive/folders/1DErgim5aZ9_7WVcYHNPLgOzCMW-kODrR">LOCAL REVENUE CODE / LOCAL INVESTMENTS AND INCENTIVES CODE (LRC/LIIC) </a></h5>
+                          <h5 class="sub2">LOCAL REVENUE CODE / LOCAL INVESTMENTS AND INCENTIVES CODE (LRC/LIIC)</h5>
                         </li>
                     </ul>
-                           <h6 style="margin-left: 15px;"> Due 30th day of the last month of the quarter<br></h6>
-                           <h6 style="margin-left: 15px;">Upload scanned MOVs thru link: <a href="https://drive.google.com/drive/folders/1QLO6nvScb7ZLszgjwMZg6yeaODEWJcRy?usp=sharing"> </a> <br><br></h6>
-                           
+                          <h6 class="subsub-text">Due 30th day of the last month of the quarter<br>
+                           <br>
+                           Link: <a href="https://bit.ly/r5NEO2023">https://bit.ly/r5NEO2023</a><br></h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 grid-margin">
-							<div class="card d-flex align-items-center">
+            <div class="col-md-4 grid-margin">
+							<div class="card3 d-flex align-items-center">
 								<div class="card-body">
 									<div class="d-flex flex-row align-items-center">
 										<!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
@@ -538,13 +534,13 @@
 
                     <ul>
                         <li>
-                          <h5 class="sub2"> <a href="https://bit.ly/3wcuYU">IMPLEMENTATION OF THE PANTAWID PAMILYANG PILIPINO PROGRAM</a></h5>
+                          <h5 class="sub2">IMPLEMENTATION OF THE PANTAWID PAMILYANG PILIPINO PROGRAM</h5>
                         </li>
                     </ul>
+                          <h6 class="subsub-text">Due every 15th working day of the month of the succeeding quarter<br>
+                           <br>
+                           Link: <a href="https://bit.ly/3wcuYU">https://bit.ly/3wcuYU</a><br></h6>
                         
-                        <h6 style="margin-left: 15px;">  Due every 15th working day of the month of the succeeding quarter 
-              
-                        </h6>
                             </div>
                         </div>
                     </div>
