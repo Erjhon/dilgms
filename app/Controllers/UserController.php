@@ -92,6 +92,43 @@ class UserController extends BaseController
         $data['pageTitle'] = 'User Status';
         return view('layout/user_status', $data);
     }
+
+    //pages
+    public function lgpbas()
+    {
+        $data['pageTitle'] = 'Local Government Policy and Barangay Affairs Section (LGPBAS)';
+        return view('layout/lgpbas', $data);
+    }
+    public function ars()
+    {
+        $data['pageTitle'] = 'Awards and Recognition Section';
+        return view('layout/ars', $data);
+    }
+    public function poarcs()
+    {
+        $data['pageTitle'] = 'Peace and Order and Related Concerns Section (POARCS)';
+        return view('layout/poarcs', $data);
+    }
+    public function lguadmin()
+    {
+        $data['pageTitle'] = 'LGU Administration and Governance Capacity Building Section (LAGCBS)';
+        return view('layout/lguadmin', $data);
+    }
+    public function leds()
+    {
+        $data['pageTitle'] = 'Local Economic Development Section (LEDS)';
+        return view('layout/leds', $data);
+    }
+    public function dreps()
+    {
+        $data['pageTitle'] = 'Disaster Resiliency and Environmental Protection Section (DREPS)';
+        return view('layout/dreps', $data);
+    }
+    public function lppdas()
+    {
+        $data['pageTitle'] = 'Local Planning and Project Development Assistance Section (LPPDAS)';
+        return view('layout/lppdas', $data);
+    }
     
 
     

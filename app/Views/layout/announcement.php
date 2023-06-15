@@ -337,9 +337,9 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="user/announcement/">
+                        <a class="nav-link" href="admin/announcement/">
                             <i class="icon-paper menu-icon"></i>
-                            <span class="menu-title text-dark">Announcement</span>
+                            <span class="menu-title">Announcement</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -351,10 +351,8 @@
                         </a>
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="user/navigation">Local Government
-                                        Capability Development Division</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="">Local Government Monitoring and
-                                        Evaluation Division</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="admin/lgcdd_admin">LGCDD</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="admin/lgmed_admin">LGMED</a></li>
                             </ul>
                         </div>
                     </li>
@@ -392,6 +390,13 @@
                             </ul>
                         </div>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin/status/">
+                            <i class="icon-paper menu-icon"></i>
+                            <span class="menu-title">Status</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
 
@@ -417,69 +422,109 @@
                             <form action="<?= site_url('addAnnouncement') ?>" method="post"
                                 enctype="multipart/form-data" class="forms-sample">
                                 <div class="form-group">
-                                    <input type="text" name="title" class="file-upload-default">
+                                    <input type="textarea" name="title" class="file-upload-default">
                                     <div class="input-group col-xs-12">
-                                        <input type="text" name="title" class="form-control file-upload-info"
-                                            placeholder="Add Announcement">
+                                        <textarea type="text" name="title" class="form-control file-upload-info"
+                                            placeholder="Add Announcement"></textarea>
                                         <span class="input-group-append">
-                                            <button class="file-upload-browse btn btn-primary"
+                                            <button class="file-upload-browse btn btn-warning"
                                                 type="reset">Clear</button>
                                         </span>
                                     </div>
-                                    <div class="form-group">
-                                        <label>Announcement Date</label>
+                                </div>
+                                <div class="form-group">
+                                    <label>Announcement Date</label>
+                                    <div class="input-group">
                                         <input type="date" name="start_date" class="form-control file-upload-info"
                                             placeholder="Start Date">
                                     </div>
-                                    <div class="form-group">
-                                        <label>Announcement Date</label>
+                                </div>
+                                <div class="form-group">
+                                    <label>Announcement Date</label>
+                                    <div class="input-group">
                                         <input type="date" name="end_date" class="form-control file-upload-info"
                                             placeholder="End Date">
                                     </div>
 
                                 </div>
-                                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                                <button type="submit" class="btn btn-warning me-2">Submit</button>
                                 <button type="reset" class="btn btn-light">Cancel</button>
                             </form>
+                            <div class="mt-4">
+                                <div>
+
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Event Lists</h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-hover">
+                                                            <thead class="text-center">
+                                                                <tr>
+                                                                    <th>Title</th>
+                                                                    <th>Start Date</th>
+                                                                    <th>End Date</th>
+                                                                    <th>Action</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody class="text-center">
+                                                                <?php foreach ($events as $event) : ?>
+                                                                <tr>
+                                                                    <td><?= $event['title']; ?></td>
+                                                                    <td><?= date('F j, Y', strtotime($event['start_date'])); ?>
+                                                                    </td>
+                                                                    <td><?= date('F j, Y', strtotime($event['end_date'])); ?>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="<?= site_url('event/delete/' . $event['id']); ?>"
+                                                                            class="btn btn-danger">Delete</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <?php endforeach; ?>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <!-- content-wrapper ends -->
+
+
+                                <!-- partial -->
+                            </div>
+                            <!-- main-panel ends -->
                         </div>
+                        <!-- page-body-wrapper ends -->
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    <!-- container-scroller -->
 
-    <!-- content-wrapper ends -->
+                    <!-- plugins:js -->
+                    <script src="vendors/js/vendor.bundle.base.js"></script>
+                    <!-- endinject -->
+                    <!-- Plugin js for this page -->
+                    <script src="vendors/chart.js/Chart.min.js"></script>
+                    <script src="vendors/datatables.net/jquery.dataTables.js"></script>
+                    <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+                    <script src="js/dataTables.select.min.js"></script>
 
-
-    <!-- partial -->
-    </div>
-    <!-- main-panel ends -->
-    </div>
-    <!-- page-body-wrapper ends -->
-    </div>
-    <!-- container-scroller -->
-
-    <!-- plugins:js -->
-    <script src="vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <script src="vendors/chart.js/Chart.min.js"></script>
-    <script src="vendors/datatables.net/jquery.dataTables.js"></script>
-    <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
-    <script src="js/dataTables.select.min.js"></script>
-
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
-    <script src="js/off-canvas.js"></script>
-    <script src="js/hoverable-collapse.js"></script>
-    <script src="js/template.js"></script>
-    <script src="js/settings.js"></script>
-    <script src="js/todolist.js"></script>
-    <!-- endinject -->
-    <!-- Custom js for this page-->
-    <script src="js/dashboard.js"></script>
-    <script src="js/Chart.roundedBarCharts.js"></script>
-    <!-- End custom js for this page-->
+                    <!-- End plugin js for this page -->
+                    <!-- inject:js -->
+                    <script src="js/off-canvas.js"></script>
+                    <script src="js/hoverable-collapse.js"></script>
+                    <script src="js/template.js"></script>
+                    <script src="js/settings.js"></script>
+                    <script src="js/todolist.js"></script>
+                    <!-- endinject -->
+                    <!-- Custom js for this page-->
+                    <script src="js/dashboard.js"></script>
+                    <script src="js/Chart.roundedBarCharts.js"></script>
+                    <!-- End custom js for this page-->
 </body>
 
 </html>

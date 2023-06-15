@@ -340,7 +340,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="admin/announcement/">
                             <i class="icon-paper menu-icon"></i>
-                            <span class="menu-title text-dark">Announcement</span>
+                            <span class="menu-title">Announcement</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -395,7 +395,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="admin/status/">
                             <i class="icon-paper menu-icon"></i>
-                            <span class="menu-title text-dark">Status</span>
+                            <span class="menu-title">Status</span>
                         </a>
                     </li>
                 </ul>

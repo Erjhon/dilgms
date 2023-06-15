@@ -46,6 +46,17 @@ $routes->get('profile', 'UserController::profile', ['as' => 'user.profile']);
     // Accessing home route only for regular users
     $routes->get('home', 'UserController::index', ['as' => 'user.home']);
     $routes->get('user_status', 'DilgController::status', ['as' => 'user.status']);
+
+
+    //Pages
+     
+    $routes->get('lguadmin','UserController::lguadmin',['as' => 'user.lguadmin']);
+    $routes->get('leds','UserController::leds',['as' => 'user.leds']);
+    $routes->get('dreps','UserController::dreps',['as' => 'user.dreps']);
+    $routes->get('lppdas','UserController::lppdas',['as' => 'user.lppdas']);
+    $routes->get('ars','UserController::ars',['as' => 'user.ars']);
+    $routes->get('lgpbas','UserController::lgpbas',['as' => 'user.lgpbas']);
+    $routes->get('poarcs','UserController::poarcs',['as' => 'user.poarcs']);
 });
 
 $routes->get('/', 'SigninController::index');
@@ -77,14 +88,19 @@ $routes->group("admin", function($routes){
     $routes->get('dashboard', 'FullCalendar::calendar', ['as' => 'admin.dashboard']); 
     $routes->get('dashboard', 'AdminDashboardController::index');
     $routes->get('memorandum', 'UserController::memorandum', ['as' => 'admin.memorandum']);
-    $routes->get('announcement', 'UserController::announcement', ['as' => 'admin.announcement']);
+    // $routes->get('announcement', 'UserController::announcement', ['as' => 'admin.announcement']);
     $routes->get('lgmed_admin', 'UserController::lgmedAdmin', ['as' => 'admin.lgmed_admin']);
     $routes->get('lgcdd_admin', 'UserController::lgcddAdmin', ['as' => 'admin.lgcdd_admin']);
     $routes->get('monitor', 'UserController::monitor', ['as' => 'admin.monitor']);
     $routes->get('status', 'DilgController::index', ['as' => 'admin.status']);
     $routes->get('memo', 'FileController::memo', ['as' => 'admin.memorandum']);
-    
+    //fetching events data fro events table
+$routes->get('announcement', 'EventController::index');
+
 });
+//deleting events
+$routes->get('event/delete/(:num)', 'EventController::delete/$1');
+
 $routes->get('file/delete/(:num)', 'FileController::deleteFile/$1');
 $routes->post('file/delete/(:num)', 'FileController::deleteFile/$1');
 $routes->post('add-task', 'TaskController::addTask');
@@ -102,6 +118,8 @@ $routes->post('dilg/fas', 'TaskController::fas');
 $routes->post('dilg/lgmes', 'TaskController::lgmes');
 
 $routes->post('dilg/update/(:num)', 'DilgController@update/$1');
+
+
 
 
 

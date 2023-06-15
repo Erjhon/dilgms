@@ -37,9 +37,10 @@
         <!-- partial:partials/_navbar.html -->
         <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-                <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="images/dilg.png" class="mr-2"
+                <a class="navbar-brand brand-logo mr-5" href="admin/dashboard"><img src="images/dilg.png" class="mr-2"
                         alt="logo" /></a>
-                <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/dilg.png" alt="logo" /></a>
+                <a class="navbar-brand brand-logo-mini" href="admin/dashboard"><img src="images/dilg.png"
+                        alt="logo" /></a>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
                 <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -59,7 +60,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav navbar-nav-right">
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#"
                             data-toggle="dropdown">
                             <i class="icon-bell mx-0"></i>
@@ -108,7 +109,7 @@
                                 </div>
                             </a>
                         </div>
-                    </li>
+                    </li> -->
                     <li class="nav-item nav-profile dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
                             <!-- <img src="images/faces/face28.jpg" alt="profile"/> -->
@@ -133,10 +134,10 @@
                         </a>
                     </li>
                 </ul>
-                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                <!-- <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
                     data-toggle="offcanvas">
                     <span class="icon-menu"></span>
-                </button>
+                </button> -->
             </div>
         </nav>
         <!-- partial -->
@@ -329,7 +330,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="admin/announcement/">
                             <i class="icon-paper menu-icon"></i>
-                            <span class="menu-title text-dark">Announcement</span>
+                            <span class="menu-title">Announcement</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -384,7 +385,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="admin/status/">
                             <i class="icon-paper menu-icon"></i>
-                            <span class="menu-title text-dark">Status</span>
+                            <span class="menu-title">Status</span>
                         </a>
                     </li>
                 </ul>
@@ -399,8 +400,7 @@
                                 <div class="col-12 col-xl-8 mb-4 mb-xl-0">
                                     <h3 class="font-weight-bold">Welcome C/MLGOO
                                         <?php $session = session(); echo $session->get('name');?></h3>
-                                    <h6 class="font-weight-normal mb-0">Here is the updated Memorandum! You have <span
-                                            class="text-primary">3 unread alerts!</span></h6>
+                                    <h6 class="font-weight-normal mb-0">Here is the updated Memorandum!</h6>
                                 </div>
                                 <!-- <div class="col-12 col-xl-4">
                                     <div class="justify-content-end d-flex">
@@ -427,7 +427,6 @@
                     <div class="row">
                         <div class="col-md-4 grid-margin stretch-card">
                             <div>
-
                                 <div class="card-people mt-auto">
                                     <div class="ml-2">
                                         <h4 class="location font-weight-normal"><b>Memorandum</b></h4>
@@ -460,7 +459,7 @@ foreach ($files as $file) :
                                         <!-- Add delete button -->
                                         <form action="<?= site_url('file/delete/'.$file['id']) ?>" method="post"
                                             onsubmit="return confirm('Are you sure you want to delete this file?')">
-                                            <button type="submit" class="btn btn-danger">Remove
+                                            <button type="submit" class="btn btn-warning me-2 menu-title">Remove
                                                 Memo</button>
                                         </form>
                                     </div>

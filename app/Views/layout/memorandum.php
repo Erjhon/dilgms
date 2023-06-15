@@ -339,7 +339,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="admin/announcement/">
                             <i class="icon-paper menu-icon"></i>
-                            <span class="menu-title text-dark">Announcement</span>
+                            <span class="menu-title">Announcement</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -351,8 +351,8 @@
                         </a>
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="admin/lgcdd">LGCDD</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="admin/lgmed">LGMED</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="admin/lgcdd_admin">LGCDD</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="admin/lgmed_admin">LGMED</a></li>
                             </ul>
                         </div>
                     </li>
@@ -389,6 +389,13 @@
                                 <li class="nav-item"> <a class="nav-link" href="">December</a></li>
                             </ul>
                         </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin/status/">
+                            <i class="icon-paper menu-icon"></i>
+                            <span class="menu-title">Status</span>
+                        </a>
                     </li>
                 </ul>
             </nav>
