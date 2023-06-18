@@ -19,7 +19,8 @@ class EventController extends Controller
     $eventModel = new EventModel();
     $eventModel->delete($id);
 
-    return redirect()->to('events');
+    return redirect()->to('admin/announcement')->with('success', 'Event deleted successfully');
+    
 }
 
     

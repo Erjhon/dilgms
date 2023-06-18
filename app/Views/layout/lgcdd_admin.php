@@ -142,7 +142,7 @@
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column sub-menu">
                                 <li class="nav-item"> <a class="nav-link" href="admin/lgcdd_admin">LGCDD</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="admin/lgmed_admin">LGMED</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="admin/lgmed_admin">LGMES</a></li>
                             </ul>
                         </div>
                     </li>
@@ -257,7 +257,8 @@
                                     <div class="d-flex flex-row align-items-center">
                                         <!-- <i class="ti-facebook text-facebook icon-md"></i> -->
                                         <div class="sub-text">
-                                            <a href="user/lguadmin">LGU Administration and Governance Capacity Building
+                                            <a href="admin/lguadmin_admin">LGU Administration and Governance Capacity
+                                                Building
                                                 Section (LAGCBS) </a>
                                             <!--<a class="">Awards and Recognition Section </a>-->
                                             <!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
@@ -272,7 +273,8 @@
                                     <div class="d-flex flex-row align-items-center">
                                         <!-- <i class="ti-youtube text-youtube icon-md"></i> -->
                                         <div class="sub-text">
-                                            <a href="user/leds" class="link-class">Local Economic Development Section
+                                            <a href="admin/leds_admin" class="link-class">Local Economic Development
+                                                Section
                                                 (LEDS) </a>
                                             <!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
                                         </div>
@@ -286,7 +288,7 @@
                                     <div class="d-flex flex-row align-items-center">
                                         <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
                                         <div class="sub-text">
-                                            <a href="user/dreps" class="link-class">Disaster Resiliency and
+                                            <a href="admin/dreps_admin" class="link-class">Disaster Resiliency and
                                                 Environmental Protection Section (DREPS) </a>
                                             <!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
                                         </div>
@@ -300,7 +302,7 @@
                                     <div class="d-flex flex-row align-items-center">
                                         <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
                                         <div class="sub-text">
-                                            <a href="user/lppdas" class="link-class">Local Planning and Project
+                                            <a href="admin/lppdas_admin" class="link-class">Local Planning and Project
                                                 Development Assistance Section (LPPDAS) </a>
                                             <!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
                                         </div>

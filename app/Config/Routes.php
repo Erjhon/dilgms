@@ -97,6 +97,16 @@ $routes->group("admin", function($routes){
     //fetching events data fro events table
 $routes->get('announcement', 'EventController::index');
 
+ //Pages
+     
+ $routes->get('lguadmin_admin','UserController::lguadmin_admin',['as' => 'admin.lguadmin']);
+ $routes->get('leds_admin','UserController::leds_admin',['as' => 'admin.leds']);
+ $routes->get('dreps_admin','UserController::dreps_admin',['as' => 'admin.dreps']);
+ $routes->get('lppdas_admin','UserController::lppdas_admin',['as' => 'admin.lppdas']);
+ $routes->get('ars_admin','UserController::ars_admin',['as' => 'admin.ars']);
+ $routes->get('lgpbas_admin','UserController::lgpbas_admin',['as' => 'admin.lgpbas']);
+ $routes->get('poarcs_admin','UserController::poarcs_admin',['as' => 'admin.poarcs']);
+
 });
 //deleting events
 $routes->get('event/delete/(:num)', 'EventController::delete/$1');

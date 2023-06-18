@@ -142,12 +142,12 @@
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column sub-menu">
                                 <li class="nav-item"> <a class="nav-link" href="admin/lgcdd_admin">LGCDD</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="admin/lgmed_admin">LGMED</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="admin/lgmed_admin">LGMES</a></li>
                             </ul>
                         </div>
                     </li>
                     <!-- <li class="nav-item">
-            <a class="nav-link" href="user/status">
+            <a class="nav-link" href="admin/status">
               <i class="icon-columns menu-icon"></i>
               <span class="menu-title">Status of Compliance</span>
             </a>
@@ -156,7 +156,7 @@
                         <a class="nav-link" data-toggle="collapse" href="#reports" aria-expanded="false"
                             aria-controls="ui-basic">
                             <i class="icon-columns menu-icon"></i>
-                            <span class="menu-title">Status of Compliance</span>
+                            <span class="menu-title">LGMES Status of Compliance</span>
                             <i class="menu-arrow"></i>
                         </a>
                         <div class="collapse" id="reports">
@@ -164,22 +164,60 @@
                                 <li class="nav-item"> <a class="nav-link" target=”_blank”
                                         href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=189689531">January</a>
                                 </li>
-                                <li class="nav-item"> <a class="nav-link" href="">Febuary</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=1028907825">Febuary</a>
+                                </li>
                                 <li class="nav-item"> <a class="nav-link" target="_blank"
                                         href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=910401658">March</a>
                                 </li>
-                                <li class="nav-item"> <a class="nav-link" href="">April</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="">May</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="">June</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="">July</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="">August</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="">September</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="">October</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="">November</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="">December</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank”
+                                        href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=1353401257">April</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank”
+                                        href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=296127381">May</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">June</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">July</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">August</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">September</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">October</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">November</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">December</a></li>
                             </ul>
                         </div>
-                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#lgcdds" aria-expanded="false"
+                            aria-controls="ui-basic">
+                            <i class="icon-columns menu-icon"></i>
+                            <span class="menu-title">LGCDDS Status of Compliance</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="lgcdds">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"> <a class="nav-link" target=”_blank”
+                                        href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=1345980712">January</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=675112853">Febuary</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" target="_blank"
+                                        href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=1957204409">March</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank”
+                                        href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=1441680854">April</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank”
+                                        href="https://docs.google.com/spreadsheets/d/197Qnlv0iXxTFn0ACRp2EGTuP5f4A0Ko0/edit#gid=193008450">May</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">June</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">July</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">August</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">September</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">October</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">November</a></li>
+                                <li class="nav-item"> <a class="nav-link" target=”_blank” href="">December</a></li>
+                            </ul>
+                        </div>
 
                     <li class="nav-item">
                         <a class="nav-link" href="admin/status/">
@@ -254,7 +292,7 @@
                                     <div class="d-flex flex-row align-items-center">
                                         <!-- <i class="ti-facebook text-facebook icon-md"></i> -->
                                         <div class="sub-text">
-                                            <a href="user/ars">Awards and Recognition Section</a>
+                                            <a href="admin/ars_admin">Awards and Recognition Section</a>
                                             <!--<a class="">Awards and Recognition Section </a>-->
                                             <!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
                                         </div>
@@ -268,7 +306,8 @@
                                     <div class="d-flex flex-row align-items-center">
                                         <!-- <i class="ti-youtube text-youtube icon-md"></i> -->
                                         <div class="sub-text">
-                                            <a href="user/lgpbas">Local Government Policy and Barangay Affairs Section
+                                            <a href="admin/lgpbas_admin">Local Government Policy and Barangay Affairs
+                                                Section
                                                 (LGPBAS)</a>
                                             <!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
                                         </div>
@@ -282,7 +321,7 @@
                                     <div class="d-flex flex-row align-items-center">
                                         <!-- <i class="ti-twitter-alt text-twitter icon-md"></i> -->
                                         <div class="sub-text">
-                                            <a href="user/poarcs">Peace and Order and Related Concerns Section
+                                            <a href="admin/poarcs_admin">Peace and Order and Related Concerns Section
                                                 (POARCS)</a>
                                             <!-- <p class="mt-2 text-muted card-text">You main list growing</p> -->
                                         </div>

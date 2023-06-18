@@ -19,7 +19,7 @@ class FullCalendar extends Controller
             $file['file'][$key]['title'] = $value->title;
             $file['file'][$key]['start'] = $value->start_date;
             $file['file'][$key]['end'] = $value->end_date;
-            $file['file'][$key]['backgroundColor'] = "#00a65a";
+            $file['file'][$key]['backgroundColor'] = "#FFC300";
         }        
       return view('home',$file);
     }
